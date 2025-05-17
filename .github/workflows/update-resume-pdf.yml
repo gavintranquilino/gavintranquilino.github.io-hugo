@@ -22,8 +22,8 @@ jobs:
         run: |
           mkdir -p static # Ensure the static directory exists
           curl -L -o static/resume.pdf https://raw.githubusercontent.com/gavintranquilino/gavins-resume/main/out/Gavin_Tranquilino.pdf
-          echo "Downloaded resume.pdf to static/resume.pdf"
-          ls -la static/resume.pdf # Optional: lists the file to verify
+          echo "Downloaded resume.pdf to resume.pdf"
+          ls -la resume.pdf # Optional: lists the file to verify
 
       - name: Commit and Push Updated PDF
         run: |
@@ -31,10 +31,10 @@ jobs:
           git config --global user.email "${{ secrets.GH_EMAIL || 'github-actions[bot]@users.noreply.github.com' }}"
           
           # Check if there are actual changes to the PDF to avoid empty commits
-          if git diff --quiet static/resume.pdf; then
+          if git diff --quiet resume.pdf; then
             echo "No changes to resume.pdf. Skipping commit."
           else
-            git add static/resume.pdf
+            git add resume.pdf
             git commit -m "Update resume.pdf from gavins-resume repository"
             # The GITHUB_TOKEN (via permissions) should allow push to the checked-out branch
             git push 
