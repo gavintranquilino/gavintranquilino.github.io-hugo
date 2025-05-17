@@ -1,0 +1,42 @@
+name: Update Resume PDF in Hugo Site
+
+on:
+  repository_dispatch:
+    types: [pdf_update] # Triggered by an external event from your resume repo
+  workflow_dispatch: # Allows manual triggering from the Actions tab for testing
+
+jobs:
+  update_resume_in_hugo:
+    runs-on: ubuntu-latest
+    # These permissions allow the GITHUB_TOKEN to push to the same repository
+    permissions:
+      contents: write
+
+    steps:
+      - name: Checkout Hugo Source Repository
+        uses: actions/checkout@v4
+        with:
+          ref: main # IMPORTANT: Change 'main' if your Hugo dev branch is different (e.g., master)
+
+      - name: Download Latest Resume PDF
+        run: |
+          mkdir -p static # Ensure the static directory exists
+          curl -L -o static/resume.pdf https://raw.githubusercontent.com/gavintranquilino/gavins-resume/main/out/Gavin_Tranquilino.pdf
+          echo "Downloaded resume.pdf to static/resume.pdf"
+          ls -la static/resume.pdf # Optional: lists the file to verify
+
+      - name: Commit and Push Updated PDF
+        run: |
+          git config --global user.name "${{ secrets.GH_USERNAME || 'github-actions[bot]' }}"
+          git config --global user.email "${{ secrets.GH_EMAIL || 'github-actions[bot]@users.noreply.github.com' }}"
+          
+          # Check if there are actual changes to the PDF to avoid empty commits
+          if git diff --quiet static/resume.pdf; then
+            echo "No changes to resume.pdf. Skipping commit."
+          else
+            git add static/resume.pdf
+            git commit -m "Update resume.pdf from gavins-resume repository"
+            # The GITHUB_TOKEN (via permissions) should allow push to the checked-out branch
+            git push 
+            echo "Committed and pushed updated resume.pdf"
+          fi
