@@ -7,5 +7,7 @@ title = "Gavin Tranquilino"
 
 # If you decide to use a theme later, you can add: theme = "theme-name"
 
+uglyURLs = false
+
 [permalinks]
   projects = "/:filename/"
