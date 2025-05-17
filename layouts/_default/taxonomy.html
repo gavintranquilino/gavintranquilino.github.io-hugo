@@ -1,0 +1,18 @@
+{{ define "main" }}
+<div class="taxonomy-page" style="padding: 20px;">
+    <header class="page-header">
+        <h1>{{ .Title }}</h1>
+    </header>
+    {{ .Content }} {{/* This will render content from an _index.md in the taxonomy's folder, if one exists */}}
+    <ul class="item-list" style="list-style: none; padding: 0;">
+        {{ range .Pages.ByDate.Reverse }}
+            <li style="margin-bottom: 20px; border-bottom: 1px solid #eee; padding-bottom: 10px;">
+                <h2><a href="{{ .RelPermalink }}">{{ .Title }}</a></h2>
+                {{ with .Params.subtitle }}<p>{{ . }}</p>{{ end }}
+                {{ if .Date }}<p><small>Published on: {{ .Date.Format "January 2, 2006" }}</small></p>{{ end }}
+                 {{/* You could add a summary here: {{ .Summary }} */}}
+            </li>
+        {{ end }}
+    </ul>
+</div>
+{{ end }} 

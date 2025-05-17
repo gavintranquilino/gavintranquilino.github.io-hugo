@@ -1,0 +1,25 @@
+<header>
+    <div class="logo">
+        {{/* If you have a logo image in static/img/logo.png, uncomment below */}}
+        {{/* <a href="{{ .Site.BaseURL | relURL }}"><img src="{{ "/img/logo.png" | relURL }}" alt="{{ .Site.Title }} logo"></a> */}}
+    </div>
+    <button class="nav-toggle" aria-label="toggle navigation">
+        <span class="hamburger"></span>
+    </button>
+
+    <button class="theme-toggle" aria-label="toggle theme">
+        <span class="sun-moon"><i class="fas fa-cloud-sun"></i></span>
+    </button>
+
+    <button onclick="topFunction()" class="to-top"> {{/* Ensure topFunction() is in your JS */}}
+        <span class="up-arrow"></span>
+    </button>
+
+    <nav class="nav">
+        <ul class="nav__list">
+            <li class="nav__item"><a href="{{ if .IsHome }}#home{{ else }}{{ relLangURL "/" }}#home{{ end }}" class="nav__link">Home</a></li>
+            <li class="nav__item"><a href="{{ if .IsHome }}#about{{ else }}{{ relLangURL "/" }}#about{{ end }}" class="nav__link">About Me</a></li>
+            <li class="nav__item"><a href="{{ if .IsHome }}#work{{ else }}{{ relLangURL "/" }}#work{{ end }}" class="nav__link">My Work</a></li>
+        </ul>
+    </nav>
+</header> 

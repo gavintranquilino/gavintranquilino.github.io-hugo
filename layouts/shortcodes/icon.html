@@ -1,0 +1,9 @@
+{{/* layouts/shortcodes/icon.html */}}
+{{ $iconClass := .Get "class" }}
+
+{{ if $iconClass }}
+    <i class="{{ $iconClass }}"></i>
+{{ else }}
+    {{/* Output nothing or an error message if no class is provided */}}
+    {{/* warnf "Missing icon class for icon shortcode in %s" .Page.File.Path */}}
+{{ end }}

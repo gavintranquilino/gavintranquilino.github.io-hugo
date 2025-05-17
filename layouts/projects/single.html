@@ -1,0 +1,30 @@
+{{ define "main" }}
+<section class="intro">
+    <h1 class="section__title section__title--intro">
+        {{ .Title | safeHTML }}
+    </h1>
+    {{ with .Params.subtitle }}
+    <p class="section__subtitle section__subtitle--intro">
+        {{ . }}
+    </p>
+    {{ end }}
+    {{ with .Params.imageUrl }}
+    <img src="{{ . | absURL }}" alt="{{ $.Title }} main image" class="intro__img" loading="lazy" />
+    {{ end }}
+</section>
+
+<article class="project-content">
+    {{/* Content from Markdown file (includes headings, paragraphs, images, iframes) */}}
+    {{ .Content | safeHTML }}
+</article>
+
+{{/* Example of how to display other front matter fields if needed */}}
+{{/* 
+{{ with .Params.repoUrl }}
+    <p><a href="{{ . }}" class="btn">View Repository</a></p>
+{{ end }}
+{{ with .Params.liveUrl }}
+    <p><a href="{{ . }}" class="btn">View Live Site</a></p>
+{{ end }}
+*/}}
+{{ end }} 

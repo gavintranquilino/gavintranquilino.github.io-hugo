@@ -1,0 +1,68 @@
+{{ define "main" }}
+    {{/* Introduction from front matter */}}
+    {{ with .Params.introSection }}
+    <section class="intro" id="home">
+        <h1 class="section__title section__title--intro">
+            {{ .title | safeHTML }}
+        </h1>
+        <p class="section__subtitle section__subtitle--intro">{{ .subtitle }}</p>
+        {{ with .imageUrl }}
+            <img src="{{ . | relURL }}" alt="Intro image for {{ $.Site.Title }}" class="intro__img" loading="lazy">
+        {{ end }}
+    </section>
+    {{ end }}
+
+    {{/* About Me section from front matter */}}
+    {{ with .Params.aboutSection }}
+    <section class="about-me" id="about">
+        <h2 class="section__title section__title--about">{{ .title }}</h2>
+        {{ with .subtitle }}<p class="section__subtitle section__subtitle--about">{{ . }}</p>{{ end }}
+        
+        <div class="about-me__body">
+            {{ $.Content | safeHTML }} {{/* Page content from _index.md */}}
+        </div>
+
+        {{ with .imageUrl }}
+            <img src="{{ . | relURL }}" alt="About {{ $.Site.Title }}" class="about-me__img" loading="lazy">
+        {{ end }}
+
+        {{ if .buttons }}
+        <div class="about-me__btn">
+            {{ range .buttons }}
+                <a href="{{ .url | relURL }}" class="about-me--btn" {{ if .isExternal }}target="_blank" rel="noopener noreferrer"{{ end }}>{{ .text }}</a>
+            {{ end }}
+        </div>
+        {{ end }}
+    </section>
+    {{ end }}
+
+    {{/* Work section, pulling projects from content/projects/ */}}
+    {{ with .Params.workSection }}
+    <section class="my-work" id="work">
+        <h2 class="section__title section__title--work">{{ .title }}</h2>
+        {{ with .subtitle }}<p class="section__subtitle section__subtitle--work">{{ . }}</p>{{ end }}
+        
+        <div class="portfolio">
+            {{ $pages := where $.Site.RegularPages "Type" "projects" }}
+            {{ range $project := $pages.ByWeight }}
+                {{ $thumbnail := "" }} {{/* Initialize variable */}}
+                {{ if $project.Params.thumbnailUrl }} {{/* Check for thumbnailUrl first */}}
+                    {{ $thumbnail = $project.Params.thumbnailUrl | relURL }}
+                {{ else if $project.Params.imageUrl }} {{/* Else, check for imageUrl */}}
+                    {{ $thumbnail = $project.Params.imageUrl | relURL }}
+                {{ end }} {{/* End of if/else if block for setting thumbnail */}}
+
+                <a href="{{ $project.RelPermalink }}" class="portfolio__item">
+                    {{ if $thumbnail }} {{/* Now check if $thumbnail has a value */}}
+                        <img src="{{ $thumbnail }}" alt="{{ $project.Title }} project preview" class="portfolio__img" loading="lazy">
+                    {{ else }}
+                        {{/* Optional: Placeholder if no image at all */}}
+                        <p>No preview available for {{ $project.Title }}</p>
+                    {{ end }}
+                    {{/* Project title/subtitle could be overlaid if desired, matching original style.css if it had that */}}
+                </a>
+            {{ end }}
+        </div>
+    </section>
+    {{ end }}
+{{ end }} 

@@ -1,0 +1,31 @@
+{{- $href := .Get "href" | default "#" -}}
+{{- $text := .Get "text" | default ($href) -}}
+{{- $title := .Get "title" | default $text -}}
+
+<a href="{{ $href | safeURL }}"
+   title="{{ $title }}"
+   {{ if strings.HasPrefix $href "http" }} target="_blank" rel="noopener noreferrer"{{ end }}
+   class="custom-link icon-link">
+    {{- $destination := $href -}}
+    {{- if strings.Contains $destination "github.com" -}}
+        <i class="fab fa-github"></i>
+    {{- else if or (strings.Contains $destination "youtube.com") (strings.Contains $destination "youtu.be") -}}
+        <i class="fab fa-youtube"></i>
+    {{- else if strings.Contains $destination "linkedin.com" -}}
+        <i class="fab fa-linkedin"></i>
+    {{- else if strings.Contains $destination "devpost.com" -}}
+        <i class="fas fa-code"></i>
+    {{- else if strings.Contains $destination "replit.com" -}}
+        <i class="fas fa-terminal"></i>
+    {{- else if strings.Contains $destination "etsy.com" -}}
+        <i class="fab fa-etsy"></i>
+    {{- else if strings.Contains $destination "instagram.com" -}}
+        <i class="fab fa-instagram"></i>
+    {{- else if strings.HasPrefix $destination "mailto:" -}}
+        <i class="fas fa-envelope"></i>
+    {{- else if and (not (strings.HasPrefix $destination "#")) (strings.HasPrefix $destination "http") -}}
+        <i class="fas fa-external-link-alt"></i>
+    {{- end -}}
+    <span>{{ $text | safeHTML }}</span>
+</a> 
+<br>

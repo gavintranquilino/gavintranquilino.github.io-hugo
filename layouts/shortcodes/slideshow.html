@@ -1,0 +1,15 @@
+{{ $rand := (substr (md5 .Inner) 0 8) }}
+{{ $slideshow_id := printf "slideshow-%s" $rand }}
+
+<div class="slideshow-container" id="{{ $slideshow_id }}">
+    <div class="slides-wrapper">
+        {{ .Inner }} <!-- This is where the 'slide' shortcodes will render -->
+    </div>
+
+    <a class="prev">&#10094;</a>
+    <a class="next">&#10095;</a>
+
+    <div style="text-align:center" class="dots-container">
+        <!-- Dots will be dynamically added by JavaScript -->
+    </div>
+</div> 

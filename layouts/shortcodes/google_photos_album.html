@@ -1,0 +1,27 @@
+{{/*
+  Displays a specific image and a button to a Google Photos album.
+  Usage: {{< google_photos_album album_url="YOUR_GOOGLE_PHOTOS_SHARE_LINK" image_path="path/to/your/image.jpg" >}}
+  Example: {{< google_photos_album album_url="https://photos.app.goo.gl/xyz" image_path="images/IMG_3017.jpg" >}}
+*/}}
+{{ $albumURL := .Get "album_url" }}
+{{ $imagePath := .Get "image_path" }}
+{{ $altText := .Get "alt" | default "Crutch project image" }}
+{{ $buttonText := .Get "button_text" | default "View Full Album" }}
+
+{{ if and $albumURL $imagePath }}
+<div class="google-photos-album-custom">
+  <img src="{{ $imagePath | absURL }}" alt="{{ $altText }}" style="max-width: 100%; height: auto; margin-bottom: 15px;">
+  <div style="text-align: center; margin-top: 15px;">
+    <a href="{{ $albumURL }}" target="_blank" rel="noopener noreferrer" class="about-me--btn google-album-button">
+      {{ $buttonText }}
+    </a>
+  </div>
+</div>
+{{ else }}
+  {{ if not $imagePath }}
+  <p style="color: red;">Error: 'image_path' parameter missing in google_photos_album shortcode.</p>
+  {{ end }}
+  {{ if not $albumURL }}
+  <p style="color: red;">Error: 'album_url' parameter missing in google_photos_album shortcode.</p>
+  {{ end }}
+{{ end }} 

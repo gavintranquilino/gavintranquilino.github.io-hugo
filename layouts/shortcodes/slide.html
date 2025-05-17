@@ -1,0 +1,10 @@
+{{ $src := .Get "src" }}
+{{ $caption := .Get "caption" }}
+{{ $alt := .Get "alt" | default $caption | default "Slideshow image" }}
+
+<div class="slide-item fade">
+    <img src="{{ $src | absURL }}" alt="{{ $alt }}" style="width:100%; border-radius: var(--border-rad);" loading="lazy">
+    {{ if $caption }}
+    <div class="text">{{ $caption }}</div>
+    {{ end }}
+</div> 

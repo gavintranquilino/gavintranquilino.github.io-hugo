@@ -1,0 +1,14 @@
+{{ $src := .Get "src" }}
+{{ $title := .Get "title" | default "Embedded content" }}
+{{ $aspect := .Get "aspect" | default "landscape" }} <!-- "landscape" or "portrait" -->
+
+<div class="iframe-container {{ $aspect }}">
+    <iframe 
+        src="{{ $src }}" 
+        title="{{ $title }}" 
+        frameborder="0" 
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+        {{ if eq $aspect "landscape" }}allowfullscreen{{ end }}
+        referrerpolicy="strict-origin-when-cross-origin">
+    </iframe>
+</div> 

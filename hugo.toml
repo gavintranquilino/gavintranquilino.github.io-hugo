@@ -1,0 +1,11 @@
+baseURL = 'https://gavintranquilino.com' # Please verify and update if this is not your intended live URL
+languageCode = 'en-us'
+title = "Gavin Tranquilino"
+
+[markup.goldmark.renderer]
+  unsafe = true # Allows HTML rendering from Markdown content
+
+# If you decide to use a theme later, you can add: theme = "theme-name"
+
+[permalinks]
+  projects = "/:filename/"
