@@ -20,9 +20,8 @@ jobs:
 
       - name: Download Latest Resume PDF
         run: |
-          mkdir -p static # Ensure the static directory exists
-          curl -L -o static/resume.pdf https://raw.githubusercontent.com/gavintranquilino/gavins-resume/main/out/Gavin_Tranquilino.pdf
-          echo "Downloaded resume.pdf to resume.pdf"
+          curl -L -o resume.pdf https://raw.githubusercontent.com/gavintranquilino/gavins-resume/main/out/Gavin_Tranquilino.pdf
+          echo "Downloaded resume.pdf to root"
           ls -la resume.pdf # Optional: lists the file to verify
 
       - name: Commit and Push Updated PDF
