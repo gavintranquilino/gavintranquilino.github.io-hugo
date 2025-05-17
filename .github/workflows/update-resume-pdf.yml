@@ -2,7 +2,7 @@ name: Update Resume PDF in Hugo Site
 
 on:
   repository_dispatch:
-    types: [pdf_update] # THIS IS THE TRIGGER MECHANISM AND FILTER
+    types: [pdf_update] # Triggered by an external event from your resume repo
   workflow_dispatch: # Allows manual triggering from the Actions tab for testing
 
 jobs:
@@ -40,10 +40,3 @@ jobs:
             git push 
             echo "Committed and pushed updated resume.pdf"
           fi
-
-      - name: Dispatch repository dispatch event
-        uses: peter-evans/repository-dispatch@v3
-        with:
-          token: ${{ secrets.WORKFLOW_DISPATCH_TOKEN }}
-          repository: gavintranquilino/gavintranquilino.github.io-hugo
-          event-type: pdf_update # THIS IS THE IDENTIFIER BEING SENT
