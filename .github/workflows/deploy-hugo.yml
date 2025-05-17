@@ -1,0 +1,48 @@
+name: Build and Deploy Hugo to gavintranquilino.github.io
+
+on:
+  push:
+    branches:
+      - main  # Or 'master', or whichever is your default/development branch
+  workflow_dispatch: # Allows manual triggering
+
+permissions:
+  contents: read # To read this (-hugo) repository's content
+
+jobs:
+  build-and-deploy:
+    runs-on: ubuntu-latest
+    env:
+      HUGO_VERSION: 0.127.0 # Specify your desired Hugo version, or use 'latest'
+    steps:
+      - name: Checkout Hugo source
+        uses: actions/checkout@v4
+        with:
+          submodules: recursive # Fetch Hugo themes (true OR recursive)
+          fetch-depth: 0       # Fetch all history for .GitInfo and .Lastmod
+
+      - name: Setup Hugo
+        uses: peaceiris/actions-hugo@v3
+        with:
+          hugo-version: '${{ env.HUGO_VERSION }}'
+          # extended: true # Uncomment if your Hugo theme requires the extended version
+
+      - name: Build Hugo site
+        run: hugo --gc --minify # Builds the site into the './public' directory
+
+      - name: Deploy to gavintranquilino.github.io
+        uses: peaceiris/actions-gh-pages@v4
+        with:
+          # This PAT allows the action to push to your gavintranquilino.github.io repo.
+          # You'll need to create this token and add it as a secret.
+          personal_token: ${{ secrets.GH_PAT_FOR_DEPLOY }}
+          external_repository: gavintranquilino/gavintranquilino.github.io
+          publish_branch: master # The branch in gavintranquilino.github.io to deploy to
+          publish_dir: ./public # The directory Hugo builds to
+          user_name: 'github-actions[bot]'
+          user_email: 'github-actions[bot]@users.noreply.github.com'
+          commit_message: 'Deploy Hugo site to GitHub Pages [via GitHub Action]'
+          # force_orphan: true # Optional: Creates a clean history on the target branch.
+                                      # Good for a branch that ONLY contains build artifacts.
+                                      # If true, the existing history of 'master' in the target repo will be orphaned.
+          # keep_files: false # Default is false. Ensures a clean deployment.
