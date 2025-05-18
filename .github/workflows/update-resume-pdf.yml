@@ -29,13 +29,13 @@ jobs:
           git config --global user.name "${{ secrets.GH_USERNAME || 'github-actions[bot]' }}"
           git config --global user.email "${{ secrets.GH_EMAIL || 'github-actions[bot]@users.noreply.github.com' }}"
           
-          # Check if there are actual changes to the PDF to avoid empty commits
-          if git diff --quiet resume.pdf; then
-            echo "No changes to resume.pdf. Skipping commit."
-          else
+          # Check if resume.pdf is modified or staged
+          if git status --porcelain | grep -q 'resume.pdf'; then
             git add resume.pdf
             git commit -m "Update resume.pdf from gavins-resume repository"
             # The GITHUB_TOKEN (via permissions) should allow push to the checked-out branch
             git push 
             echo "Committed and pushed updated resume.pdf"
+          else
+            echo "No changes to resume.pdf. Skipping commit."
           fi
