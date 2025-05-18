@@ -5,12 +5,20 @@ on:
     branches:
       - main  # Or 'master', or whichever is your default/development branch
   workflow_dispatch: # Allows manual triggering
+  workflow_run:
+    workflows: ["Update Resume PDF in Hugo Site"]
+    types:
+      - completed
+    branches:
+      - main
 
 permissions:
   contents: read # To read this (-hugo) repository's content
 
 jobs:
   build-and-deploy:
+    # Only run if the triggering workflow was successful
+    if: ${{ github.event.workflow_run.conclusion == 'success' }}
     runs-on: ubuntu-latest
     env:
       HUGO_VERSION: 0.127.0 # Specify your desired Hugo version, or use 'latest'
