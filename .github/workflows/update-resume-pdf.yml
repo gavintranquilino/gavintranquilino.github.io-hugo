@@ -20,9 +20,9 @@ jobs:
 
       - name: Download Latest Resume PDF
         run: |
-          curl -L -o resume.pdf https://raw.githubusercontent.com/gavintranquilino/gavins-resume/main/out/Gavin_Tranquilino.pdf
-          echo "Downloaded resume.pdf to root"
-          ls -la resume.pdf # Optional: lists the file to verify
+          curl -L -o public/resume.pdf https://raw.githubusercontent.com/gavintranquilino/gavins-resume/main/out/Gavin_Tranquilino.pdf
+          echo "Downloaded resume.pdf to public/resume.pdf"
+          ls -la public/resume.pdf # Optional: lists the file to verify
 
       - name: Commit and Push Updated PDF
         run: |
@@ -30,8 +30,8 @@ jobs:
           git config --global user.email "${{ secrets.GH_EMAIL || 'github-actions[bot]@users.noreply.github.com' }}"
           
           # Check if resume.pdf is modified or staged
-          if git status --porcelain | grep -q 'resume.pdf'; then
-            git add resume.pdf
+          if git status --porcelain | grep -q 'public/resume.pdf'; then
+            git add public/resume.pdf
             git commit -m "Update resume.pdf from gavins-resume repository"
             # The GITHUB_TOKEN (via permissions) should allow push to the checked-out branch
             git push 
