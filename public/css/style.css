@@ -692,7 +692,7 @@ body.dark-theme .about-me--btn.google-album-button:hover {
     /* To Keep top and bottom margins set to default */
     margin-left: auto;
     margin-right: auto;
-    margin-top: 0.5em;
+    margin-top: 1em;
 }
 
 .individual-item h2 {
