@@ -171,6 +171,13 @@
       <description>&lt;p&gt;This YouTube Viewbot uses Selenium for Python to view a Youtube video multiple times. This bot is not inteded to be used to gain thousands of views, but instead will aid in getting your first 100 views on a YouTube video.&lt;/p&gt;&#xA;&lt;h2 id=&#34;how-does-it-work&#34;&gt;How Does it Work?&lt;/h2&gt;&#xA;&lt;p&gt;Once you run the program, the application will need user input to run. It asks for the video link, how many tabs to open, how long to watch the video for, and how many times it will watch the videos. Once it has gathered the data, the bot will open up a new Firefox window and open the amount of tabs listed. It will cycle through each tab and simultaneously play and refresh the video as needed.&lt;/p&gt;</description>
     </item>
     <item>
+      <title>This is my &lt;br&gt; Wooden &lt;strong&gt;CO2 Car&lt;/strong&gt;</title>
+      <link>http://localhost:1313/co2-car/</link>
+      <pubDate>Wed, 22 Jan 2020 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/co2-car/</guid>
+      <description>&lt;h2 id=&#34;mr-rendas-co2-car&#34;&gt;Mr. Renda&amp;rsquo;s CO2 Car&lt;/h2&gt;&#xA;&lt;h3 id=&#34;goal&#34;&gt;Goal&lt;/h3&gt;&#xA;&lt;p&gt;Draft, then woodwork a car to race against the rest of the class.&#xA;Each car should be designed to fit the track, and also a location for the CO2 cartridge.&lt;/p&gt;&#xA;&lt;h3 id=&#34;the-design&#34;&gt;The Design&lt;/h3&gt;&#xA;&lt;p&gt;Nothing too crazy. Just thought of a cool car design. No weight optimizations done.&#xA;However, I do remember watching some Mark Rober video about how to win like slot cars or something,&#xA;and that his tactic was to have weight concentrated at the back to start with more gravitational potential&#xA;energy. One thing I hadn&amp;rsquo;t considered though is that this tactic only applies to cars that start on an incline.&#xA;Our slot cars didn&amp;rsquo;t lol. I still think my car looks cool.&lt;/p&gt;</description>
+    </item>
+    <item>
       <title>&lt;strong&gt;GuhBot&lt;/strong&gt; Discord Bot</title>
       <link>http://localhost:1313/guhbot/</link>
       <pubDate>Wed, 01 Jan 2020 00:00:00 +0000</pubDate>
