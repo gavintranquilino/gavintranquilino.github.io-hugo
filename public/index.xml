@@ -171,6 +171,13 @@
       <description>&lt;p&gt;This YouTube Viewbot uses Selenium for Python to view a Youtube video multiple times. This bot is not inteded to be used to gain thousands of views, but instead will aid in getting your first 100 views on a YouTube video.&lt;/p&gt;&#xA;&lt;h2 id=&#34;how-does-it-work&#34;&gt;How Does it Work?&lt;/h2&gt;&#xA;&lt;p&gt;Once you run the program, the application will need user input to run. It asks for the video link, how many tabs to open, how long to watch the video for, and how many times it will watch the videos. Once it has gathered the data, the bot will open up a new Firefox window and open the amount of tabs listed. It will cycle through each tab and simultaneously play and refresh the video as needed.&lt;/p&gt;</description>
     </item>
     <item>
+      <title>Sashiko &lt;br&gt; Hitomezashi Stitching</title>
+      <link>http://localhost:1313/hitomezashi-stitching/</link>
+      <pubDate>Sat, 23 May 2020 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/hitomezashi-stitching/</guid>
+      <description>&lt;h2 id=&#34;smhs-innovation-week&#34;&gt;SMHS Innovation Week&lt;/h2&gt;&#xA;&lt;p&gt;During SMHS Innovation Week, students were challenged to explore creative problem solving through a variety of STEAM based activities. One of the optional challenges was to recreate traditional Hitomezashi stitching—a Japanese embroidery technique—using random patterns of 1s and 0s.&lt;/p&gt;&#xA;&lt;p&gt;Instead of flipping coins or using a random number website as suggested, I decided to write my own program to generate the patterns digitally. This post documents how I built it, what I learned, and how traditional art can intersect with code.&lt;/p&gt;</description>
+    </item>
+    <item>
       <title>This is my &lt;br&gt; Wooden &lt;strong&gt;CO2 Car&lt;/strong&gt;</title>
       <link>http://localhost:1313/co2-car/</link>
       <pubDate>Wed, 22 Jan 2020 00:00:00 +0000</pubDate>

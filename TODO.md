@@ -11,7 +11,7 @@
 - Unicycle
 - POM lighter 
 - Swiper No Swiping
-- Hitomezashi Stitching
+- ~~Hitomezashi Stitching~~
 - PSP Breakdown
 - CNC Controller Wood
 - ~~CO2 Car~~
