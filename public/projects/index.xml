@@ -171,7 +171,7 @@
       <description>&lt;p&gt;This YouTube Viewbot uses Selenium for Python to view a Youtube video multiple times. This bot is not inteded to be used to gain thousands of views, but instead will aid in getting your first 100 views on a YouTube video.&lt;/p&gt;&#xA;&lt;h2 id=&#34;how-does-it-work&#34;&gt;How Does it Work?&lt;/h2&gt;&#xA;&lt;p&gt;Once you run the program, the application will need user input to run. It asks for the video link, how many tabs to open, how long to watch the video for, and how many times it will watch the videos. Once it has gathered the data, the bot will open up a new Firefox window and open the amount of tabs listed. It will cycle through each tab and simultaneously play and refresh the video as needed.&lt;/p&gt;</description>
     </item>
     <item>
-      <title>Sashiko Hitomezashi Stitching</title>
+      <title>Sashiko &lt;br&gt; Hitomezashi Stitching</title>
       <link>http://localhost:1313/hitomezashi-stitching/</link>
       <pubDate>Sat, 23 May 2020 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/hitomezashi-stitching/</guid>
