@@ -1,6 +1,6 @@
 # Projects
 - WATonomous humanoid robotics
-- TFP 3D print
+- ~~TFP 3D print~~
 - ai agent hackathon
 - lego robotics brickworks
 - fidget spinner
