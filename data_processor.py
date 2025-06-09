@@ -3,6 +3,7 @@
 Data processing utility for image files.
 """
 
+import sys
 from PIL import Image
 from pathlib import Path
 
@@ -35,8 +36,12 @@ def remove_exif(image_path):
 
 
 def main():
-    """Remove EXIF data from all images in static/img directory."""
-    img_dir = Path("static/img")
+    """Remove EXIF data from all images in specified directory or default to static/img."""
+    # Check if a path argument was provided
+    if len(sys.argv) > 1:
+        img_dir = Path(sys.argv[1])
+    else:
+        img_dir = Path("static/img")
     
     if not img_dir.exists():
         print(f"Directory not found: {img_dir}")

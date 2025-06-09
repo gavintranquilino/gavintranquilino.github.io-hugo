@@ -18,9 +18,16 @@
     {{- else if strings.Contains $destination "replit.com" -}}
         <i class="fas fa-terminal"></i>
     {{- else if strings.Contains $destination "etsy.com" -}}
-        <i class="fab fa-etsy"></i>
-    {{- else if strings.Contains $destination "instagram.com" -}}
+        <i class="fab fa-etsy"></i>    {{- else if strings.Contains $destination "instagram.com" -}}
         <i class="fab fa-instagram"></i>
+    {{- else if strings.Contains $destination "twitch.tv" -}}
+        <i class="fab fa-twitch"></i>
+    {{- else if or (strings.Contains $destination "twitter.com") (strings.Contains $destination "x.com") -}}
+        <i class="fab fa-twitter"></i>
+    {{- else if strings.Contains $destination "discord" -}}
+        <i class="fab fa-discord"></i>
+    {{- else if strings.Contains $destination "tiktok.com" -}}
+        <i class="fab fa-tiktok"></i>
     {{- else if strings.HasPrefix $destination "mailto:" -}}
         <i class="fas fa-envelope"></i>
     {{- else if and (not (strings.HasPrefix $destination "#")) (strings.HasPrefix $destination "http") -}}
