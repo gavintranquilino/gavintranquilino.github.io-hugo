@@ -60,7 +60,7 @@ im also in a few of bros vids check it out or sum idk gank
 {{< my_video_embed src="https://www.youtube.com/embed/RQjug7RXFP4" title="YouTube video player" >}}
 {{< my_video_embed src="https://www.youtube.com/embed/IXnwrNVk_hc" title="YouTube video player" >}}
 {{< my_video_embed src="https://www.youtube.com/embed/ZY6i4k5xzVk" title="YouTube video player" >}}
-{{< my_video_embed src="https://www.youtube.com/embed/k-wFY965Pyo" title="YouTube video player" >}}
+<!-- {{< my_video_embed src="https://www.youtube.com/embed/k-wFY965Pyo" title="YouTube video player" >}} -->
 {{< my_video_embed src="https://www.youtube.com/embed/3Q1ro4bSFbc" title="YouTube video player" >}}
 
 ## His Other Socials:
