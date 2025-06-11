@@ -1,6 +1,5 @@
 # Projects
 - WATonomous humanoid robotics
-- ~~TFP 3D print~~
 - ai agent hackathon
 - lego robotics brickworks
 - fidget spinner
@@ -8,7 +7,6 @@
 - loratadine 3D print
 - bad apple
 - tmmc
-- Flexitrack
 - Unicycle
 - POM lighter 
 - Swiper No Swiping
@@ -17,6 +15,8 @@
 - Birdhouse
 - ~~CO2 Car~~
 - ~~Hitomezashi Stitching~~
+- ~~TFP 3D print~~
+- ~~Flexitrack~~
 
 # Features
 - Different image sizes for faster loading
