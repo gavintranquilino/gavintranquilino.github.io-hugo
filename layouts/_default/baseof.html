@@ -13,7 +13,7 @@
     <meta property="og:type" content="{{ if .IsPage }}article{{ else }}website{{ end }}" />
     <meta property="og:title" content="{{ .Title }}" />
     <meta property="og:description" content="{{ if .IsPage }}{{ .Summary }}{{ else }}{{ .Site.Params.description | default "Portfolio of my work." }}{{ end }}" />
-    <meta property="og:image" content="{{ with .Params.imageUrl }}{{ . | absURL }}{{ else }}{{ "/img/smile.png" | absURL }}{{ end }}" /> {{/* Assuming smile.png is in static/img */}}
+    <meta property="og:image" content="{{ with .Params.imageUrl }}{{ . | absURL }}{{ else }}{{ "/img/smile.jpg" | absURL }}{{ end }}" /> {{/* Assuming smile.jpg is in static/img */}}
 
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Code+Pro:400,900|Source+Sans+Pro:300,900&display=swap">
     <link rel="stylesheet" href="{{ "/css/style.css" | relURL }}">
