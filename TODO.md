@@ -22,6 +22,7 @@
 - Innovation Week
 - Typeracer Bot
 - ~~WATonomous humanoid robotics~~
+  - Rolling updates for this project required
 - ~~CO2 Car~~
 - ~~Hitomezashi Stitching~~
 - ~~TFP 3D print~~
