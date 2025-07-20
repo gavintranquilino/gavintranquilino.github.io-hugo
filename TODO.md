@@ -1,16 +1,13 @@
 # Projects
-- WATonomous humanoid robotics
 - YC AI Startup School
 - ai agent hackathon
 - truss bridge winner
 - TMMC 2025 Robotics Competition
-
 - lego robotics brickworks
-- fidget spinner
+- fidget spinner OC design
 - steamer stand mother's day
 - loratadine 3D print
 - bad apple
-- tmmc
 - Unicycle
 - POM lighter 
 - Swiper No Swiping
@@ -18,10 +15,13 @@
 - CNC Controller Wood
 - Birdhouse
 - clip that
-- cnc controller wood
 - cross product poster
 - war of the worlds poster
+- GuhCast
 - autonomous car Grade 11
+- Innovation Week
+- Typeracer Bot
+- ~~WATonomous humanoid robotics~~
 - ~~CO2 Car~~
 - ~~Hitomezashi Stitching~~
 - ~~TFP 3D print~~
@@ -29,10 +29,19 @@
 
 # Features
 - Different image sizes for faster loading
+    - Look into MCMasterCarr for fast website loading
 - Twitter integration to listen to my tweets and repost them to my own blog
-- blog.gavintranquilino.com
+    - blog.gavintranquilino.com
 - Optional priority for the project order
 - List view for brief project description
     - Searchable tags for projects
 - robots.txt
     - sitemap for web crawlers in LLM format
+- Add personal "about me" page
+  - Favorite
+    - Books
+    - Movies
+    - Music
+    - TV Shows
+    - Games
+- 
