@@ -20,10 +20,10 @@
 - GuhCast
 - autonomous car Grade 11
 - Innovation Week
-- Typeracer Bot
 - Happy birthday nano 7seg display
 - wiimote control dolphin
 - Sheet metal 2 rose
+- ~~Typeracer Bot~~
 - ~~WATonomous humanoid robotics~~
   - Rolling updates for this project required
 - ~~CO2 Car~~

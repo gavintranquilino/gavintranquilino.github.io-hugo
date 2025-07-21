@@ -192,6 +192,13 @@
       <description>&lt;p&gt;This YouTube Viewbot uses Selenium for Python to view a Youtube video multiple times. This bot is not inteded to be used to gain thousands of views, but instead will aid in getting your first 100 views on a YouTube video.&lt;/p&gt;&#xA;&lt;h2 id=&#34;how-does-it-work&#34;&gt;How Does it Work?&lt;/h2&gt;&#xA;&lt;p&gt;Once you run the program, the application will need user input to run. It asks for the video link, how many tabs to open, how long to watch the video for, and how many times it will watch the videos. Once it has gathered the data, the bot will open up a new Firefox window and open the amount of tabs listed. It will cycle through each tab and simultaneously play and refresh the video as needed.&lt;/p&gt;</description>
     </item>
     <item>
+      <title>Typeracer &lt;strong&gt;Python Bot&lt;/strong&gt;</title>
+      <link>http://localhost:1313/typeracer-bot/</link>
+      <pubDate>Mon, 28 Sep 2020 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/typeracer-bot/</guid>
+      <description>&lt;h1 id=&#34;typeracer-bot&#34;&gt;Typeracer Bot&lt;/h1&gt;&#xA;&lt;p&gt;This project was one of my first Python projects, where I created a Selenium bot in Python to play TypeRacer for me.&lt;/p&gt;&#xA;&lt;p&gt;Back in 2020, the plaintext of the TypeRacer game was not obfuscated and made available on the HTML, so I was able to scrape the text and use it to type out the words at a speed of over 170 WPM. I found that this was the upper limit to the typing speed as the game would not allow you to type any faster than that.&lt;/p&gt;</description>
+    </item>
+    <item>
       <title>Sashiko &lt;br&gt; Hitomezashi Stitching</title>
       <link>http://localhost:1313/hitomezashi-stitching/</link>
       <pubDate>Sat, 23 May 2020 00:00:00 +0000</pubDate>
