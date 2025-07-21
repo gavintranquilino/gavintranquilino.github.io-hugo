@@ -51,4 +51,4 @@
     - Music
     - TV Shows
     - Games
-- 
+- ~~Create CNAME in public folder if not exist or not set to gavintranquilino.com~~
