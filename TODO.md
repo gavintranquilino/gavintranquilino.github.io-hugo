@@ -21,6 +21,9 @@
 - autonomous car Grade 11
 - Innovation Week
 - Typeracer Bot
+- Happy birthday nano 7seg display
+- wiimote control dolphin
+- Sheet metal 2 rose
 - ~~WATonomous humanoid robotics~~
   - Rolling updates for this project required
 - ~~CO2 Car~~
@@ -29,6 +32,9 @@
 - ~~Flexitrack~~
 
 # Features
+- Photo gallery for my "Projects" album on Google Photos
+  - How do I not use Google Photos to host? Is that really the best way?
+  - Can have a photo gallery for cravinvinyls
 - Different image sizes for faster loading
     - Look into MCMasterCarr for fast website loading
 - Twitter integration to listen to my tweets and repost them to my own blog
