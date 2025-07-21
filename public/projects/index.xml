@@ -9,11 +9,11 @@
     <lastBuildDate>Mon, 05 May 2025 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://localhost:1313/projects/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Robotic &lt;br&gt; Humanoid Arms</title>
+      <title>Dexterous Robotic &lt;strong&gt;Humanoid Arms&lt;/strong&gt;</title>
       <link>http://localhost:1313/wato-humanoid/</link>
       <pubDate>Mon, 05 May 2025 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/wato-humanoid/</guid>
-      <description>&lt;h2 id=&#34;currently-in-development&#34;&gt;Currently in Development&lt;/h2&gt;</description>
+      <description>&lt;h2 id=&#34;currently-in-development&#34;&gt;Currently in Development&lt;/h2&gt;&#xA;&lt;p&gt;I am currently working on a humanoid robot arm project with the University of Waterloo&amp;rsquo;s design teams, &lt;em&gt;WATonomous&lt;/em&gt; and &lt;em&gt;UW Reality Labs&lt;/em&gt;. The goal is to create an &lt;strong&gt;anthropomorphic humanoid robot arm&lt;/strong&gt; that can perform a variety of tasks with dexterity and precision.&lt;/p&gt;&#xA;&lt;p&gt;The &lt;em&gt;CURRENT&lt;/em&gt; focus is on creating a V1 prototype with full hardware. This includes the mechanical design, power electronics, embedded software, and control algorithms. The V1 prototype will be capable of teleoperated control via Quest 3 Headsets&amp;rsquo; hand tracking through a custom Unity application built by the UW Reality Labs team.&lt;/p&gt;</description>
     </item>
     <item>
       <title>FlexiTrack: &lt;strong&gt;Health Tech &lt;br&gt; Innovation Challenge&lt;/strong&gt;</title>
