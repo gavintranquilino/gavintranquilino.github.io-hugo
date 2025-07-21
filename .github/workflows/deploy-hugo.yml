@@ -36,6 +36,9 @@ jobs:
       - name: Build Hugo site
         run: hugo --gc --minify # Builds the site into the './public' directory
 
+      - name: Ensure CNAME file exists with gavintranquilino.com
+        run: echo 'gavintranquilino.com' > public/CNAME
+
       - name: Deploy to gavintranquilino.github.io
         uses: peaceiris/actions-gh-pages@v4
         with:
