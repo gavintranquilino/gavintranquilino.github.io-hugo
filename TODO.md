@@ -23,6 +23,7 @@
 - Happy birthday nano 7seg display
 - wiimote control dolphin
 - Sheet metal 2 rose
+- bAIRiatric Supportss
 - ~~Typeracer Bot~~
 - ~~WATonomous humanoid robotics~~
   - Rolling updates for this project required
@@ -32,6 +33,8 @@
 - ~~Flexitrack~~
 
 # Features
+- Work In Progress banner for projects
+- Winner banner for projects
 - Photo gallery for my "Projects" album on Google Photos
   - How do I not use Google Photos to host? Is that really the best way?
   - Can have a photo gallery for cravinvinyls
@@ -42,8 +45,10 @@
 - Optional priority for the project order
 - List view for brief project description
     - Searchable tags for projects
+- Short description for each project on top of just the images
 - robots.txt
     - sitemap for web crawlers in LLM format
+    - llm.txt i believe
 - Add personal "about me" page
   - Favorite
     - Books
