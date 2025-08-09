@@ -1,7 +1,8 @@
 ---
 title: "This is <strong>bAIRiatric Supports</strong>"
 date: "2025-02-10"
-imageUrl: "/img/bAIRiatric-Supports/thumbnail.jpg"
+imageUrl: "/img/bAIRiatric-Supports/team-photo.jpg"
+thumbnailUrl: "/img/bAIRiatric-Supports/deflated-inflated.jpg"
 subtitle: "Inflatable positioning aids for patients"
 ---
 
@@ -30,7 +31,7 @@ The following sections provide an overview of the problem that bAIRiatric Suppor
 
 > Jump to [Building the Prototype](#building-the-prototype) to see the technical details for how the prototype was built and **skip** the background information.
 
-> This page is a WORK IN PROGRESS
+> THIS PAGE IS IN PROGRESS... PROTOTYPE + PITCH DETAILS COMING SOON!
 
 ### Moisture Associated Skin Damage (MASD)
 - Moisture from urine, stool, sweat or wound exudate causes irritation and damage, worsened by rubbing and shearing.
@@ -137,9 +138,18 @@ They seek solutions that:
 
 ### Physical Inflatable Prototype
 
-The physical prototype of the bAIRiatric Supports is designed to mimic the inflatable positioning aid that can be used to help patients with fragile skin. The prototype is made from a combination of materials that are both durable and comfortable for the patient.
+The physical prototype of the bAIRiatric Supports is designed to mimic the inflatable positioning aid that can be used to help patients with fragile skin.
 
-### Digital Web-app + Mobile Prototype
+The prototype is a 3D-printed simplified model of the final design, allowing for demonstration of the product's functionality and user experience.
+- The inflatable components are represented with microservo motors that raise the left and right sections of the bed.
+- The 3D-printed bed was created in SolidWorks, and printed on my Kingroon KP3S 3D printer.
+
+The microservo motors are controlled by an Arduino IoT 33 microcontroller, which is connected wirelessly through WiFi to the host system that manages the web app that the nurses and caregivers handle.
+- The interface between the bed and the web app was implemented using HTTP requests handled by Flask; a Python web framework.
+
+### Digital Web App + Mobile Prototype
+
+> THE FOLLOWING PAGES ARE IN PROGRESS... PROTOTYPE + PITCH DETAILS COMING SOON!
 
 ### Failed Ideas
 
