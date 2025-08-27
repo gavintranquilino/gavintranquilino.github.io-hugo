@@ -1,6 +1,29 @@
 #!/usr/bin/env python3
 """
 Data processing utility for image files.
+
+USAGE:
+    python data_processor.py [directory_path]
+
+EXAMPLES:
+    # Process all images in static/img (default)
+    python data_processor.py
+    
+    # Process images in a specific folder
+    python data_processor.py static/img/bAIRiatric-Supports
+    
+    # Process images in any directory
+    python data_processor.py /path/to/your/images
+
+WHAT IT DOES:
+    - Removes EXIF metadata from images (privacy protection)
+    - Supports: .jpg, .jpeg, .png, .tiff, .tif, .bmp
+    - Processes directories recursively
+    - Preserves image quality (95% JPEG quality)
+    - Optimizes file sizes
+    - Creates clean images without location/camera data
+
+NOTE: This modifies files in-place. Consider backing up important images first.
 """
 
 import sys
