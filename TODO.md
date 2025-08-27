@@ -23,7 +23,8 @@
 - Happy birthday nano 7seg display
 - wiimote control dolphin
 - Sheet metal 2 rose
-- bAIRiatric Supportss
+- stream snipper
+- ~~bAIRiatric Supports~~
 - ~~Typeracer Bot~~
 - ~~WATonomous humanoid robotics~~
   - Rolling updates for this project required
