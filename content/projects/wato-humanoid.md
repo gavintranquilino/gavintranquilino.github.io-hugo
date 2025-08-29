@@ -1,8 +1,8 @@
 ---
 title: "Dexterous Robotic <strong>Humanoid Arms</strong>"
 date: "2025-05-05"
-thumbnailUrl: "/img/wato-humanoid/thumbs-up.jpg"
-imageUrl: "/img/wato-humanoid/thumbs-up.gif"
+thumbnailUrl: "wato-humanoid/thumbs-up.jpg"
+imageUrl: "wato-humanoid/thumbs-up.gif"
 subtitle: "WATonomous x UW Reality Labs"
 ---
 

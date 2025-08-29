@@ -1,7 +1,7 @@
 ---
 title: "<strong>COVID-19</strong> Screening Bypass"
 date: "2021-03-01"
-imageUrl: "/img/covid-19.png"
+imageUrl: "covid-19.png"
 subtitle: "Not Intended for Malicious Intent"
 ---
 

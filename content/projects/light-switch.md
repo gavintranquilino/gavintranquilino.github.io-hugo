@@ -1,7 +1,7 @@
 ---
 title: "Light Switch <br> Bot/Mount 💡"
 date: "2023-01-18"
-imageUrl: "/img/light-switch.png"
+imageUrl: "light-switch.png"
 subtitle: "because i sleep on the top bunk of my bed"
 ---
 

@@ -1,7 +1,7 @@
 ---
 title: "Typeracer <strong>Python Bot</strong>"
 date: "2020-09-28"
-imageUrl: "/img/typeracer-bot/logo.jpg"
+imageUrl: "typeracer-bot/logo.jpg"
 subtitle: "170+ WPM on TypeRacer"
 ---
 

@@ -1,7 +1,7 @@
 ---
 title: "My Sticker/Clothing Store <strong>Cravin' Vinyls</strong>"
 date: "2021-05-15"
-imageUrl: "/img/cravinvinyls.png"
+imageUrl: "cravinvinyls.png"
 subtitle: "bring your pictures to light!"
 ---
 

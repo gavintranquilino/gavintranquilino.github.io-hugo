@@ -1,7 +1,7 @@
 ---
 title: "Python Code Jam 2023 <strong>Benevolens</strong>"
 date: "2023-09-01"
-imageUrl: "/img/benevolens.png"
+imageUrl: "benevolens.png"
 subtitle: "Secret Codes and Image Manipulation Tool"
 ---
 

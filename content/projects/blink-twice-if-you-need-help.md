@@ -1,8 +1,8 @@
 ---
 title: "Blink Twice 👀 If You Need Help"
 date: 2024-01-14
-imageUrl: "/img/blink-twice-if-you-need-help/closer-up.png"
-thumbnailUrl: "img/blink-twice-if-you-need-help/overview.png"
+imageUrl: "blink-twice-if-you-need-help/closer-up.png"
+thumbnailUrl: "blink-twice-if-you-need-help/overview.png"
 subtitle: "DeltaHacks X 2024 Project"
 ---
 

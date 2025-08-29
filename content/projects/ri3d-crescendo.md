@@ -1,7 +1,7 @@
 ---
 title: "<strong>Ri3D Crescendo</strong> @ University of Waterloo"
 date: "2024-01-01"
-imageUrl: "/img/ri3d-crescendo/ri3d-crescendo.jpg"
+imageUrl: "ri3d-crescendo/ri3d-crescendo.jpg"
 subtitle: "Robot in 3 Days; Speedrunning a robot"
 ---
 

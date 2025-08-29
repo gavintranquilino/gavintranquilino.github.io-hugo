@@ -1,7 +1,7 @@
 ---
 title: "<strong>Find Me Arrow</strong> Key Holder"
 date: "2022-01-02"
-imageUrl: "/img/its-right-here/logo.jpg"
+imageUrl: "its-right-here/logo.jpg"
 subtitle: "IT'S RIGHT HERE!!!"
 ---
 

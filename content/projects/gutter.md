@@ -1,7 +1,7 @@
 ---
 title: "<strong>Roof Gutter Rain Mount</strong>"
 date: "2022-10-14"
-imageUrl: "/img/gutter/CAD.jpg"
+imageUrl: "gutter/CAD.jpg"
 subtitle: "it saves our lawn from flooding"
 ---
 

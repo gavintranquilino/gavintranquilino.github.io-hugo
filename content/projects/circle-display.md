@@ -1,8 +1,8 @@
 ---
 title: "<strong>Custom Tamagotchi</strong>"
 date: "2024-06-23"
-imageUrl: "/img/circle-display/kumi.gif"
-thumbnailUrl: "/img/circle-display/panda_square.png"
+imageUrl: "circle-display/kumi.gif"
+thumbnailUrl: "circle-display/panda_square.png"
 subtitle: "work in progress"
 ---
 

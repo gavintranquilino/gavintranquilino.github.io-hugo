@@ -1,7 +1,7 @@
 ---
 title: "FlexiTrack: <strong>Health Tech <br> Innovation Challenge</strong>"
 date: "2025-02-05"
-imageUrl: "/img/flexitrack/square.jpg"
+imageUrl: "flexitrack/square.jpg"
 subtitle: "get your patients moving"
 ---
 

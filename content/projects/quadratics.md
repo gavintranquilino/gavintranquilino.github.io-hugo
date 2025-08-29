@@ -1,7 +1,7 @@
 ---
 title: "<strong>Quadratics Solver</strong>"
 date: "2021-07-01"
-imageUrl: "/img/quadratic.png"
+imageUrl: "quadratic.png"
 subtitle: "I May Have Used This For My Homework :)"
 ---
 

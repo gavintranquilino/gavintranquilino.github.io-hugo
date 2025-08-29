@@ -1,7 +1,7 @@
 ---
 title: "mathemati.co"
 date: 2024-02-18
-imageUrl: "/img/mathematico/hand-landmarks.png"
+imageUrl: "mathematico/hand-landmarks.png"
 subtitle: "visual math learning tool"
 ---
 

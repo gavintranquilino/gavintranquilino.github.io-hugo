@@ -1,7 +1,7 @@
 ---
 title: "Skills Ontario 2023 <strong>Hockey Robot</strong>"
 date: "2023-07-22"
-imageUrl: "/img/hockey-robot.png"
+imageUrl: "hockey-robot.png"
 subtitle: "we didn't use a robot kit"
 ---
 

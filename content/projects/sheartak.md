@@ -2,7 +2,7 @@
 title: |
   <strong>Mechanical Engineering</strong> @ Sheartak Tools
 date: "2024-01-11"
-imageUrl: "/img/sheartak/enhanced-cutter.png"
+imageUrl: "sheartak/enhanced-cutter.png"
 subtitle: "i created woodworking machine upgrades"
 ---
 

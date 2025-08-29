@@ -1,7 +1,7 @@
 ---
 title: "YouTube Viewbot"
 date: "2021-01-09"
-imageUrl: "/img/youtube-py.png"
+imageUrl: "youtube-py.png"
 subtitle: "Free Views?"
 ---
 

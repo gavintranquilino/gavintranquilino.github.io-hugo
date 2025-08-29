@@ -1,7 +1,7 @@
 ---
 title: "HackTheNorth 2023 <strong>Psych Tracker</strong>"
 date: "2023-09-17"
-imageUrl: "/img/psych-tracker.png"
+imageUrl: "psych-tracker.png"
 subtitle: "a project over a single weekend?"
 ---
 

@@ -1,8 +1,8 @@
 ---
 title: "This is <strong>bAIRiatric Supports</strong>"
 date: "2025-02-10"
-imageUrl: "/img/bAIRiatric-Supports/team-photo.jpg"
-thumbnailUrl: "/img/bAIRiatric-Supports/deflated-inflated.jpg"
+imageUrl: "bAIRiatric-Supports/team-photo.jpg"
+thumbnailUrl: "bAIRiatric-Supports/deflated-inflated.jpg"
 subtitle: "Inflatable positioning aids for patients"
 ---
 

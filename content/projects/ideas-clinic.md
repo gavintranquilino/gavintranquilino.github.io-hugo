@@ -1,7 +1,7 @@
 ---
 title: "<strong>Instrumented Knee Crutch</strong> @ University of Waterloo"
 subtitle: "Undergraduate Research @ UW"
-imageUrl: "/img/ideas-clinic/crutch.jpg"
+imageUrl: "ideas-clinic/crutch.jpg"
 date: "2024-12-20"
 tabTitle: "Instrumented Knee Crutch"
 ---

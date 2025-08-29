@@ -1,7 +1,7 @@
 ---
 title: "Sashiko <br> Hitomezashi Stitching"
 date: "2020-05-23"
-imageUrl: "/img/hitomezashi-stitching/square.jpg"
+imageUrl: "hitomezashi-stitching/square.jpg"
 subtitle: "High School Innovation Week"
 ---
 

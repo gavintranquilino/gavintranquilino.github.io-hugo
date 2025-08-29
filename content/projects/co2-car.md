@@ -1,7 +1,7 @@
 ---
 title: "This is my <br> Wooden <strong>CO2 Car</strong>"
 date: "2020-01-22"
-imageUrl: "/img/co2-car/square.jpg"
+imageUrl: "co2-car/square.jpg"
 subtitle: "Mr. Renda didn't fw me"
 ---
 

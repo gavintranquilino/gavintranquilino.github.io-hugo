@@ -1,7 +1,7 @@
 ---
 title: "<strong>Automated</strong> Lamp"
 date: "2021-11-15"
-imageUrl: "/img/lamp-bot.png"
+imageUrl: "lamp-bot.png"
 subtitle: "laziness 100"
 ---
 

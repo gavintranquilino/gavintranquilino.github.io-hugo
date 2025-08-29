@@ -1,7 +1,7 @@
 ---
 title: "<strong>Remote-controlled</strong> LED"
 date: "2021-02-07"
-imageUrl: "/img/arduino-led.png"
+imageUrl: "arduino-led.png"
 subtitle: "RGB!!! YEAHHH!!!"
 ---
 

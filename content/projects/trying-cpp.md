@@ -1,7 +1,7 @@
 ---
 title: "C++ shitpost vid"
 date: 2024-04-01
-imageUrl: "/img/trying-cpp/double-bicep-based.png"
+imageUrl: "trying-cpp/double-bicep-based.png"
 subtitle: "i actually tried editing for once"
 ---
 

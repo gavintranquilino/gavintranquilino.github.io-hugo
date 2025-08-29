@@ -1,7 +1,7 @@
 ---
 title: "<strong>GuhBot</strong> Discord Bot"
 date: "2020-01-01"
-imageUrl: "/img/discord-bot.png"
+imageUrl: "discord-bot.png"
 subtitle: "Verified Discord bot"
 ---
 

@@ -1,7 +1,7 @@
 ---
 title: "VTuber <br> 3D Printed Fanart"
 date: "2023-07-05"
-imageUrl: "/img/TFP3D/first-coat.jpg"
+imageUrl: "TFP3D/first-coat.jpg"
 subtitle: "lil tecca made a song about him"
 ---
 
