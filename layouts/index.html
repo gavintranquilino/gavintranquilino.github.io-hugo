@@ -45,21 +45,36 @@
         <div class="portfolio">
             {{ $pages := where $.Site.RegularPages "Type" "projects" }}
             {{ range $project := $pages.ByWeight }}
-                {{ $thumbnail := "" }} {{/* Initialize variable */}}
-                {{ if $project.Params.thumbnailUrl }} {{/* Check for thumbnailUrl first */}}
-                    {{ $thumbnail = $project.Params.thumbnailUrl | relURL }}
-                {{ else if $project.Params.imageUrl }} {{/* Else, check for imageUrl */}}
-                    {{ $thumbnail = $project.Params.imageUrl | relURL }}
-                {{ end }} {{/* End of if/else if block for setting thumbnail */}}
+                {{ $thumbnailResource := false }}
+                {{ $thumbnailUrl := "" }}
+                
+                {{ if $project.Params.thumbnailUrl }}
+                    {{/* Try to get the image from assets first (no prefix needed) */}}
+                    {{ with resources.Get $project.Params.thumbnailUrl }}
+                        {{ $thumbnailResource = . }}
+                    {{ end }}
+                    {{/* For fallback, add /img/ prefix to find in static folder */}}
+                    {{ $thumbnailUrl = printf "/img/%s" $project.Params.thumbnailUrl }}
+                {{ else if $project.Params.imageUrl }}
+                    {{ with resources.Get $project.Params.imageUrl }}
+                        {{ $thumbnailResource = . }}
+                    {{ end }}
+                    {{ $thumbnailUrl = printf "/img/%s" $project.Params.imageUrl }}
+                {{ end }}
 
                 <a href="{{ $project.RelPermalink }}" class="portfolio__item">
-                    {{ if $thumbnail }} {{/* Now check if $thumbnail has a value */}}
-                        <img src="{{ $thumbnail }}" alt="{{ $project.Title }} project preview" class="portfolio__img" loading="lazy">
+                    {{ if $thumbnailResource }}
+                        {{ if eq $thumbnailResource.ResourceType "image" }}
+                            {{ $thumbnail := $thumbnailResource.Resize "400x q75" }}
+                            <img src="{{ $thumbnail.RelPermalink }}" alt="{{ $project.Title }} project preview" class="portfolio__img" loading="lazy">
+                        {{ else }}
+                            <img src="{{ $thumbnailUrl | relURL }}" alt="{{ $project.Title }} project preview" class="portfolio__img" loading="lazy">
+                        {{ end }}
+                    {{ else if $thumbnailUrl }}
+                        <img src="{{ $thumbnailUrl | relURL }}" alt="{{ $project.Title }} project preview" class="portfolio__img" loading="lazy">
                     {{ else }}
-                        {{/* Optional: Placeholder if no image at all */}}
                         <p>No preview available for {{ $project.Title }}</p>
                     {{ end }}
-                    {{/* Project title/subtitle could be overlaid if desired, matching original style.css if it had that */}}
                 </a>
             {{ end }}
         </div>
