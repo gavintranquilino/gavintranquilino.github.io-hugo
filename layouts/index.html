@@ -49,14 +49,14 @@
                 {{ $thumbnailUrl := "" }}
                 
                 {{ if $project.Params.thumbnailUrl }}
-                    {{/* Try to get the image from assets first (no prefix needed) */}}
-                    {{ with resources.Get $project.Params.thumbnailUrl }}
+                    {{/* Try to get the image from assets first with img/ prefix */}}
+                    {{ with resources.Get (printf "img/%s" $project.Params.thumbnailUrl) }}
                         {{ $thumbnailResource = . }}
                     {{ end }}
                     {{/* For fallback, add /img/ prefix to find in static folder */}}
                     {{ $thumbnailUrl = printf "/img/%s" $project.Params.thumbnailUrl }}
                 {{ else if $project.Params.imageUrl }}
-                    {{ with resources.Get $project.Params.imageUrl }}
+                    {{ with resources.Get (printf "img/%s" $project.Params.imageUrl) }}
                         {{ $thumbnailResource = . }}
                     {{ end }}
                     {{ $thumbnailUrl = printf "/img/%s" $project.Params.imageUrl }}
