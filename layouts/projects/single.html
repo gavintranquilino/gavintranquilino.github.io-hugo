@@ -9,25 +9,8 @@
     </p>
     {{ end }}
     {{ with .Params.imageUrl }}
-        {{ $imageResource := false }}
-        {{ $imageUrl := printf "/img/%s" . }}
-        
-        {{/* Try to get the image from assets first */}}
-        {{ with resources.Get (printf "img/%s" .) }}
-            {{ $imageResource = . }}
-        {{ end }}
-        
-        {{ if $imageResource }}
-            {{ if eq $imageResource.ResourceType "image" }}
-                {{/* Use a larger size for main project images */}}
-                {{ $image := $imageResource.Resize "800x q85" }}
-                <img src="{{ $image.RelPermalink }}" alt="{{ $.Title }} main image" class="intro__img" loading="lazy" />
-            {{ else }}
-                <img src="{{ $imageUrl | relURL }}" alt="{{ $.Title }} main image" class="intro__img" loading="lazy" />
-            {{ end }}
-        {{ else }}
-            <img src="{{ $imageUrl | relURL }}" alt="{{ $.Title }} main image" class="intro__img" loading="lazy" />
-        {{ end }}
+        {{ $imgParams := dict "src" . "size" "800x" "quality" "q85" "alt" (printf "%s main image" $.Title) "class" "intro__img" }}
+        {{ partial "shortcodes/img.html" $imgParams }}
     {{ end }}
 </section>
 

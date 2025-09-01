@@ -4,11 +4,11 @@ date: "2024-01-01"
 introSection:
   title: "Hey, I'm <strong>Gavin</strong>"
   subtitle: "tinkerer / dev"
-  imageUrl: "/img/smile.svg"
+  imageUrl: "smile.jpg"
 aboutSection:
   title: "About me"
   subtitle: "a perpetual work in progress"
-  imageUrl: "/img/logo.png"
+  imageUrl: "logo.png"
   buttons:
     - text: "Resumé"
       url: "/resume.pdf"
