@@ -8,7 +8,6 @@
 - steamer stand mother's day
 - loratadine 3D print
 - bad apple
-- Unicycle
 - POM lighter 
 - Swiper No Swiping
 - PSP Breakdown
@@ -24,6 +23,7 @@
 - wiimote control dolphin
 - Sheet metal 2 rose
 - stream snipper
+- ~~Unicycle~~
 - ~~bAIRiatric Supports~~
 - ~~Typeracer Bot~~
 - ~~WATonomous humanoid robotics~~
@@ -39,7 +39,7 @@
 - Photo gallery for my "Projects" album on Google Photos
   - How do I not use Google Photos to host? Is that really the best way?
   - Can have a photo gallery for cravinvinyls
-- Different image sizes for faster loading
+- ~~Different image sizes for faster loading~~
     - Look into MCMasterCarr for fast website loading
 - Twitter integration to listen to my tweets and repost them to my own blog
     - blog.gavintranquilino.com
