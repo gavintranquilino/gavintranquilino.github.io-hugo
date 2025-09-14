@@ -30,11 +30,18 @@
       <description>FlexiTrack: Combating Hospital Delirium We were awarded the Grand River Hospital&amp;rsquo;s Most Innovative Project for this, and it was a team effort with my friends from the University of Waterloo.&#xA;Shorter demo video to save you on time :) So here&amp;rsquo;s the deal - Grand River Hospital had this massive problem with their long-term senior patients. These folks were stuck in bed dealing with inactivity and boredom because of physical constraints and limited tech familiarity.</description>
     </item>
     <item>
-      <title>&lt;strong&gt;Instrumented Knee Crutch&lt;/strong&gt; @ University of Waterloo</title>
+      <title>&lt;strong&gt;Instrumented &lt;/strong&gt; Knee Crutch</title>
       <link>http://localhost:1313/ideas-clinic/</link>
       <pubDate>Fri, 20 Dec 2024 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/ideas-clinic/</guid>
       <description>Project Gallery This project is displayed in a Google Photos album. Below you can browse through the photo gallery of the instrumented knee crutch project developed at the University of Waterloo IDEAS Clinic.&#xA;View Full Album About the Project The Instrumented Knee Crutch was developed as part of the IDEAS Clinic at the University of Waterloo. This project involved designing and building an instrumented crutch that could measure and provide feedback on weight bearing during rehabilitation.</description>
+    </item>
+    <item>
+      <title>&lt;strong&gt;Feedback Loops:&lt;/strong&gt; Adaptive Cruise Control</title>
+      <link>http://localhost:1313/se-380/</link>
+      <pubDate>Thu, 19 Dec 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/se-380/</guid>
+      <description>Milestones: Each represent a different scenario for the adaptive cruise control system. Milestone 2: Maintain Speed The vehicle maintains a constant speed The vehicle accelerates to reach the set speed if it is below the desired speed. The vehicle stays in the lane. Milestone 3: Maintain Safe Distance The vehicle maintains a safe distance from the car in front. The vehicle in an adjacent lane will abruptly cut in front of the vehicle.</description>
     </item>
     <item>
       <title>Dishwasher &lt;br&gt; Magnets 🧼🍽️</title>

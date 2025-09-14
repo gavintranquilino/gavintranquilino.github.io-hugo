@@ -1,4 +1,5 @@
 # Projects
+- Other Hand HTN2025
 - YC AI Startup School
 - ai agent hackathon
 - truss bridge winner
@@ -23,6 +24,7 @@
 - wiimote control dolphin
 - Sheet metal 2 rose
 - stream snipper
+- ~~Ideas clinic adaptive cruise control~~
 - ~~Unicycle~~
 - ~~bAIRiatric Supports~~
 - ~~Typeracer Bot~~

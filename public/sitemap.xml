@@ -17,6 +17,9 @@
     <loc>http://localhost:1313/ideas-clinic/</loc>
     <lastmod>2024-12-20T00:00:00+00:00</lastmod>
   </url><url>
+    <loc>http://localhost:1313/se-380/</loc>
+    <lastmod>2024-12-20T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>http://localhost:1313/dishwasher-magnets/</loc>
     <lastmod>2024-07-22T00:00:00+00:00</lastmod>
   </url><url>
@@ -28,6 +31,9 @@
   </url><url>
     <loc>http://localhost:1313/trying-cpp/</loc>
     <lastmod>2024-04-01T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/wato-asd-training/</loc>
+    <lastmod>2024-02-20T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/self-balancing-unicycle/</loc>
     <lastmod>2024-02-20T00:00:00+00:00</lastmod>
@@ -103,8 +109,6 @@
   </url><url>
     <loc>http://localhost:1313/guhbot/</loc>
     <lastmod>2020-01-01T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/wato-asd-training/</loc>
   </url><url>
     <loc>http://localhost:1313/categories/</loc>
   </url><url>
