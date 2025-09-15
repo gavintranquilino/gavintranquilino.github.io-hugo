@@ -8,6 +8,9 @@ bulletPoints:
   - "Building <strong>robotic arms</strong> (6DoF) with tendon driven anthropomorphic hands (20DoF each), aiming for <strong>VR teleoperation</strong>"
   - "Developed software interface to bridge high-level <strong>ROS2</strong> commands to low-level <strong>embedded systems</strong> over a <strong>CAN bus</strong>"
   - "Containerized <strong>ROS2</strong> system in <strong>Docker</strong>, mounting <strong>CAN transceivers</strong> to enable communication between subsystems"
+  - "Designed <strong>URDF</strong> models to define the transform <strong>TF tree</strong> for <strong>RL</strong> simulation and training in NVIDIA <strong>Isaac Sim</strong>."
+  - "Built visualization infrastructure connecting <strong>Gazebo</strong> simulations to <strong>Foxglove</strong> for real-time debugging and data analysis."
+  - "<strong>Assembled PCBs</strong> with 0.5mm pitch <strong>SMD</strong> components, soldered by hand, reducing assembly costs by 30%"
 ---
 
 ## Currently in Development
