@@ -3,6 +3,10 @@ title: "Dishwasher <br> Magnets 🧼🍽️"
 date: "2024-07-22"
 imageUrl: "dishwasher-magnets/magnets7.jpg"
 subtitle: "are the dishes clean or dirty?"
+bulletPoints:
+  - "Designed magnetic status indicator system using <strong>SolidWorks CAD</strong> software with embedded neodymium magnets for dishwasher organization"
+  - "Implemented advanced <strong>3D printing</strong> techniques including pause-and-insert for embedded magnets and strategic layer orientation for durability"
+  - "Solved household communication problem through user-centered design approach, replacing temporary solutions with permanent magnetic mount system"
 ---
 
 ## Preview

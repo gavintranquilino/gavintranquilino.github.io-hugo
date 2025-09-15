@@ -3,6 +3,9 @@ title: "This is my <br> Wooden <strong>CO2 Car</strong>"
 date: "2020-01-22"
 imageUrl: "co2-car/square.jpg"
 subtitle: "Mr. Renda didn't fw me"
+bulletPoints:
+  - "Designed and fabricated wooden CO2-powered race car using traditional woodworking tools including <strong>drill press</strong>, <strong>band saw</strong>, and manual sanding techniques"
+  - "Developed technical drafting and measurement skills through precise cartridge slot machining and complex curved profile cutting"
 ---
 
 ## Mr. Renda's CO2 Car

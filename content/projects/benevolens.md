@@ -3,6 +3,10 @@ title: "Python Code Jam 2023 <strong>Benevolens</strong>"
 date: "2023-09-01"
 imageUrl: "benevolens.png"
 subtitle: "Secret Codes and Image Manipulation Tool"
+bulletPoints:
+  - "Automatic secret code translation tool using <strong>OCR</strong> and <strong>steganography</strong>"
+  - "Implements text ciphers and <strong>XOR</strong> image manipulation techniques"
+  - "<strong>CLI</strong> interface for quick encoding/decoding of handwritten messages"
 ---
 
 ## Python Discord Code Jam 2023

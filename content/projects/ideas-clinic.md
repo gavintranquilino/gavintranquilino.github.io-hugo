@@ -4,6 +4,10 @@ subtitle: "Undergrad Research Assistant @ UW"
 imageUrl: "ideas-clinic/crutch.jpg"
 date: "2024-12-20"
 tabTitle: "Instrumented Knee Crutch"
+bulletPoints:
+  - "Developed instrumented knee crutch with embedded <strong>strain gauges</strong> for real-time <strong>weight-bearing measurement</strong> during rehabilitation therapy sessions"
+  - "Conducted undergraduate research at University of Waterloo IDEAS Clinic, applying biomedical engineering principles to assistive device innovation"
+  - "<strong>Solidworks</strong> CAD modeling and <strong>FEA</strong> simulation to ensure structural integrity and ergonomic design of the crutch"
 ---
 
 {{< my_video_embed src="https://www.youtube.com/embed/VAoYnhYymic" title="YouTube video player" >}}

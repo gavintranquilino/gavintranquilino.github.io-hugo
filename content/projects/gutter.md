@@ -3,6 +3,10 @@ title: "<strong>Roof Gutter Rain Mount</strong>"
 date: "2022-10-14"
 imageUrl: "gutter/CAD.jpg"
 subtitle: "it saves our lawn from flooding"
+bulletPoints:
+  - "Designed custom <strong>3D-printed</strong> gutter adaptor using <strong>Fusion360 CAD</strong> software to connect dual parallel downspouts to drainage tubing"
+  - "Executed precision measurement and modeling techniques using <strong>calipers</strong> for accurate fitting of complex water management geometry"
+  - "Successfully solved residential drainage problem through cost-effective additive manufacturing, preventing lawn damage from concentrated runoff"
 ---
 
 ## What's this for?

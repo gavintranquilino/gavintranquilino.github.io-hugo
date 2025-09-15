@@ -1,9 +1,12 @@
 ---
-title: "Blink Twice 👀 If You Need Help"
-date: 2024-01-14
-imageUrl: "blink-twice-if-you-need-help/closer-up.png"
-thumbnailUrl: "blink-twice-if-you-need-help/overview.png"
-subtitle: "DeltaHacks X 2024 Project"
+title: "<strong>Blink Twice</strong> If You Need Help"
+date: "2024-01-15"
+imageUrl: "blink-twice-if-you-need-help/overview.png"
+subtitle: "computer vision emergency response system"
+bulletPoints:
+  - "Designed a computer vision <strong>IoT</strong> wearable using <strong>OpenCV</strong> for real time eye tracking, triggering immediate emergency calls"
+  - "Leveraged <strong>VoIP</strong> with <strong>Python</strong> for automated emergency calls, reducing response time"
+  - "Built real-time eye blink detection system for hands-free emergency communication"
 ---
 
 # Blink Twice 👀 If You Need Help

@@ -3,6 +3,10 @@ title: "<strong>Remote-controlled</strong> LED"
 date: "2021-02-07"
 imageUrl: "arduino-led.png"
 subtitle: "RGB!!! YEAHHH!!!"
+bulletPoints:
+  - "Developed <strong>Arduino</strong>-based RGB LED control system with <strong>IR remote</strong> functionality using IRremote library and <strong>PWM</strong> output"
+  - "Implemented random color generation algorithm with <strong>button debouncing</strong> logic to prevent signal interference and ensure reliable operation"
+  - "Created <strong>embedded systems</strong> project combining hardware programming, infrared communication protocols, and <strong>analog signal processing</strong>"
 ---
 
 ## Project Demonstration

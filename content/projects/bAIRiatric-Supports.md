@@ -1,9 +1,15 @@
 ---
-title: "This is <strong>bAIRiatric Supports</strong>"
+title: "bAIRiatric Supports"
+bulletPoints:
+  - "Advanced to top 8 finalists among 50+ teams in healthcare innovation challenge through clinical interviews and <strong>prototype validation</strong>"
 date: "2025-02-10"
 imageUrl: "bAIRiatric-Supports/team-photo.jpg"
 thumbnailUrl: "bAIRiatric-Supports/deflated-inflated.jpg"
 subtitle: "Inflatable positioning aids for patients"
+bulletPoints:
+  - "Developed <strong>IoT</strong>-enabled inflatable positioning aids to reduce pressure injuries for bariatric patients, using <strong>Arduino</strong> and <strong>WiFi</strong> connectivity"
+  - "Created comprehensive healthcare solution including mobile web app with <strong>Flask</strong> backend and <strong>SQLite</strong> database for nurse-controlled patient management"
+  - "Advanced to top 8 finalists among 50+ teams in healthcare innovation challenge through clinical interviews and prototype validation"
 ---
 
 ## Current Prototype

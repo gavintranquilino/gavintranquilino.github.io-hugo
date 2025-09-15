@@ -3,6 +3,10 @@ title: "C++ shitpost vid"
 date: 2024-04-01
 imageUrl: "trying-cpp/double-bicep-based.png"
 subtitle: "i actually tried editing for once"
+bulletPoints:
+  - "Explored <strong>C++</strong> programming concepts through creative video storytelling, combining technical education with entertainment for broader audience engagement"
+  - "Produced educational programming content using <strong>Adobe Premiere Pro</strong> with advanced editing techniques and motion graphics for <strong>YouTube</strong> platform"
+  - "Analyzed content creation workflows and digital media production processes"
 ---
 
 # C++ shitpost vid

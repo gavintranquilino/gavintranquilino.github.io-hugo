@@ -3,6 +3,10 @@ title: "FlexiTrack: <strong>Health Tech <br> Innovation Challenge</strong>"
 date: "2025-02-05"
 imageUrl: "flexitrack/square.jpg"
 subtitle: "get your patients moving"
+bulletPoints:
+  - "Awarded 'Grand River Hospital's Most Innovative Project' for <strong>AI</strong>-powered patient mobility system using <strong>computer vision</strong> and gamification"
+  - "Developed cross-platform healthcare application with <strong>SwiftUI</strong> frontend, <strong>Flask</strong> backend, and <strong>MediaPipe</strong> pose detection for real-time movement tracking"
+  - "Designed adjustable <strong>3D-printed</strong> camera mount system in <strong>SolidWorks</strong> to accommodate diverse patient mobility levels and prevent hospital delirium"
 ---
 
 # FlexiTrack: Combating Hospital Delirium

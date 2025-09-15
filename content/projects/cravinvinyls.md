@@ -3,6 +3,10 @@ title: "My Sticker/Clothing Store <strong>Cravin' Vinyls</strong>"
 date: "2021-05-15"
 imageUrl: "cravinvinyls.png"
 subtitle: "bring your pictures to light!"
+bulletPoints:
+  - "Launched a dynamic multi-platform <strong>e-commerce</strong> retail venture, specializing in <strong>sticker decals</strong>, and clothing, driving revenue growth through strategic marketing"
+  - "Elevated brand visibility through <strong>social media marketing</strong>, leveraging platforms such as <strong>Instagram</strong>, resulting in a 30% increase in online sales and a 20% growth in follower base within 3 months"
+  - "Optimized <strong>financing</strong>, budgeting, and <strong>pricing strategies</strong> to achieve an 80% sales increase"
 ---
 
 ## Cravin' Vinyls?

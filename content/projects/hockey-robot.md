@@ -3,6 +3,10 @@ title: "Skills Ontario 2023 <strong>Hockey Robot</strong>"
 date: "2023-07-22"
 imageUrl: "hockey-robot.png"
 subtitle: "we didn't use a robot kit"
+bulletPoints:
+  - "Developed embedded <strong>C/C++</strong> <strong>Arduino</strong> program to drive <strong>3-phase motors</strong> and <strong>bluetooth</strong> controls"
+  - "Designed custom <strong>protoboard assembly</strong> using <strong>TH soldering</strong>, saving 30% chassis space"
+  - "Directed efficient recovery efforts as a collaborative leader, swiftly restoring the robot's functionality post failure, meeting strict deadlines"
 ---
 
 ## Skills Ontario Robotics Competition 2023

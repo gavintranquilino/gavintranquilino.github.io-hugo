@@ -3,6 +3,10 @@ title: "<strong>Automated</strong> Lamp"
 date: "2021-11-15"
 imageUrl: "lamp-bot.png"
 subtitle: "laziness 100"
+bulletPoints:
+  - "Simple <strong>LED lamp</strong> with automation capabilities"
+  - "<strong>Breadboard</strong> prototype transitioned to <strong>perfboard</strong> design"
+  - "<strong>Arduino</strong>-based control system for smart lighting"
 ---
 
 ## Overview

@@ -41,28 +41,66 @@
     {{/* Work section, pulling projects from content/projects/ */}}
     {{ with .Params.workSection }}
     <section class="my-work" id="work">
-        <h2 class="section__title section__title--work">{{ .title }}</h2>
-        {{ with .subtitle }}<p class="section__subtitle section__subtitle--work">{{ . }}</p>{{ end }}
+        <div class="work-header">
+            <h2 class="section__title section__title--work">{{ .title }}</h2>
+            {{ with .subtitle }}<p class="section__subtitle section__subtitle--work">{{ . }}</p>{{ end }}
+            
+            {{/* Toggle buttons for switching between three views */}}
+            <div class="view-toggle-buttons">
+                <button id="defaultViewBtn" class="toggle-btn active">Default View</button>
+                <button id="collageViewBtn" class="toggle-btn">Collage View</button>
+                <button id="technicalViewBtn" class="toggle-btn">Technical View</button>
+            </div>
+        </div>
         
-        <div class="portfolio">
+        {{/* Technical view header message - hidden by default */}}
+        <div class="technical-view-header" style="display: none;">
+            <h1 class="technical-header-message">PLEASE CLICK ON THE IMAGES TO LEARN MORE</h1>
+        </div>
+        
+        <div class="portfolio" id="portfolioContainer">
+            {{/* Technical view header - hidden by default */}}
+            <div class="technical-view-header" style="display: none;">
+                <h1>Please click on the images to learn more</h1>
+            </div>
+
             {{ $pages := where $.Site.RegularPages "Type" "projects" }}
             {{ range $project := $pages.ByWeight }}
 
-                <a href="{{ $project.RelPermalink }}" class="portfolio__item">
-                    {{ $thumbnailSrc := "" }}
-                    {{ if $project.Params.thumbnailUrl }}
-                        {{ $thumbnailSrc = $project.Params.thumbnailUrl }}
-                    {{ else if $project.Params.imageUrl }}
-                        {{ $thumbnailSrc = $project.Params.imageUrl }}
-                    {{ end }}
+                <div class="portfolio__item-wrapper">
+                    <a href="{{ $project.RelPermalink }}" class="portfolio__item">
+                        {{ $thumbnailSrc := "" }}
+                        {{ if $project.Params.thumbnailUrl }}
+                            {{ $thumbnailSrc = $project.Params.thumbnailUrl }}
+                        {{ else if $project.Params.imageUrl }}
+                            {{ $thumbnailSrc = $project.Params.imageUrl }}
+                        {{ end }}
+                        
+                        {{ if $thumbnailSrc }}
+                            {{ $imgParams := dict "src" $thumbnailSrc "size" "200x" "quality" "q100" "alt" (printf "%s project preview" $project.Title) "class" "portfolio__img" }}
+                            {{ partial "shortcodes/img.html" $imgParams }}
+                        {{ else }}
+                            <p>No preview available for {{ $project.Title }}</p>
+                        {{ end }}
+                    </a>
                     
-                    {{ if $thumbnailSrc }}
-                        {{ $imgParams := dict "src" $thumbnailSrc "size" "200x" "quality" "q100" "alt" (printf "%s project preview" $project.Title) "class" "portfolio__img" }}
-                        {{ partial "shortcodes/img.html" $imgParams }}
-                    {{ else }}
-                        <p>No preview available for {{ $project.Title }}</p>
-                    {{ end }}
-                </a>
+                    {{/* Default view content - title only */}}
+                    <div class="default-view-content">
+                        <h3 class="project-title">{{ $project.Title | safeHTML }}</h3>
+                    </div>
+                    
+                    {{/* Technical view content - title + bullet points */}}
+                    <div class="technical-view-content" style="display: none;">
+                        <h3 class="project-title">{{ $project.Title | safeHTML }}</h3>
+                        {{ if $project.Params.bulletPoints }}
+                        <ul class="project-bullets">
+                            {{ range $project.Params.bulletPoints }}
+                            <li>{{ . | safeHTML }}</li>
+                            {{ end }}
+                        </ul>
+                        {{ end }}
+                    </div>
+                </div>
             {{ end }}
         </div>
     </section>

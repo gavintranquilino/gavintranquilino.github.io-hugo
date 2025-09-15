@@ -3,6 +3,10 @@ title: "<strong>GuhBot</strong> Discord Bot"
 date: "2020-01-01"
 imageUrl: "discord-bot.png"
 subtitle: "Verified Discord bot"
+bulletPoints:
+  - "Developed a verified <strong>Discord bot</strong> using <strong>Python</strong> and <strong>Discord.py</strong>, serving multiple servers with 24/7 uptime and automated hosting"
+  - "Implemented <strong>AI chatbot</strong> functionality, meme generation, moderation tools, and COVID-19 statistics <strong>API</strong> integration"
+  - "Designed user-friendly interface with minimal setup requirements, enabling seamless server integration for beginners"
 ---
 
 ## Overview

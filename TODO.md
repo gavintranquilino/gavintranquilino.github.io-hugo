@@ -46,9 +46,9 @@
 - Twitter integration to listen to my tweets and repost them to my own blog
     - blog.gavintranquilino.com
 - Optional priority for the project order
-- List view for brief project description
+- ~~List view for brief project description~~
     - Searchable tags for projects
-- Short description for each project on top of just the images
+- ~~Short description for each project on top of just the images~~
 - robots.txt
     - sitemap for web crawlers in LLM format
     - llm.txt i believe

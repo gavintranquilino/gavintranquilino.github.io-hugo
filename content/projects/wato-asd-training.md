@@ -3,6 +3,10 @@ title: "<strong>Autonomous</strong> LiDAR Navigation"
 date: "2024-02-20"
 imageUrl: "wato-asd-training/logo.jpg"
 subtitle: "WATonomous ASD Admission Assignment"
+bulletPoints:
+  - "Developed <strong>C++</strong> <strong>ROS2</strong> nodes to convert <strong>LiDAR data</strong> into a <strong>2D costmap</strong> for obstacle detection and perception"
+  - "Generated a <strong>world model</strong> from costmap and <strong>odometry data</strong> to represent the current environment"
+  - "Implemented <strong>A* algorithm</strong> to compute obstacle-aware paths through the mapped environment"
 ---
 
 # Video Demonstration

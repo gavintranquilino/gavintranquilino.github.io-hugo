@@ -3,6 +3,10 @@ title: "HackTheNorth 2023 <strong>Psych Tracker</strong>"
 date: "2023-09-17"
 imageUrl: "psych-tracker.png"
 subtitle: "a project over a single weekend?"
+bulletPoints:
+  - "<strong>Mental health tracking app</strong> built at Canada's largest hackathon"
+  - "Simple <strong>metric system</strong> to log and analyze daily well-being patterns"
+  - "36-hour weekend development sprint with <strong>team collaboration</strong>"
 ---
 
 ## HackTheNorth 2023

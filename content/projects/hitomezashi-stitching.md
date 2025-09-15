@@ -3,6 +3,10 @@ title: "Sashiko <br> Hitomezashi Stitching"
 date: "2020-05-23"
 imageUrl: "hitomezashi-stitching/square.jpg"
 subtitle: "High School Innovation Week"
+bulletPoints:
+  - "Developed <strong>Python</strong> random pattern generator for traditional Japanese Hitomezashi embroidery, intersecting computational thinking with cultural art forms"
+  - "Created digital tool to generate binary grid patterns for STEAM-based creative problem solving during high school innovation challenge"
+  - "Executed traditional embroidery techniques following computer-generated patterns, demonstrating algorithmic creativity in handcraft applications"
 ---
 
 ## SMHS Innovation Week

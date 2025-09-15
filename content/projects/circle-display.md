@@ -4,6 +4,10 @@ date: "2024-06-23"
 imageUrl: "circle-display/kumi.gif"
 thumbnailUrl: "circle-display/panda_square.png"
 subtitle: "work in progress"
+bulletPoints:
+  - "Developing portable <strong>IoT</strong> virtual pet device with round <strong>GC9A01 TFT display</strong> (240x240px) and <strong>ESP32</strong> microcontroller for interactive gaming"
+  - "Integrated <strong>photogrammetry</strong> 3D scanning using Polycam mobile app to create custom virtual pet models from physical stuffed animals"
+  - "Implemented embedded GIF animation playback with <strong>IMU sensor</strong> integration for motion-responsive pet interactions and <strong>rotary encoder</strong> controls"
 ---
 
 ## The Goal

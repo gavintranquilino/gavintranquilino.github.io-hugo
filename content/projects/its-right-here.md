@@ -3,6 +3,10 @@ title: "<strong>Find Me Arrow</strong> Key Holder"
 date: "2022-01-02"
 imageUrl: "its-right-here/logo.jpg"
 subtitle: "IT'S RIGHT HERE!!!"
+bulletPoints:
+  - "Reverse-engineered novelty arrow key holder from Norwegian website using <strong>Fusion360 CAD</strong> modeling and dimensional analysis"
+  - "Executed complex <strong>3D printing</strong> with support structures and post-processing techniques including acrylic paint finishing for aesthetic accuracy"
+  - "Demonstrated creative problem-solving by recreating commercial product through digital fabrication and color-matching processes"
 ---
 
 ## What is this?

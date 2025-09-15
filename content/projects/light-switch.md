@@ -1,8 +1,12 @@
 ---
-title: "Light Switch <br> Bot/Mount 💡"
-date: "2023-01-18"
+title: "IoT <strong>Light Switch</strong> Bot/Mount"
+date: "2023-03-15"
 imageUrl: "light-switch.png"
-subtitle: "because i sleep on the top bunk of my bed"
+subtitle: "remotely controllable via web interface"
+bulletPoints:
+  - "Designed a <strong>3D-printed mount</strong> with an integrated <strong>web app</strong> for remote light switch control"
+  - "Implemented an <strong>Ubuntu Linux</strong> web server, enabling remote <strong>HTTP</strong> access to room lights globally"
+  - "Innovatively enhanced safety by designing a physical light switch mount, eliminating <strong>high-voltage</strong> work"
 ---
 
 ## Overview

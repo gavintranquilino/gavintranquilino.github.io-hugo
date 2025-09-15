@@ -3,6 +3,10 @@ title: "Rapid React 2022"
 date: 2022-11-01
 imageUrl: "rapid-react.png"
 subtitle: "FIRST Robotics FRC Team 2702 Rebels"
+bulletPoints:
+  - "Collaborated to design an intake mechanism using <strong>SolidWorks</strong> for large tennis balls, contributing to our qualification for the <strong>FIRST Robotics</strong> Worlds championship"
+  - "Leveraged <strong>CNC machining</strong> to craft a wooden prototype, uncovering the opportunity to enhance chain engagement by 10% through optimized linkage placement"
+  - "Optimized tight corner performance, improving the robot's maneuverability and efficiency during competitions"
 ---
 
 # This is 2702 Rebels' **2022 Rapid React Robot**

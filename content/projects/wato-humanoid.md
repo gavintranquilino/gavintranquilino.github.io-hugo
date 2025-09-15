@@ -1,9 +1,13 @@
 ---
-title: "Dexterous Robotic <strong>Humanoid Arms</strong>"
-date: "2025-05-05"
-thumbnailUrl: "wato-humanoid/thumbs-up.jpg"
+title: "WATonomous <strong>Humanoid Robotics</strong>"
+date: "2025-05-01"
 imageUrl: "wato-humanoid/thumbs-up.gif"
-subtitle: "WATonomous x UW Reality Labs"
+thumbnailUrl: "wato-humanoid/thumbs-up.jpg"
+subtitle: "6DoF robotic arms with 20DoF anthropomorphic hands"
+bulletPoints:
+  - "Building <strong>robotic arms</strong> (6DoF) with tendon driven anthropomorphic hands (20DoF each), aiming for <strong>VR teleoperation</strong>"
+  - "Developed software interface to bridge high-level <strong>ROS2</strong> commands to low-level <strong>embedded systems</strong> over a <strong>CAN bus</strong>"
+  - "Containerized <strong>ROS2</strong> system in <strong>Docker</strong>, mounting <strong>CAN transceivers</strong> to enable communication between subsystems"
 ---
 
 ## Currently in Development

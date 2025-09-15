@@ -3,6 +3,9 @@ title: "VTuber <br> 3D Printed Fanart"
 date: "2023-07-05"
 imageUrl: "TFP3D/first-coat.jpg"
 subtitle: "lil tecca made a song about him"
+bulletPoints:
+  - "Designed and <strong>3D printed</strong> custom VTuber figurine using <strong>CAD software</strong>"
+  - "Applied multi-stage painting and finishing techniques to achieve professional-quality collectible appearance"
 ---
 
 ## Tactical Fortnight Pyramid

@@ -3,6 +3,10 @@ title: "<strong>COVID-19</strong> Screening Bypass"
 date: "2021-03-01"
 imageUrl: "covid-19.png"
 subtitle: "Not Intended for Malicious Intent"
+bulletPoints:
+  - "Developed <strong>Python</strong> automation tool using <strong>Selenium WebDriver</strong> to streamline daily COVID-19 screening form completion for educational institutions"
+  - "Implemented email automation system with <strong>SMTP</strong> integration to distribute screening confirmations to contact lists automatically"
+  - "Utilized <strong>web scraping</strong> techniques with <strong>XPath</strong> element identification for reliable form interaction and screenshot documentation"
 ---
 
 ## What does it do?
