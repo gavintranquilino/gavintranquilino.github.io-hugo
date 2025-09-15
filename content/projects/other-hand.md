@@ -16,6 +16,10 @@ bulletPoints:
 
 {{< my_video_embed src="https://www.youtube.com/embed/Gb-Lc73qD2A" title="YouTube video player" >}}
 
+## Adam edited the video
+
+{{< my_video_embed src="https://www.youtube.com/embed/xkXN1OYC4XM" title="YouTube video player" >}}
+
 {{< custom_link href="https://devpost.com/software/other-hand" text="Check out the Project Page on Devpost!" >}}
 
 {{< custom_link href="https://github.com/gavintranquilino/other-hand" text="Source Code" >}}
