@@ -14,8 +14,8 @@ bulletPoints:
 A simple LED lamp. Automated.
 
 {{< slideshow >}}
-  {{< slide src="/img/lamp-bot2.png" caption="Lamp Bot Breadboard Setup" >}}
-  {{< slide src="/img/lamp-bot.png" caption="Lamp Bot Perfboard Setup" >}}
+  {{< slide src="lamp-bot2.png" caption="Lamp Bot Breadboard Setup" >}}
+  {{< slide src="lamp-bot.png" caption="Lamp Bot Perfboard Setup" >}}
 {{< /slideshow >}}
 
 ## How Did I Do It?

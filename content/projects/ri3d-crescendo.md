@@ -22,10 +22,10 @@ Check out what we made! Really proud of this robot given the time constraints an
 I worked on the drivetrain and gearbox assembly, setting up and flashing the electronics, and 3D printing custom components.
 
 {{< slideshow >}}
-  {{< slide src="/img/ri3d-crescendo/electronics.jpg" caption="Electronics Board" >}}
-  {{< slide src="/img/ri3d-crescendo/electronics2.jpg" caption="Wiring the Electronics" >}}
-  {{< slide src="/img/ri3d-crescendo/side-view-shooter.jpg" caption="Shooter Mechanism Side View" >}}
-  {{< slide src="/img/ri3d-crescendo/side-view.jpg" caption="Full Robot Side View" >}}
+  {{< slide src="ri3d-crescendo/electronics.jpg" caption="Electronics Board" >}}
+  {{< slide src="ri3d-crescendo/electronics2.jpg" caption="Wiring the Electronics" >}}
+  {{< slide src="ri3d-crescendo/side-view-shooter.jpg" caption="Shooter Mechanism Side View" >}}
+  {{< slide src="ri3d-crescendo/side-view.jpg" caption="Full Robot Side View" >}}
 {{< /slideshow >}}
 
 Overall, I had a lot of fun over these 3 days and honestly learned a lot along the way.

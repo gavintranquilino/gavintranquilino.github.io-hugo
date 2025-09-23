@@ -20,11 +20,11 @@ We have a downspout tube to attach to the spout, but there is no good connection
 We could simply buy an adaptor to fit around 2 spouts, but I took the initiative to 3D print my own.
 
 {{< slideshow >}}
-  {{< slide src="/img/gutter/intro.jpg" caption="The design problem" >}}
-  {{< slide src="/img/gutter/problem1.jpg" caption="The downspout tube opening" >}}
-  {{< slide src="/img/gutter/problem2.jpg" caption="The roof gutter spouts connected to eachother" >}}
-  {{< slide src="/img/gutter/problem3.jpg" caption="Where my mount will fit into the downspout" >}}
-  {{< slide src="/img/gutter/problem4.jpg" caption="Where my mount will fit over the downspout" >}}
+  {{< slide src="gutter/intro.jpg" caption="The design problem" >}}
+  {{< slide src="gutter/problem1.jpg" caption="The downspout tube opening" >}}
+  {{< slide src="gutter/problem2.jpg" caption="The roof gutter spouts connected to eachother" >}}
+  {{< slide src="gutter/problem3.jpg" caption="Where my mount will fit into the downspout" >}}
+  {{< slide src="gutter/problem4.jpg" caption="Where my mount will fit over the downspout" >}}
 {{< /slideshow >}}
 
 ## Designing
@@ -46,12 +46,12 @@ It has failed once, but I unfortunately did not capture that moment.
 ### 3D Printer Pics
 
 {{< slideshow >}}
-  {{< slide src="/img/gutter/CAD.jpg" caption="CAD Model" >}}
-  {{< slide src="/img/gutter/CAD2.jpg" caption="Alternative CAD View" >}}
-  {{< slide src="/img/gutter/printing1.jpg" caption="3D Printing" >}}
-  {{< slide src="/img/gutter/printing2.jpg" caption="3D Printing" >}}
-  {{< slide src="/img/gutter/printing3.jpg" caption="3D Printing" >}}
-  {{< slide src="/img/gutter/printing4.jpg" caption="3D Printing" >}}
+  {{< slide src="gutter/CAD.jpg" caption="CAD Model" >}}
+  {{< slide src="gutter/CAD2.jpg" caption="Alternative CAD View" >}}
+  {{< slide src="gutter/printing1.jpg" caption="3D Printing" >}}
+  {{< slide src="gutter/printing2.jpg" caption="3D Printing" >}}
+  {{< slide src="gutter/printing3.jpg" caption="3D Printing" >}}
+  {{< slide src="gutter/printing4.jpg" caption="3D Printing" >}}
 {{< /slideshow >}}
 
 ## Results
@@ -63,9 +63,9 @@ I'd say it was a nice success.
 For a couple cents and multiple hours, I brought my idea to life.
 
 {{< slideshow >}}
-  {{< slide src="/img/gutter/final1.jpg" caption="Final Rain Deflection" >}}
-  {{< slide src="/img/gutter/final2.jpg" caption="Final Installation" >}}
-  {{< slide src="/img/gutter/final3.jpg" caption="Final Overview" >}}
-  {{< slide src="/img/gutter/final5.jpg" caption="Alternate Angle" >}}
-  {{< slide src="/img/gutter/final6.jpg" caption="Alternate Angle" >}}
+  {{< slide src="gutter/final1.jpg" caption="Final Rain Deflection" >}}
+  {{< slide src="gutter/final2.jpg" caption="Final Installation" >}}
+  {{< slide src="gutter/final3.jpg" caption="Final Overview" >}}
+  {{< slide src="gutter/final5.jpg" caption="Alternate Angle" >}}
+  {{< slide src="gutter/final6.jpg" caption="Alternate Angle" >}}
 {{< /slideshow >}} 

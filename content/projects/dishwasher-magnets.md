@@ -48,9 +48,9 @@ I took measurements of the countertop and the magnets I had to design the mount.
 I used SolidWorks to model each design based on vector art I found online.
 
 {{< slideshow >}}
-  {{< slide src="/img/dishwasher-magnets/notes.jpg" caption="Brainstorming" >}}
-  {{< slide src="/img/dishwasher-magnets/cad1.jpg" caption="Poop sign" >}}
-  {{< slide src="/img/dishwasher-magnets/cad2.jpg" caption="Running man sign" >}}
+  {{< slide src="dishwasher-magnets/notes.jpg" caption="Brainstorming" >}}
+  {{< slide src="dishwasher-magnets/cad1.jpg" caption="Poop sign" >}}
+  {{< slide src="dishwasher-magnets/cad2.jpg" caption="Running man sign" >}}
 {{< /slideshow >}}
 
 ## 3D Printing
@@ -70,10 +70,10 @@ I printed the mount in two parts: the countertop mount and the magnet side.
 {{< my_video_embed src="https://www.youtube.com/embed/3qNwvLPc2wo?si=yt6Usof-mdWLlaCq" title="YouTube video player" >}}
 
 {{< slideshow >}}
-  {{< slide src="/img/dishwasher-magnets/printing1.jpg" caption="3D printing 1" >}}
-  {{< slide src="/img/dishwasher-magnets/printing2.jpg" caption="3D printing 2" >}}
-  {{< slide src="/img/dishwasher-magnets/mount1.jpg" caption="Mount 1" >}}
-  {{< slide src="/img/dishwasher-magnets/mount2.jpg" caption="Mount 2" >}}
+  {{< slide src="dishwasher-magnets/printing1.jpg" caption="3D printing 1" >}}
+  {{< slide src="dishwasher-magnets/printing2.jpg" caption="3D printing 2" >}}
+  {{< slide src="dishwasher-magnets/mount1.jpg" caption="Mount 1" >}}
+  {{< slide src="dishwasher-magnets/mount2.jpg" caption="Mount 2" >}}
 {{< /slideshow >}}
 
 ## Final Product
@@ -85,11 +85,11 @@ The colors really pop, and it's hard to miss the signs when you are about to ope
 I can proudly say that I solved the problem.
 
 {{< slideshow >}}
-  {{< slide src="/img/dishwasher-magnets/magnets1.jpg" caption="Final Product 1" >}}
-  {{< slide src="/img/dishwasher-magnets/magnets2.jpg" caption="Final Product 2" >}}
-  {{< slide src="/img/dishwasher-magnets/magnets3.jpg" caption="Final Product 3" >}}
-  {{< slide src="/img/dishwasher-magnets/magnets4.jpg" caption="Final Product 4" >}}
-  {{< slide src="/img/dishwasher-magnets/magnets5.jpg" caption="Final Product 5" >}}
-  {{< slide src="/img/dishwasher-magnets/magnets6.jpg" caption="Final Product 6" >}}
-  {{< slide src="/img/dishwasher-magnets/magnets7.jpg" caption="Final Product 7" >}}
+  {{< slide src="dishwasher-magnets/magnets1.jpg" caption="Final Product 1" >}}
+  {{< slide src="dishwasher-magnets/magnets2.jpg" caption="Final Product 2" >}}
+  {{< slide src="dishwasher-magnets/magnets3.jpg" caption="Final Product 3" >}}
+  {{< slide src="dishwasher-magnets/magnets4.jpg" caption="Final Product 4" >}}
+  {{< slide src="dishwasher-magnets/magnets5.jpg" caption="Final Product 5" >}}
+  {{< slide src="dishwasher-magnets/magnets6.jpg" caption="Final Product 6" >}}
+  {{< slide src="dishwasher-magnets/magnets7.jpg" caption="Final Product 7" >}}
 {{< /slideshow >}} 

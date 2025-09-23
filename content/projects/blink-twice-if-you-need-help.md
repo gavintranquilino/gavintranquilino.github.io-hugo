@@ -48,9 +48,9 @@ Interfacing with Adam's calling functions was as simple as calling his part of t
 I really enjoyed coding this part as it was really impressive and rewarding to get it to really count double blinks.
 
 {{< slideshow >}}
-  {{< slide src="/img/blink-twice-if-you-need-help/blink-detection.jpg" caption="Me Testing Blink Detection" >}}
-  {{< slide src="/img/blink-twice-if-you-need-help/blink-detection2.jpg" caption="Adam Blinks" >}}
-  {{< slide src="/img/blink-twice-if-you-need-help/blink-detection3.jpg" caption="Adam Doesn't Blink" >}}
+  {{< slide src="blink-twice-if-you-need-help/blink-detection.jpg" caption="Me Testing Blink Detection" >}}
+  {{< slide src="blink-twice-if-you-need-help/blink-detection2.jpg" caption="Adam Blinks" >}}
+  {{< slide src="blink-twice-if-you-need-help/blink-detection3.jpg" caption="Adam Doesn't Blink" >}}
 {{< /slideshow >}}
 
 ## Hardware
@@ -74,17 +74,17 @@ If I could make this a real product, I would set a camera at the eyes instead of
 ### Some pics of the wearable
 
 {{< slideshow >}}
-  {{< slide src="/img/blink-twice-if-you-need-help/hardware1.jpg" >}}
-  {{< slide src="/img/blink-twice-if-you-need-help/hardware2.jpg" >}}
-  {{< slide src="/img/blink-twice-if-you-need-help/hardware4.jpg" >}}
-  {{< slide src="/img/blink-twice-if-you-need-help/hardware5.jpg" >}}
-  {{< slide src="/img/blink-twice-if-you-need-help/hardware6.jpg" >}}
-  {{< slide src="/img/blink-twice-if-you-need-help/hardware7.jpg" >}}
-  {{< slide src="/img/blink-twice-if-you-need-help/hardware8.jpg" >}}
-  {{< slide src="/img/blink-twice-if-you-need-help/hardware9.jpg" >}}
-  {{< slide src="/img/blink-twice-if-you-need-help/hardware10.jpg" >}}
-  {{< slide src="/img/blink-twice-if-you-need-help/hardware11.jpg" >}}
-  {{< slide src="/img/blink-twice-if-you-need-help/hardware12.jpg" >}}
+  {{< slide src="blink-twice-if-you-need-help/hardware1.jpg" >}}
+  {{< slide src="blink-twice-if-you-need-help/hardware2.jpg" >}}
+  {{< slide src="blink-twice-if-you-need-help/hardware4.jpg" >}}
+  {{< slide src="blink-twice-if-you-need-help/hardware5.jpg" >}}
+  {{< slide src="blink-twice-if-you-need-help/hardware6.jpg" >}}
+  {{< slide src="blink-twice-if-you-need-help/hardware7.jpg" >}}
+  {{< slide src="blink-twice-if-you-need-help/hardware8.jpg" >}}
+  {{< slide src="blink-twice-if-you-need-help/hardware9.jpg" >}}
+  {{< slide src="blink-twice-if-you-need-help/hardware10.jpg" >}}
+  {{< slide src="blink-twice-if-you-need-help/hardware11.jpg" >}}
+  {{< slide src="blink-twice-if-you-need-help/hardware12.jpg" >}}
 {{< /slideshow >}}
 
 ## Calling "911" (Twilio)
@@ -104,10 +104,10 @@ Adam also toured me around campus and we ended up winning a prize for completing
 They gave us previous year's swag and also $15 on Amazon lol.
 
 {{< slideshow >}}
-  {{< slide src="/img/blink-twice-if-you-need-help/scavenger3.jpg" caption="McMaster Iron Ring" >}}
-  {{< slide src="/img/blink-twice-if-you-need-help/scavenger2.jpg" caption="Adam's Dorm Building" >}}
-  {{< slide src="/img/blink-twice-if-you-need-help/amazon.jpg" caption="we technically won deltahacks" >}}
-  {{< slide src="/img/blink-twice-if-you-need-help/scavenger1.jpg" caption="Tier 3 Sub Behaviour" >}}
+  {{< slide src="blink-twice-if-you-need-help/scavenger3.jpg" caption="McMaster Iron Ring" >}}
+  {{< slide src="blink-twice-if-you-need-help/scavenger2.jpg" caption="Adam's Dorm Building" >}}
+  {{< slide src="blink-twice-if-you-need-help/amazon.jpg" caption="we technically won deltahacks" >}}
+  {{< slide src="blink-twice-if-you-need-help/scavenger1.jpg" caption="Tier 3 Sub Behaviour" >}}
 {{< /slideshow >}}
 
 ## Check it out!

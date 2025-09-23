@@ -22,10 +22,10 @@ energy. One thing I hadn't considered though is that this tactic only applies to
 Our slot cars didn't lol. I still think my car looks cool.
 
 {{< slideshow >}}
-  {{< slide src="/img/co2-car/side_view.jpg" caption="My CO2 Car" >}}
-  {{< slide src="/img/co2-car/drawing.jpg" caption="2D Drawing" >}}
-  {{< slide src="/img/co2-car/body.jpg" caption="Body" >}}
-  {{< slide src="/img/co2-car/cartridge-slot.jpg" caption="Cartridge Slot" >}}
+  {{< slide src="co2-car/side_view.jpg" caption="My CO2 Car" >}}
+  {{< slide src="co2-car/drawing.jpg" caption="2D Drawing" >}}
+  {{< slide src="co2-car/body.jpg" caption="Body" >}}
+  {{< slide src="co2-car/cartridge-slot.jpg" caption="Cartridge Slot" >}}
 {{< /slideshow >}}
 
 I remember measuring and cutting out the holes on the drill press. I then drew on the main features, then cut out the ribs of the curves and cutting out the design on the band saw. I also remember sanding the whole thing down by hand. I went crazy on this part. 

@@ -20,10 +20,10 @@ Hitomezashi stitching is a form of Japanese embroidery characterized by its simp
 ## My Design
 
 {{< slideshow >}}
-    {{< slide src="/img/hitomezashi-stitching/finished-product.jpg" caption="My Hitomezashi Design" >}}
-    {{< slide src="/img/hitomezashi-stitching/part1.jpg" caption="First Part" >}}
-    {{< slide src="/img/hitomezashi-stitching/part2.jpg" caption="Second Part" >}}
-    {{< slide src="/img/hitomezashi-stitching/part3.jpg" caption="Third Part" >}}
+    {{< slide src="hitomezashi-stitching/finished-product.jpg" caption="My Hitomezashi Design" >}}
+    {{< slide src="hitomezashi-stitching/part1.jpg" caption="First Part" >}}
+    {{< slide src="hitomezashi-stitching/part2.jpg" caption="Second Part" >}}
+    {{< slide src="hitomezashi-stitching/part3.jpg" caption="Third Part" >}}
 {{< /slideshow >}}
 
 ## Building the Pattern Generator

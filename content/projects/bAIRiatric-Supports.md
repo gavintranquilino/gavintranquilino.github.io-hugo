@@ -151,8 +151,8 @@ The prototype is a 3D-printed simplified model of the final design, allowing for
 - The **3D-printed** bed was created in **SolidWorks**, and printed on my Kingroon KP3S 3D printer.
 
 {{< slideshow >}}
-  {{< slide src="/img/bAIRiatric-Supports/physical-prototype1.jpg" caption="Front View" >}}
-  {{< slide src="/img/bAIRiatric-Supports/physical-prototype2.jpg" caption="Side View" >}}
+  {{< slide src="bAIRiatric-Supports/physical-prototype1.jpg" caption="Front View" >}}
+  {{< slide src="bAIRiatric-Supports/physical-prototype2.jpg" caption="Side View" >}}
 {{< /slideshow >}}
 
 The microservo motors are controlled by an **Arduino IoT 33 microcontroller**, which is connected wirelessly through WiFi to the host system that manages the web app that the nurses and caregivers handle.
@@ -163,8 +163,8 @@ The digital prototype consists of a web application that allows nurses and careg
 
 <!-- Slideshow of the app interface -->
 {{< slideshow >}}
-  {{< slide src="/img/bAIRiatric-Supports/mobile-interface.jpg" caption="Mobile Interface" >}}
-  {{< slide src="/img/bAIRiatric-Supports/mobile-interface2.jpg" caption="Login Page" >}}
+  {{< slide src="bAIRiatric-Supports/mobile-interface.jpg" caption="Mobile Interface" >}}
+  {{< slide src="bAIRiatric-Supports/mobile-interface2.jpg" caption="Login Page" >}}
 {{< /slideshow >}}
 
 The tech stack for the digital prototype includes:
@@ -185,14 +185,14 @@ We had so much fun presenting our project, staying up at E7 until 3 AM, and even
 
 <!-- Slideshow of final pitch pics -->
 {{< slideshow >}}
-  {{< slide src="/img/bAIRiatric-Supports/final-pitch1.jpg" >}}
-  {{< slide src="/img/bAIRiatric-Supports/final-pitch2.jpg" >}}
-  {{< slide src="/img/bAIRiatric-Supports/final-pitch3.jpg" >}} 
-  {{< slide src="/img/bAIRiatric-Supports/final-pitch4.jpg" >}}
-  {{< slide src="/img/bAIRiatric-Supports/final-pitch5.jpg" >}}
-  {{< slide src="/img/bAIRiatric-Supports/final-pitch6.jpg" >}}
-  {{< slide src="/img/bAIRiatric-Supports/final-pitch7.jpg" >}}
-  {{< slide src="/img/bAIRiatric-Supports/final-pitch8.jpg" content="Judging Panel">}}
+  {{< slide src="bAIRiatric-Supports/final-pitch1.jpg" >}}
+  {{< slide src="bAIRiatric-Supports/final-pitch2.jpg" >}}
+  {{< slide src="bAIRiatric-Supports/final-pitch3.jpg" >}} 
+  {{< slide src="bAIRiatric-Supports/final-pitch4.jpg" >}}
+  {{< slide src="bAIRiatric-Supports/final-pitch5.jpg" >}}
+  {{< slide src="bAIRiatric-Supports/final-pitch6.jpg" >}}
+  {{< slide src="bAIRiatric-Supports/final-pitch7.jpg" >}}
+  {{< slide src="bAIRiatric-Supports/final-pitch8.jpg" content="Judging Panel">}}
 {{< /slideshow >}}
 
 Could not have done it without this team:

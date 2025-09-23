@@ -28,8 +28,8 @@ After learning the basics of CAD software, I was comfortable modelling the brack
 Below is the finished bracket mount. I contemplated white vs. black filament, settling on black for contrast (Panda-themed).
 
 {{< slideshow >}}
-  {{< slide src="/img/light-switch4.png" caption="3D printed bracket" >}}
-  {{< slide src="/img/light-switch5.png" caption="3D printed bracket with servo" >}}
+  {{< slide src="light-switch4.png" caption="3D printed bracket" >}}
+  {{< slide src="light-switch5.png" caption="3D printed bracket with servo" >}}
 {{< /slideshow >}}
 
 Messing with 3D printer settings, I plan to enable ironing for smoother prints. I also intend to add modular connectors so sensors and mounts can be swapped like Legos. 

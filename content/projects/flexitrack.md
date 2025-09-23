@@ -31,9 +31,9 @@ Here's the cool part: we built a computer vision system that tracks patient move
 
 ### App Features
 {{< slideshow >}}
-  {{< slide src="/img/flexitrack/dashboard.jpg" caption="FlexiTrack Main Interface" >}}
-  {{< slide src="/img/flexitrack/mediapipe.jpg" caption="Points Tracking System" >}}
-  {{< slide src="/img/flexitrack/awards.jpg" caption="Redeeming Prizes" >}}
+  {{< slide src="flexitrack/dashboard.jpg" caption="FlexiTrack Main Interface" >}}
+  {{< slide src="flexitrack/mediapipe.jpg" caption="Points Tracking System" >}}
+  {{< slide src="flexitrack/awards.jpg" caption="Redeeming Prizes" >}}
 {{< /slideshow >}}
 
 ## How It Works
@@ -55,9 +55,9 @@ FlexiTrack is built on a robust tech stack that includes:
 - **3D Model**: <u>Solidworks</u> for designing the adjustable camera mount and the hospital beds
 
 {{< slideshow >}}
-  {{< slide src="/img/flexitrack/camera-mount.jpg" caption="Camera Mount in CAD" >}}
-  {{< slide src="/img/flexitrack/CAD.gif" caption="Full CAD Animation" >}}
-  {{< slide src="/img/flexitrack/swift-development.jpg" caption="XCode Environment" >}}
+  {{< slide src="flexitrack/camera-mount.jpg" caption="Camera Mount in CAD" >}}
+  {{< slide src="flexitrack/CAD.gif" caption="Full CAD Animation" >}}
+  {{< slide src="flexitrack/swift-development.jpg" caption="XCode Environment" >}}
 {{< /slideshow >}}
 
 ## Impact
@@ -80,9 +80,9 @@ This project was a collaborative effort with my friends from the University of W
     - Frontend Development, User Testing, Documentation
 
 {{< slideshow >}}
-  {{< slide src="/img/flexitrack/team-photo1.jpg" caption="Team Photo" >}}
-  {{< slide src="/img/flexitrack/team-photo2.jpg" caption="Awarded Most Impact" >}}
-  {{< slide src="/img/flexitrack/judging.jpg" caption="Judging POV" >}}
+  {{< slide src="flexitrack/team-photo1.jpg" caption="Team Photo" >}}
+  {{< slide src="flexitrack/team-photo2.jpg" caption="Awarded Most Impact" >}}
+  {{< slide src="flexitrack/judging.jpg" caption="Judging POV" >}}
 {{< /slideshow >}}
 
 {{< custom_link href="https://github.com/gavintranquilino/HealthInnovationChallenge" text="GitHub Repository" >}}
