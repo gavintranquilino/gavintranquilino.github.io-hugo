@@ -175,7 +175,7 @@ The tech stack for the digital prototype includes:
 ## First Pitch
 - Of the ~50 other groups participating in the innovation challenge, our team received positive feedback and moved on within the top 8 finalists.
 
-![finalist email](/img/bAIRiatric-Supports/finalists.jpg)
+{{< img src="bAIRiatric-Supports/finalists.jpg" alt="finalist email" >}}
 
 ## Final Pitch
 
@@ -197,7 +197,7 @@ We had so much fun presenting our project, staying up at E7 until 3 AM, and even
 
 Could not have done it without this team:
 
-![team photo](/img/bAIRiatric-Supports/team.jpg)
+{{< img src="bAIRiatric-Supports/team.jpg" alt="team photo" >}}
 
 - [Sima Alekberova](https://www.linkedin.com/in/sima-alekberova-823109302/), Biochemistry
 - [Astrid Stinson](https://www.linkedin.com/in/astrid-stinson/), Nanotechnology Engineering

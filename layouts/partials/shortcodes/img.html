@@ -20,7 +20,13 @@ Parameters:
 {{- $class := "" -}}
 {{- $loading := "" -}}
 
-{{- if .Get -}}
+{{/* Check if this is called from shortcode context */}}
+{{- $isShortcode := false -}}
+{{- with .Get -}}
+    {{- $isShortcode = true -}}
+{{- end -}}
+
+{{- if $isShortcode -}}
     {{/* Called as shortcode */}}
     {{- $src = .Get "src" -}}
     {{- $size = .Get "size" | default "400x" -}}

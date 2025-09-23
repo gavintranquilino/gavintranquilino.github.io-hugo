@@ -27,7 +27,7 @@ I was part of the Intake team, responsible for brainstorming, planning, modellin
 
 Much of my contribution had been in the brainstorming process of the actual build. I was able to contrubite to some measurements and modelling of the actual intake subsystem in SolidWorks. Below is a picture of the issue I resolved with the retraction of the intake system inside of the frame with the previous cylinder setup.
 
-![Rapid React Issue Resolution](/img/rapid-react3.png)
+{{< img src="rapid-react3.png" alt="Rapid React Issue Resolution" >}}
 
 I was able to learn a touch of SolidWorks, but also using revision control with TortoiseSVN. A software used to let multiple people work on the same project, creates backups, tracks all changes and history of the project, and combine and merge contributions from all the members editing the digital model of the robot.
 
@@ -39,7 +39,7 @@ At the time, the CNE had been open to the public since COVID. The Canadian Natio
 
 We were lucky enough to play some exhibition matches to display our robot to the region.
 
-![Rapid React Robot](/img/rapid-react.png)
+{{< img src="rapid-react.png" alt="Rapid React Robot" >}}
 
 This was probably the best looking robot we have created so far. I am very proud of its design and its functionality.
 

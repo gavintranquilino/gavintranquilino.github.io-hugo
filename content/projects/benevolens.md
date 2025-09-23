@@ -15,7 +15,7 @@ I participated in the Python Discord Code Jam, an annual event that provides an 
 
 In the context of the Python Discord Code Jam, this event focuses on fostering creativity, teamwork, and coding skills. It's a chance for developers to work together to create innovative and exciting projects, often with a specific focus or theme, as was the case with this year's theme of "Secret Codes" and the use of image manipulation tools. Code Jams are not only about competition but also a great opportunity for learning, collaboration, and having fun with coding.
 
-[![Our Logo](/img/benevolens2.png)](/img/benevolens2.png)
+[{{< img src="benevolens2.png" alt="Our Logo" >}}](/img/benevolens2.png)
 
 To participate in the Python Discord Code Jam, I had to complete a qualifier task. This task involved rearranging tiles in an image based on specific rules. The goal was to ensure that the provided input allowed for a valid rearrangement. I had to implement functions to check if the tile size divided the image size without remainders and if the provided ordering used each input tile exactly once. This qualifier task tested my skills in image manipulation and validation logic and was a prerequisite for participating in the Code Jam event.
 
@@ -23,7 +23,7 @@ To participate in the Python Discord Code Jam, I had to complete a qualifier tas
 
 {{< custom_link href="https://github.com/gavintranquilino/code-jam-10-qualifier" text="My Submission" >}}
 
-[![Benevolens Steganography Logo](/img/benevolens3.png)](/img/benevolens3.png)
+[{{< img src="benevolens3.png" alt="Benevolens Steganography Logo" >}}](/img/benevolens3.png)
 
 ## Our Project
 
@@ -41,8 +41,8 @@ Using a random (or generated) noise cipher image, or a seed, text is read from a
 
 ## Initial Testing
 
-[![Initial Testing 1](/img/benevolens4.png)](/img/benevolens4.png)
-[![Initial Testing 2](/img/benevolens5.png)](/img/benevolens5.png)
+[{{< img src="benevolens4.png" alt="Initial Testing 1" >}}](/img/benevolens4.png)
+[{{< img src="benevolens5.png" alt="Initial Testing 2" >}}](/img/benevolens5.png)
 
 ## Steganography (second feature)
 
@@ -50,13 +50,13 @@ Image steganography is a technique of hiding secret information or data within a
 
 Using XOR images for steganography involves taking two original images, performing a bitwise XOR operation between them to create a third image. This third image serves as a hidden container. What's intriguing is that you can XOR one of the original images with this container to reveal the other original image. XOR's reversible property makes this possible; XORing the same values twice cancels out the effect, offering a simple yet reversible way to hide and retrieve one image within another. However, it's important to note that this method is not a robust encryption technique and is mainly used for educational or basic data concealment purposes.
 
-[![XOR Images](/img/benevolens6.png)](/img/benevolens6.png)
+[{{< img src="benevolens6.png" alt="XOR Images" >}}](/img/benevolens6.png)
 
 ## Initial Testing
 
 *(clearly needed some testing but you can try it out down below!)*
 
-[![Initial XOR Test](/img/benevolens7.png)](/img/benevolens7.png)
+[{{< img src="benevolens7.png" alt="Initial XOR Test" >}}](/img/benevolens7.png)
 
 ## Try it out!
 

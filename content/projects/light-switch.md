@@ -21,7 +21,7 @@ I wanted to create a device that can manually click the rocker switch of my room
 
 The bracket I designed for the servo motor was modelled in Fusion360.
 
-[![3D model of the servo bracket](/img/light-switch6.png)](https://youtube.com/playlist?list=PL2zKq55_kXLd6ajXMeEt_8hbf1B00W04K)
+[{{< img src="light-switch6.png" alt="3D model of the servo bracket" >}}](https://youtube.com/playlist?list=PL2zKq55_kXLd6ajXMeEt_8hbf1B00W04K)
 
 After learning the basics of CAD software, I was comfortable modelling the bracket on my own with precise measurements. Alongside the 3D printer, I used digital calipers for accurate prototyping.
 

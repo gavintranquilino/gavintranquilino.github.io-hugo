@@ -15,9 +15,9 @@ bulletPoints:
 Sign in with google, import your calendars and find when you and your friends are free!
 
 {{< slideshow >}}
-  {{< slide src="/img/calendar-compare/stage_rect.jpg" caption="W Stage Pic" >}}
-  {{< slide src="/img/calendar-compare/winning_selfie.jpg" caption="Winning Selfie" >}}
-  {{< slide src="/img/calendar-compare/prizes.jpg" caption="Wacom Tablet + JBL Speaker??" >}}
+  {{< slide src="calendar-compare/stage_rect.jpg" caption="W Stage Pic" >}}
+  {{< slide src="calendar-compare/winning_selfie.jpg" caption="Winning Selfie" >}}
+  {{< slide src="calendar-compare/prizes.jpg" caption="Wacom Tablet + JBL Speaker??" >}}
 {{< /slideshow >}}
 
 ## Inspiration
@@ -31,8 +31,8 @@ That's how we came up with Calendar Compare, a website that does exactly that, w
 Calendar Compare prompts a user to sign in with Google, and then immediately imports the user's current calendars. After that, calendars are compared with other users to see when everyone is free!
 
 {{< slideshow >}}
-  {{< slide src="/img/calendar-compare/calendar1.jpg" caption="Friend #1's Calendar" >}}
-  {{< slide src="/img/calendar-compare/calendar2.jpg" caption="Friend #2's Calendar" >}}
+  {{< slide src="calendar-compare/calendar1.jpg" caption="Friend #1's Calendar" >}}
+  {{< slide src="calendar-compare/calendar2.jpg" caption="Friend #2's Calendar" >}}
 {{< /slideshow >}}
 
 ## How we built it
@@ -40,9 +40,9 @@ Calendar Compare prompts a user to sign in with Google, and then immediately imp
 The backbone of Calendar Compare is the OAuth, which allows a user to sign in to their google account and extract the items on their Google Calendar. We used a Flask Boilerplate HTML baseplate to form the basis of our website, and the entire project with Python.
 
 {{< slideshow >}}
-  {{< slide src="/img/calendar-compare/login.jpg" caption="Calendar Compare Homepage" >}}
-  {{< slide src="/img/calendar-compare/oauth_google.jpg" caption="Google OAuth Prompt" >}}
-  {{< slide src="/img/calendar-compare/final_calendar.jpg" caption="The resulting calendar when EVERYONE is free" >}}
+  {{< slide src="calendar-compare/login.jpg" caption="Calendar Compare Homepage" >}}
+  {{< slide src="calendar-compare/oauth_google.jpg" caption="Google OAuth Prompt" >}}
+  {{< slide src="calendar-compare/final_calendar.jpg" caption="The resulting calendar when EVERYONE is free" >}}
 {{< /slideshow >}}
 
 ## Our Perfect Domain

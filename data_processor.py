@@ -1,86 +1,77 @@
 #!/usr/bin/env python3
-"""
-Data processing utility for image files.
 
-USAGE:
-    python data_processor.py [directory_path]
-
-EXAMPLES:
-    # Process all images in static/img (default)
-    python data_processor.py
-    
-    # Process images in a specific folder
-    python data_processor.py static/img/bAIRiatric-Supports
-    
-    # Process images in any directory
-    python data_processor.py /path/to/your/images
-
-WHAT IT DOES:
-    - Removes EXIF metadata from images (privacy protection)
-    - Supports: .jpg, .jpeg, .png, .tiff, .tif, .bmp
-    - Processes directories recursively
-    - Preserves image quality (95% JPEG quality)
-    - Optimizes file sizes
-    - Creates clean images without location/camera data
-
-NOTE: This modifies files in-place. Consider backing up important images first.
-"""
-
+import os
+import re
 import sys
-from PIL import Image
-from pathlib import Path
 
-
-def remove_exif(image_path):
-    """
-    Remove EXIF data from an image file.
+def process_markdown_file(file_path):
+    """Process a markdown file to convert image references and add img shortcode"""
     
-    Args:
-        image_path (Path): Path to the image file
-    """
-    try:
-        with Image.open(image_path) as img:
-            # Create a new image without EXIF data
-            clean_img = Image.new(img.mode, img.size)
-            clean_img.putdata(list(img.getdata()))
-            
-            # Save back to the same location
-            if img.format == 'JPEG':
-                clean_img.save(image_path, 'JPEG', quality=95, optimize=True)
-            else:
-                clean_img.save(image_path, img.format)
-            
-            print(f"Cleaned: {image_path.name}")
-            return True
-            
-    except Exception as e:
-        print(f"Error processing {image_path.name}: {str(e)}")
-        return False
-
+    with open(file_path, 'r', encoding='utf-8') as f:
+        content = f.read()
+    
+    original_content = content
+    
+    # Pattern to match markdown image syntax: ![alt text](/img/path/to/image.ext)
+    img_pattern = r'!\[([^\]]*)\]\((/img/[^)]+)\)'
+    
+    def replace_image(match):
+        alt_text = match.group(1)
+        old_path = match.group(2)  # e.g., "/img/wato-humanoid/cover.png"
+        
+        # Remove the "/img/" prefix to get the relative path
+        # e.g., "/img/wato-humanoid/cover.png" -> "wato-humanoid/cover.png"
+        new_path = old_path.replace('/img/', '')
+        
+        # Create the shortcode with proper parameters
+        if alt_text:
+            shortcode = f'{{{{< img src="{new_path}" alt="{alt_text}" >}}}}'
+        else:
+            shortcode = f'{{{{< img src="{new_path}" >}}}}'
+        
+        return shortcode
+    
+    # Replace all image references
+    content = re.sub(img_pattern, replace_image, content)
+    
+    # Only write if content changed
+    if content != original_content:
+        with open(file_path, 'w', encoding='utf-8') as f:
+            f.write(content)
+        return True
+    return False
 
 def main():
-    """Remove EXIF data from all images in specified directory or default to static/img."""
-    # Check if a path argument was provided
-    if len(sys.argv) > 1:
-        img_dir = Path(sys.argv[1])
-    else:
-        img_dir = Path("static/img")
+    projects_dir = '/mnt/storage/Projects/hugo/content/projects'
     
-    if not img_dir.exists():
-        print(f"Directory not found: {img_dir}")
-        return
+    if not os.path.exists(projects_dir):
+        print(f"Error: Projects directory not found: {projects_dir}")
+        return 1
     
-    supported_formats = {'.jpg', '.jpeg', '.png', '.tiff', '.tif', '.bmp'}
-    processed_count = 0
-    print(f"Processing images in {img_dir} (recursively)...")
+    files_processed = 0
+    files_changed = 0
     
-    for file_path in img_dir.glob("**/*"):
-        if file_path.is_file() and file_path.suffix.lower() in supported_formats:
-            if remove_exif(file_path):
-                processed_count += 1
+    for filename in os.listdir(projects_dir):
+        if filename.endswith('.md') and filename != '.gitkeep':
+            file_path = os.path.join(projects_dir, filename)
+            print(f"Processing: {filename}")
+            
+            try:
+                changed = process_markdown_file(file_path)
+                files_processed += 1
+                if changed:
+                    files_changed += 1
+                    print(f"  ✓ Updated image references")
+                else:
+                    print(f"  - No changes needed")
+            except Exception as e:
+                print(f"  ✗ Error processing file: {e}")
     
-    print(f"\nDone! Processed {processed_count} images.")
-
+    print(f"\nSummary:")
+    print(f"Files processed: {files_processed}")
+    print(f"Files changed: {files_changed}")
+    
+    return 0
 
 if __name__ == "__main__":
-    main()
+    sys.exit(main())

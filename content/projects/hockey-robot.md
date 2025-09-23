@@ -61,7 +61,7 @@ Given that our entire team was in grade 12, busy with college and university app
 
 Upon arriving in Toronto for the competition, the robot malfunctioned due to our custom H-bridge drivers. We spent an entire night in a hotel room, soldering, hot gluing, and debugging. What was intended as a quick fix turned into a 36-hour marathon of troubleshooting.
 
-[![Hotel Room Work](/img/hockey-robot10.png)](/img/hockey-robot10.png)
+[{{< img src="hockey-robot10.png" alt="Hotel Room Work" >}}](/img/hockey-robot10.png)
 
 ## Competition and Lessons Learned
 
@@ -87,10 +87,10 @@ I led the mechanical, electrical, and software integration: designing robust cir
 
 On the last day, instead of final matches, our team explored Toronto: CN Tower, boba tea, Vietnamese cuisine, and Jackbox games. Back in the hotel, we pranked a sleeping teammate by stacking pillows, chairs, and pots, creating a hilarious spectacle.
 
-[![Hotel Prank](/img/hockey-robot14.png)](/img/hockey-robot14.png)
+[{{< img src="hockey-robot14.png" alt="Hotel Prank" >}}](/img/hockey-robot14.png)
 
 ## Custom Patches
 
 We designed custom patches featuring our robot, an orange game ball, a 15-tooth gear for May 1st (competition day), a crown symbolizing our unique approach, and blue and white for our school colors. The motto "No Kit Needed" represents our philosophy of building from scratch.
 
-[![Custom Patches](/img/hockey-robot/patches.jpg)](/img/hockey-robot/patches.jpg) 
+[{{< img src="hockey-robot/patches.jpg" alt="Custom Patches" >}}](/img/hockey-robot/patches.jpg) 

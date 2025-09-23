@@ -29,7 +29,7 @@ This worked for a while, but it did not show if the dishwasher was currently run
 
 Additionally, the sticky note eventually lost its stick and we resorted to reinforcing it with tape in order to keep our sign up.
 
-[![Sticky note on dishwasher](/img/dishwasher-magnets/note.jpg)](/img/dishwasher-magnets/note.jpg)
+[{{< img src="dishwasher-magnets/note.jpg" alt="Sticky note on dishwasher" >}}](/img/dishwasher-magnets/note.jpg)
 
 ## Designing Phase
 

@@ -1,9 +1,37 @@
-{{ $src := .Get "src" }}
-{{ $caption := .Get "caption" }}
-{{ $alt := .Get "alt" | default $caption | default "Slideshow image" }}
+{{- $src := .Get "src" -}}
+{{- $caption := .Get "caption" -}}
+{{- $alt := .Get "alt" | default $caption | default "Slideshow image" -}}
+{{- $size := .Get "size" | default "800x" -}}
+{{- $quality := .Get "quality" | default "q75" -}}
+{{- $class := .Get "class" -}}
+{{- $loading := .Get "loading" | default "lazy" -}}
+
+{{- if not $src -}}
+    {{- errorf "slide shortcode requires 'src' parameter" -}}
+{{- end -}}
+
+{{- $imageResource := false -}}
+{{- $imageUrl := printf "/img/%s" $src -}}
+
+{{/* Try to get the image from assets first */}}
+{{- with resources.Get (printf "img/%s" $src) -}}
+    {{- $imageResource = . -}}
+{{- end -}}
 
 <div class="slide-item fade">
-    <img src="{{ $src | absURL }}" alt="{{ $alt }}" loading="lazy">
+    {{- if $imageResource -}}
+        {{- if eq $imageResource.ResourceType "image" -}}
+            {{- $resizeParams := printf "%s %s" $size $quality -}}
+            {{- $image := $imageResource.Resize $resizeParams -}}
+            <img src="{{ $image.RelPermalink }}" alt="{{ $alt }}"{{ with $class }} class="{{ . }}"{{ end }} loading="{{ $loading }}">
+        {{- else -}}
+            {{/* Non-image resource (like SVG), use fallback */}}
+            <img src="{{ $imageUrl | relURL }}" alt="{{ $alt }}"{{ with $class }} class="{{ . }}"{{ end }} loading="{{ $loading }}">
+        {{- end -}}
+    {{- else -}}
+        {{/* Fallback to static folder */}}
+        <img src="{{ $imageUrl | relURL }}" alt="{{ $alt }}"{{ with $class }} class="{{ . }}"{{ end }} loading="{{ $loading }}">
+    {{- end -}}
     {{ if $caption }}
     <div class="text">{{ $caption }}</div>
     {{ end }}
