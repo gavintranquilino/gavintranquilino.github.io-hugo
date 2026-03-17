@@ -1,10 +1,10 @@
 ---
 title: "Home"
-date: "2024-01-01"
+date: "2026-03-17"
 introSection:
   title: "Hey, I'm <strong>Gavin</strong>"
   subtitle: "tinkerer / dev"
-  imageUrl: "smile.jpg"
+  imageUrl: "smile-jester.jpg"
 aboutSection:
   title: "About me"
   subtitle: "a perpetual work in progress"
