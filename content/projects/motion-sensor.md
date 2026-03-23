@@ -1,7 +1,7 @@
 ---
 title: "Motion Sensor"
 date: "2021-02-05"
-imageUrl: "arduino-motion-sensor.png"
+imageUrl: "motion-sensor/arduino-motion-sensor.png"
 subtitle: "It Can See You Move!"
 bulletPoints:
   - "Built <strong>Arduino</strong>-based motion detection system using <strong>PIR sensors</strong> for automated lighting control"

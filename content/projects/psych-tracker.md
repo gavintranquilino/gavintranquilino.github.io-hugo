@@ -1,7 +1,7 @@
 ---
 title: "HackTheNorth 2023 Psych Tracker"
 date: "2023-09-17"
-imageUrl: "psych-tracker.png"
+imageUrl: "psych-tracker/psych-tracker.png"
 subtitle: "a project over a single weekend?"
 bulletPoints:
   - "<strong>Mental health tracking app</strong> built at Canada's largest hackathon"
@@ -13,7 +13,7 @@ bulletPoints:
 
 I had an incredible experience at HackTheNorth, Canada's largest hackathon. The event at the University of Waterloo brought together 1,000 hackers from Canada and around the world. The HTN team did an amazing job, celebrating their 10th anniversary with custom stickers and unique digital tickets.
 
-{{< img src="psych-tracker2.png" alt="All the stickers I got" >}}
+{{< img src="psych-tracker/psych-tracker2.png" alt="All the stickers I got" >}}
 
 On top of trying to collect all the swag from the sponsors, I attended workshops and activities, including OpenAI, Intro to Embedded Systems, and Hacking the Brain workshops. With the help of lots of snacks, a couple cups of coffee, and maybe an energy drink or two, the 36 hours of hacking flew by. This was an experience I will never forget — meeting countless people who wanted to grow their network, build a project over a weekend, collect some swag, or a little bit of everything.
 
@@ -33,7 +33,7 @@ This device records your mood whenever you feel like checking in. There are thre
 
 Mounted on the front is a camera trained to assess mood via facial expressions, and a temperature sensor captures skin temperature during mood logging. Mood, temperature, and facial data feed into a larger algorithm, stored in MongoDB and prepared for neural network analysis. Correlating noninvasive temperature measurements with mood could offer valuable insights over time.
 
-{{< img src="psych-tracker3.png" alt="Psych Tracker Image" >}}
+{{< img src="psych-tracker/psych-tracker3.png" alt="Psych Tracker Image" >}}
 
 ## How we built it
 
@@ -49,13 +49,13 @@ Time was our biggest challenge. Integration steps sometimes took longer than ant
 
 I focused on robust electrical connections and circuitry for the buttons, integrated the temperature sensor, and helped the three-person team complete the build and machine learning integration within 36 hours.
 
-{{< img src="psych-tracker4.png" alt="Psych Tracker Image 4" >}}
+{{< img src="psych-tracker/psych-tracker4.png" alt="Psych Tracker Image 4" >}}
 
 ## Accomplishments we're proud of
 
 We delivered a functional prototype with insights for passive mental health tracking, and our teamwork, communication, and rapid prototyping under time constraints were exceptional.
 
-{{< img src="psych-tracker5.png" alt="Psych Tracker Image 5" >}}
+{{< img src="psych-tracker/psych-tracker5.png" alt="Psych Tracker Image 5" >}}
 
 ## What we learned
 

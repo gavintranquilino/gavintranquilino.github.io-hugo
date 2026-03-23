@@ -1,7 +1,7 @@
 ---
 title: "Skills Ontario 2023 Hockey Robot"
 date: "2023-07-22"
-imageUrl: "hockey-robot.png"
+imageUrl: "hockey-robot/hockey-robot.png"
 subtitle: "we didn't use a robot kit"
 bulletPoints:
   - "Developed embedded <strong>C/C++</strong> <strong>Arduino</strong> program to drive <strong>3-phase motors</strong> and <strong>bluetooth</strong> controls"
@@ -28,9 +28,9 @@ Rather than relying on VEX robotics kits, we decided to construct every componen
 We undertook the intricate task of understanding each electronic component and how they intricately interacted. Our responsibilities extended to coding each module from the ground up. But it didn't stop there. We took on the monumental challenge of drawing the circuit diagram entirely by hand. This comprehensive hands-on approach was the most immersive engineering experience we could have ever hoped for.
 
 {{< slideshow >}}
-  {{< slide src="hockey-robot1.png" caption="Circuit Diagram" >}}
-  {{< slide src="hockey-robot2.png" caption="Robot Chassis" >}}
-  {{< slide src="hockey-robot3.png" caption="Chassis View" >}}
+  {{< slide src="hockey-robot/hockey-robot1.png" caption="Circuit Diagram" >}}
+  {{< slide src="hockey-robot/hockey-robot2.png" caption="Robot Chassis" >}}
+  {{< slide src="hockey-robot/hockey-robot3.png" caption="Chassis View" >}}
 {{< /slideshow >}}
 
 ## Electronics Components
@@ -40,9 +40,9 @@ We undertook the intricate task of understanding each electronic component and h
 Our setup used a Bluetooth PS2 controller interface, custom Arduino code, and three-phase motor drivers. We integrated:
 
 {{< slideshow >}}
-  {{< slide src="hockey-robot4.png" caption="Bluetooth Module" >}}
-  {{< slide src="hockey-robot5.png" caption="Motor Drivers" >}}
-  {{< slide src="hockey-robot6.png" caption="Fuses and Wiring" >}}
+  {{< slide src="hockey-robot/hockey-robot4.png" caption="Bluetooth Module" >}}
+  {{< slide src="hockey-robot/hockey-robot5.png" caption="Motor Drivers" >}}
+  {{< slide src="hockey-robot/hockey-robot6.png" caption="Fuses and Wiring" >}}
 {{< /slideshow >}}
 
 ## Facing Challenges and Time Constraints
@@ -50,9 +50,9 @@ Our setup used a Bluetooth PS2 controller interface, custom Arduino code, and th
 Given that our entire team was in grade 12, busy with college and university applications, we had limited time for the project. We dedicated an hour or two after school, once or twice a week. However, as the deadline loomed closer, we had to be excused from classes for an entire day to make progress. Integrating various components into a functional robot was one of our most significant challenges.
 
 {{< slideshow >}}
-  {{< slide src="hockey-robot7.png" caption="Classroom Testing 1" >}}
-  {{< slide src="hockey-robot8.png" caption="Classroom Testing 2" >}}
-  {{< slide src="hockey-robot9.png" caption="Classroom Testing 3" >}}
+  {{< slide src="hockey-robot/hockey-robot7.png" caption="Classroom Testing 1" >}}
+  {{< slide src="hockey-robot/hockey-robot8.png" caption="Classroom Testing 2" >}}
+  {{< slide src="hockey-robot/hockey-robot9.png" caption="Classroom Testing 3" >}}
 {{< /slideshow >}}
 
 {{< my_video_embed src="https://www.youtube.com/embed/eBTe77-QnMk?si=ciLPQE9eU_wpCTAD" title="YouTube video player" >}}
@@ -61,7 +61,7 @@ Given that our entire team was in grade 12, busy with college and university app
 
 Upon arriving in Toronto for the competition, the robot malfunctioned due to our custom H-bridge drivers. We spent an entire night in a hotel room, soldering, hot gluing, and debugging. What was intended as a quick fix turned into a 36-hour marathon of troubleshooting.
 
-{{< img src="hockey-robot10.png" alt="Hotel Room Work" >}}
+{{< img src="hockey-robot/hockey-robot10.png" alt="Hotel Room Work" >}}
 
 ## Competition and Lessons Learned
 
@@ -78,16 +78,16 @@ Despite using non-standard components and hastily assembling the robot, we chall
 I led the mechanical, electrical, and software integration: designing robust circuits, integrating three-phase motors, and writing the control code under tight deadlines.
 
 {{< slideshow >}}
-  {{< slide src="hockey-robot11.png" caption="Soldering and Assembly" >}}
-  {{< slide src="hockey-robot12.png" caption="Testing Connections" >}}
-  {{< slide src="hockey-robot13.png" caption="Final Adjustments" >}}
+  {{< slide src="hockey-robot/hockey-robot11.png" caption="Soldering and Assembly" >}}
+  {{< slide src="hockey-robot/hockey-robot12.png" caption="Testing Connections" >}}
+  {{< slide src="hockey-robot/hockey-robot13.png" caption="Final Adjustments" >}}
 {{< /slideshow >}}
 
 ## Exploring Toronto and Unplanned Adventures
 
 On the last day, instead of final matches, our team explored Toronto: CN Tower, boba tea, Vietnamese cuisine, and Jackbox games. Back in the hotel, we pranked a sleeping teammate by stacking pillows, chairs, and pots, creating a hilarious spectacle.
 
-{{< img src="hockey-robot14.png" alt="Hotel Prank" >}}
+{{< img src="hockey-robot/hockey-robot14.png" alt="Hotel Prank" >}}
 
 ## Custom Patches
 

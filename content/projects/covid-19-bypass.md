@@ -1,7 +1,7 @@
 ---
 title: "COVID-19 Screening Bypass"
 date: "2021-03-01"
-imageUrl: "covid-19.png"
+imageUrl: "covid-19-bypass/covid-19.png"
 subtitle: "Not Intended for Malicious Intent"
 bulletPoints:
   - "Developed <strong>Python</strong> automation tool using <strong>Selenium WebDriver</strong> to streamline daily COVID-19 screening form completion for educational institutions"

@@ -1,7 +1,7 @@
 ---
 title: "Quadratics Solver"
 date: "2021-07-01"
-imageUrl: "quadratic.png"
+imageUrl: "quadratics/quadratic.png"
 subtitle: "I May Have Used This For My Homework :)"
 bulletPoints:
   - "Developed comprehensive quadratic equation solver using <strong>Python</strong> with <strong>matplotlib</strong> visualization for standard and vertex form conversions"

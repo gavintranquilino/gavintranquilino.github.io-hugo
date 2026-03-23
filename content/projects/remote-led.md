@@ -1,7 +1,7 @@
 ---
 title: "Remote-controlled LED"
 date: "2021-02-07"
-imageUrl: "arduino-led.png"
+imageUrl: "remote-led/arduino-led.png"
 subtitle: "RGB!!! YEAHHH!!!"
 bulletPoints:
   - "Developed <strong>Arduino</strong>-based RGB LED control system with <strong>IR remote</strong> functionality using IRremote library and <strong>PWM</strong> output"

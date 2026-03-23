@@ -1,7 +1,7 @@
 ---
 title: "GuhBot Discord Bot"
 date: "2020-01-01"
-imageUrl: "discord-bot.png"
+imageUrl: "guhbot/discord-bot.png"
 subtitle: "Verified Discord bot"
 bulletPoints:
   - "Developed a verified <strong>Discord bot</strong> using <strong>Python</strong> and <strong>Discord.py</strong>, serving multiple servers with 24/7 uptime and automated hosting"

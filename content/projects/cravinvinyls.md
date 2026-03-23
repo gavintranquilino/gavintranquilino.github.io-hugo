@@ -1,7 +1,7 @@
 ---
 title: "My Sticker/Clothing Store Cravin' Vinyls"
 date: "2021-05-15"
-imageUrl: "cravinvinyls.png"
+imageUrl: "cravinvinyls/cravinvinyls.png"
 subtitle: "bring your pictures to light!"
 bulletPoints:
   - "Launched a dynamic multi-platform <strong>e-commerce</strong> retail venture, specializing in <strong>sticker decals</strong>, and clothing, driving revenue growth through strategic marketing"
@@ -27,13 +27,13 @@ I embarked on this journey by tinkering with a cutting machine designed for cake
 
 My initial experimentation with paper soon transitioned into using stickers, which I applied to night lights. While I tried various night light designs, I eventually settled on a clear acrylic square that worked perfectly with vinyl stickers.
 
-[{{< img src="cravinvinyls2.png" alt="Night Light with Vinyl Sticker" >}}](https://cravinvinyls.etsy.com/)
+[{{< img src="cravinvinyls/cravinvinyls2.png" alt="Night Light with Vinyl Sticker" >}}](https://cravinvinyls.etsy.com/)
 
 ## Growing the Business
 
 I initiated my venture by sharing my designs with friends and family, gradually expanding my customer base. As interest grew, I decided to set up an Etsy store. Positive reviews and increased recognition from customers across Canada motivated me to deal with logistics, handle a growing number of orders, and offer customization.
 
-[{{< img src="cravinvinyls3.png" alt="Cravin' Vinyls Shop" >}}](https://cravinvinyls.etsy.com/)
+[{{< img src="cravinvinyls/cravinvinyls3.png" alt="Cravin' Vinyls Shop" >}}](https://cravinvinyls.etsy.com/)
 
 ## Venturing into Clothing Design
 
@@ -65,7 +65,7 @@ My exploration didn't stop at night lights and stickers. I delved into clothing 
 
 I've streamlined my operations, enabling customers to easily order shirts from my Etsy page. Automation allows them to choose from designs I've already created. While I continue to craft vinyl sticker lights to order, it's truly rewarding to receive feedback and reviews from satisfied customers.
 
-[{{< img src="cravinvinyls4.png" alt="Cravin' Vinyls Clothing" >}}](https://cravinvinyls.etsy.com/)
+[{{< img src="cravinvinyls/cravinvinyls4.png" alt="Cravin' Vinyls Clothing" >}}](https://cravinvinyls.etsy.com/)
 
 ## Reflection
 

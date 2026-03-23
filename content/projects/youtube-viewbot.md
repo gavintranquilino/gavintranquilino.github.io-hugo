@@ -1,7 +1,7 @@
 ---
 title: "YouTube Viewbot"
 date: "2021-01-09"
-imageUrl: "youtube-py.png"
+imageUrl: "youtube-viewbot/youtube-py.png"
 subtitle: "Free Views?"
 bulletPoints:
   - "Developed automated YouTube view generation system using <strong>Python Selenium</strong> for <strong>web browser automation</strong>"

@@ -1,7 +1,7 @@
 ---
 title: "Automated Lamp"
 date: "2021-11-15"
-imageUrl: "lamp-bot.png"
+imageUrl: "lamp-bot/lamp-bot.png"
 subtitle: "laziness 100"
 bulletPoints:
   - "Simple <strong>LED lamp</strong> with automation capabilities"
@@ -14,8 +14,8 @@ bulletPoints:
 A simple LED lamp. Automated.
 
 {{< slideshow >}}
-  {{< slide src="lamp-bot2.png" caption="Lamp Bot Breadboard Setup" >}}
-  {{< slide src="lamp-bot.png" caption="Lamp Bot Perfboard Setup" >}}
+  {{< slide src="lamp-bot/lamp-bot2.png" caption="Lamp Bot Breadboard Setup" >}}
+  {{< slide src="lamp-bot/lamp-bot.png" caption="Lamp Bot Perfboard Setup" >}}
 {{< /slideshow >}}
 
 ## How Did I Do It?
