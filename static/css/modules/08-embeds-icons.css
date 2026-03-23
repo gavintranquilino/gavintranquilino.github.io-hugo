@@ -44,6 +44,21 @@ body.dark-theme .google-photos-note {
     color: var(--clr-primary);
 }
 
+.google-photos-album-custom__image {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 15px;
+}
+
+.google-photos-album-custom__actions {
+    text-align: center;
+    margin-top: 15px;
+}
+
+.shortcode-error {
+    color: red;
+}
+
 /* Tech Stack Icons Styling */
 .tech-stack-icon {
     font-size: var(--fs-body) !important; /* Use same font size as body text, force override */

@@ -217,3 +217,19 @@ body.dark-theme .about-me--btn.google-album-button:hover {
     opacity: 0.75;
 }
 
+/* Shared list template pages (section/taxonomy) */
+.list-page {
+    padding: 20px;
+}
+
+.list-page .item-list {
+    list-style: none;
+    padding: 0;
+}
+
+.list-page .item-list__entry {
+    margin-bottom: 20px;
+    border-bottom: 1px solid #eee;
+    padding-bottom: 10px;
+}
+

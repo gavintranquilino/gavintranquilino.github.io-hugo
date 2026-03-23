@@ -54,13 +54,13 @@
         </div>
         
         {{/* Technical view header message - hidden by default */}}
-        <div class="technical-view-header" style="display: none;">
+        <div class="technical-view-header is-hidden">
             <h1 class="technical-header-message">PLEASE CLICK ON THE IMAGES TO LEARN MORE</h1>
         </div>
         
         <div class="portfolio" id="portfolioContainer">
             {{/* Technical view header - hidden by default */}}
-            <div class="technical-view-header" style="display: none;">
+            <div class="technical-view-header is-hidden">
                 <h1>Please click on the images to learn more</h1>
             </div>
 
@@ -90,7 +90,7 @@
                     </div>
                     
                     {{/* Technical view content - title + bullet points */}}
-                    <div class="technical-view-content" style="display: none;">
+                    <div class="technical-view-content is-hidden">
                         <h3 class="project-title">{{ $project.Title | safeHTML }}</h3>
                         {{ if $project.Params.bulletPoints }}
                         <ul class="project-bullets">

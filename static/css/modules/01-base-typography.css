@@ -125,3 +125,7 @@ h3 { font-size: var(--fs-h3); }
     height: 0 !important;
 }
 
+.is-hidden {
+    display: none;
+}
+

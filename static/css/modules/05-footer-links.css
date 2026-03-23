@@ -102,3 +102,23 @@
     text-decoration: underline;
 }
 
+.webring-nav {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 2em;
+}
+
+.webring-nav__arrow {
+    color: var(--clr-accent);
+    font-size: 1.25rem;
+    line-height: 1;
+    font-weight: var(--fw-bold);
+}
+
+.webring-nav__logo {
+    width: 50px;
+    height: auto;
+}
+

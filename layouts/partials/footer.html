@@ -44,15 +44,15 @@
             </a>
         </li>
     </ul>
-    <div style="display:flex;align-items:center;justify-content:center;gap:10px;margin-top:2em;">
+    <div class="webring-nav">
             <a href="https://tronring.com/#{{ $tronSite }}?nav=prev" aria-label="Previous site">
-                <span style="color:var(--clr-accent);font-size:1.25rem;line-height:1;font-weight:var(--fw-bold);">&lt;</span>
+                <span class="webring-nav__arrow">&lt;</span>
             </a>
             <a href="https://tronring.com/#{{ $tronSite }}" target="_blank" rel="noopener noreferrer" aria-label="Tron Webring">
-                    <img src="https://tronring.com/logowhitetransp.png" alt="Tron Webring" style="width:50px;height:auto;" />
+                    <img src="https://tronring.com/logowhitetransp.png" alt="Tron Webring" class="webring-nav__logo" />
             </a>
             <a href="https://tronring.com/#{{ $tronSite }}?nav=next" aria-label="Next site">
-                <span style="color:var(--clr-accent);font-size:1.25rem;line-height:1;font-weight:var(--fw-bold);">&gt;</span>
+                <span class="webring-nav__arrow">&gt;</span>
             </a>
     </div>
 </footer> 

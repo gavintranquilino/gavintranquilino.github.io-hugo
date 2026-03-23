@@ -15,8 +15,8 @@
   {{ errorf "google_photos_album shortcode: could not resolve image '%s'" $imagePath }}
 {{ end }}
 <div class="google-photos-album-custom">
-  <img src="{{ $resource.RelPermalink }}" alt="{{ $altText }}" style="max-width: 100%; height: auto; margin-bottom: 15px;">
-  <div style="text-align: center; margin-top: 15px;">
+  <img src="{{ $resource.RelPermalink }}" alt="{{ $altText }}" class="google-photos-album-custom__image">
+  <div class="google-photos-album-custom__actions">
     <a href="{{ $albumURL }}" target="_blank" rel="noopener noreferrer" class="about-me--btn google-album-button">
       {{ $buttonText }}
     </a>
@@ -24,9 +24,9 @@
 </div>
 {{ else }}
   {{ if not $imagePath }}
-  <p style="color: red;">Error: 'image_path' parameter missing in google_photos_album shortcode.</p>
+  <p class="shortcode-error">Error: 'image_path' parameter missing in google_photos_album shortcode.</p>
   {{ end }}
   {{ if not $albumURL }}
-  <p style="color: red;">Error: 'album_url' parameter missing in google_photos_album shortcode.</p>
+  <p class="shortcode-error">Error: 'album_url' parameter missing in google_photos_album shortcode.</p>
   {{ end }}
 {{ end }} 

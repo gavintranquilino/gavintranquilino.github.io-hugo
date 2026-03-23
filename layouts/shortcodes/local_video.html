@@ -12,7 +12,7 @@
   {{- errorf "local_video shortcode: could not resolve asset '%s' at '%s'" $src $resourcePath -}}
 {{- end -}}
 
-<video controls style="width: 100%;">
+<video controls class="local-video">
   <source src="{{ $resource.RelPermalink }}" type="{{ $videoType }}">
   Your browser does not support the video tag.
 </video>
