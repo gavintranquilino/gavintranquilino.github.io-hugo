@@ -1,5 +1,5 @@
 ---
-title: "IoT <strong>Light Switch</strong> Bot/Mount"
+title: "IoT Light Switch Bot/Mount"
 date: "2023-03-15"
 imageUrl: "light-switch.png"
 subtitle: "remotely controllable via web interface"

@@ -1,5 +1,5 @@
 ---
-title: "<strong>Automated</strong> Lamp"
+title: "Automated Lamp"
 date: "2021-11-15"
 imageUrl: "lamp-bot.png"
 subtitle: "laziness 100"

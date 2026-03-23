@@ -3,6 +3,7 @@
 import os
 import re
 import sys
+from pathlib import Path
 
 def process_markdown_file(file_path):
     """Process a markdown file to convert image references and add img shortcode"""
@@ -42,9 +43,10 @@ def process_markdown_file(file_path):
     return False
 
 def main():
-    projects_dir = '/mnt/storage/Projects/hugo/content/projects'
+    default_projects_dir = Path(__file__).resolve().parent / 'content' / 'projects'
+    projects_dir = Path(sys.argv[1]).resolve() if len(sys.argv) > 1 else default_projects_dir
     
-    if not os.path.exists(projects_dir):
+    if not projects_dir.exists():
         print(f"Error: Projects directory not found: {projects_dir}")
         return 1
     
@@ -53,7 +55,7 @@ def main():
     
     for filename in os.listdir(projects_dir):
         if filename.endswith('.md') and filename != '.gitkeep':
-            file_path = os.path.join(projects_dir, filename)
+            file_path = os.path.join(str(projects_dir), filename)
             print(f"Processing: {filename}")
             
             try:

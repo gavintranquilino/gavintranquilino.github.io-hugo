@@ -1,5 +1,5 @@
 ---
-title: "<strong>Autonomous</strong> LiDAR Navigation"
+title: "Autonomous LiDAR Navigation"
 date: "2024-02-20"
 imageUrl: "wato-asd-training/logo.jpg"
 subtitle: "WATonomous ASD Admission Assignment"

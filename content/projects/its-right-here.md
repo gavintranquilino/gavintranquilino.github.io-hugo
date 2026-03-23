@@ -1,5 +1,5 @@
 ---
-title: "<strong>Find Me Arrow</strong> Key Holder"
+title: "Find Me Arrow Key Holder"
 date: "2022-01-02"
 imageUrl: "its-right-here/logo.jpg"
 subtitle: "IT'S RIGHT HERE!!!"

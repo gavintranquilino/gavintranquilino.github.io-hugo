@@ -1,5 +1,5 @@
 ---
-title: "<strong>Instrumented </strong> Knee Crutch"
+title: "Instrumented Knee Crutch"
 subtitle: "Undergrad Research Assistant @ UW"
 imageUrl: "ideas-clinic/crutch.jpg"
 date: "2024-12-20"

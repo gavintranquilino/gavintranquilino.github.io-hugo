@@ -1,5 +1,5 @@
 ---
-title: "This is my <br> Wooden <strong>CO2 Car</strong>"
+title: "This is my Wooden CO2 Car"
 date: "2020-01-22"
 imageUrl: "co2-car/square.jpg"
 subtitle: "Mr. Renda didn't fw me"

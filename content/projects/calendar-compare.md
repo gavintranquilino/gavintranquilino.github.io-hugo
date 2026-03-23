@@ -1,6 +1,6 @@
 ---
 title: "Calendar Compare 📅"
-date: 2024-05-18
+date: "2024-05-18"
 imageUrl: "calendar-compare/logo.jpg"
 thumbnailUrl: "calendar-compare/stage_square.jpg"
 subtitle: "HawkHacks 2024 Winner"

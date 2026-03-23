@@ -1,5 +1,5 @@
 ---
-title: "Dishwasher <br> Magnets 🧼🍽️"
+title: "Dishwasher Magnets 🧼🍽️"
 date: "2024-07-22"
 imageUrl: "dishwasher-magnets/magnets7.jpg"
 subtitle: "are the dishes clean or dirty?"

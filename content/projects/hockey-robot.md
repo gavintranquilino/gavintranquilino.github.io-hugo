@@ -1,5 +1,5 @@
 ---
-title: "Skills Ontario 2023 <strong>Hockey Robot</strong>"
+title: "Skills Ontario 2023 Hockey Robot"
 date: "2023-07-22"
 imageUrl: "hockey-robot.png"
 subtitle: "we didn't use a robot kit"

@@ -1,5 +1,5 @@
 ---
-title: "<strong>Self-Balancing</strong> Unicycle"
+title: "Self-Balancing Unicycle"
 date: "2024-12-01"
 imageUrl: "self-balancing-unicycle/fast-square.gif"
 thumbnailUrl: "self-balancing-unicycle/logo.jpg"

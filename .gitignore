@@ -1,2 +1,6 @@
-# Hugo generated resources
-resources/_gen/
+# Hugo generated artifacts (source-only repo)
+public/
+resources/
+
+# Local Hugo lock
+.hugo_build.lock

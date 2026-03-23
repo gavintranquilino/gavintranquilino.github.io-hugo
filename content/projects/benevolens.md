@@ -1,5 +1,5 @@
 ---
-title: "Python Code Jam 2023 <strong>Benevolens</strong>"
+title: "Python Code Jam 2023 Benevolens"
 date: "2023-09-01"
 imageUrl: "benevolens.png"
 subtitle: "Secret Codes and Image Manipulation Tool"

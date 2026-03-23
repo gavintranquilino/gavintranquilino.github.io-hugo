@@ -1,5 +1,5 @@
 ---
-title: "<strong>Quadratics Solver</strong>"
+title: "Quadratics Solver"
 date: "2021-07-01"
 imageUrl: "quadratic.png"
 subtitle: "I May Have Used This For My Homework :)"

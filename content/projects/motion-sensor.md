@@ -1,5 +1,5 @@
 ---
-title: "<strong>Motion Sensor</strong>"
+title: "Motion Sensor"
 date: "2021-02-05"
 imageUrl: "arduino-motion-sensor.png"
 subtitle: "It Can See You Move!"

@@ -1,5 +1,5 @@
 ---
-title: "WATonomous <strong>Humanoid Robotics</strong>"
+title: "WATonomous Humanoid Robotics"
 date: "2025-05-01"
 imageUrl: "wato-humanoid/thumbs-up.gif"
 thumbnailUrl: "wato-humanoid/thumbs-up.jpg"

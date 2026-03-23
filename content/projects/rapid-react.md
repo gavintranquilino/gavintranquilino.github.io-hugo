@@ -1,6 +1,6 @@
 ---
 title: "Rapid React 2022"
-date: 2022-11-01
+date: "2022-11-01"
 imageUrl: "rapid-react.png"
 subtitle: "FIRST Robotics FRC Team 2702 Rebels"
 bulletPoints:

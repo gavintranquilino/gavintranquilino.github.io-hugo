@@ -1,5 +1,5 @@
 ---
-title: "<strong>Blink Twice</strong> If You Need Help"
+title: "Blink Twice If You Need Help"
 date: "2024-01-15"
 imageUrl: "blink-twice-if-you-need-help/overview.png"
 subtitle: "computer vision emergency response system"

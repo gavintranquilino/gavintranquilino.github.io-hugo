@@ -1,7 +1,5 @@
 ---
 title: "bAIRiatric Supports"
-bulletPoints:
-  - "Advanced to top 8 finalists among 50+ teams in healthcare innovation challenge through clinical interviews and <strong>prototype validation</strong>"
 date: "2025-02-10"
 imageUrl: "bAIRiatric-Supports/team-photo.jpg"
 thumbnailUrl: "bAIRiatric-Supports/deflated-inflated.jpg"

@@ -1,5 +1,5 @@
 ---
-title: "<strong>Custom Tamagotchi</strong>"
+title: "Custom Tamagotchi"
 date: "2024-06-23"
 imageUrl: "circle-display/kumi.gif"
 thumbnailUrl: "circle-display/panda_square.png"
