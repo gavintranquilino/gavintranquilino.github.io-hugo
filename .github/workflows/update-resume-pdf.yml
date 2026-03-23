@@ -24,15 +24,19 @@ jobs:
           ls -la static/resume.pdf # Optional: lists the file to verify
 
       - name: Commit and Push Updated PDF to Hugo Source
+        continue-on-error: true
         run: |
           git config --global user.name "github-actions[bot]"
           git config --global user.email "github-actions[bot]@users.noreply.github.com"
+
+          # Sync with remote to avoid non-fast-forward push failures.
+          git pull --rebase origin main
           
           # Check if resume.pdf is modified or staged
           if git status --porcelain | grep -q 'static/resume.pdf'; then
             git add static/resume.pdf
             git commit -m "Update resume.pdf from gavins-resume repository"
-            git push 
+            git push origin main
             echo "Committed and pushed updated resume.pdf"
           else
             echo "No changes to resume.pdf. Skipping commit."
