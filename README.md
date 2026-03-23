@@ -64,6 +64,26 @@ python3 data_processor.py
 python3 data_processor.py /path/to/projects
 ```
 
+## Styling architecture
+
+- Entry point: `static/css/style.css`
+- Module directory: `static/css/modules/`
+- Template load point: `layouts/_default/baseof.html`
+
+Styles are now split by function and imported in cascade-safe order:
+
+- `00-tokens-theme.css`
+- `01-base-typography.css`
+- `02-header-nav.css`
+- `03-sections.css`
+- `04-portfolio.css`
+- `05-footer-links.css`
+- `06-slideshow.css`
+- `07-project-content.css`
+- `08-embeds-icons.css`
+
+When adding new styles, prefer updating an existing module first. If a new file is needed, keep the naming and import order explicit in `style.css`.
+
 ## Structure summary
 
 ```text
