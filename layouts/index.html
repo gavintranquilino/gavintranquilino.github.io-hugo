@@ -24,8 +24,13 @@
         </div>
 
         {{ with .imageUrl }}
-            {{ $imgParams := dict "src" . "size" "200x" "quality" "q75" "alt" (printf "About %s" $.Site.Title) "class" "about-me__img" }}
-            {{ partial "shortcodes/img.html" $imgParams }}
+            <div class="about-me__img-swap">
+                {{ $baseImgParams := dict "src" . "size" "200x" "quality" "q75" "alt" (printf "About %s" $.Site.Title) "class" "about-me__img about-me__img--base" }}
+                {{ partial "shortcodes/img.html" $baseImgParams }}
+
+                {{ $hoverImgParams := dict "src" "box_panda-square.png" "size" "200x" "quality" "q75" "alt" "Panda in a box illustration" "class" "about-me__img about-me__img--hover" }}
+                {{ partial "shortcodes/img.html" $hoverImgParams }}
+            </div>
         {{ end }}
 
         {{ if .buttons }}
