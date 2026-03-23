@@ -1,4 +1,8 @@
 # Projects
+- Lowlight WIP
+- Acceleration Consortium OTFlex
+- Acceleration Consortium OT2
+- stream snipper
 - Other Hand HTN2025
 - YC AI Startup School
 - ai agent hackathon
@@ -23,7 +27,6 @@
 - Happy birthday nano 7seg display
 - wiimote control dolphin
 - Sheet metal 2 rose
-- stream snipper
 - ~~Ideas clinic adaptive cruise control~~
 - ~~Unicycle~~
 - ~~bAIRiatric Supports~~
