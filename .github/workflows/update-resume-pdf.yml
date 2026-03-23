@@ -8,7 +8,6 @@ on:
 jobs:
   update_resume_in_hugo:
     runs-on: ubuntu-latest
-    # These permissions allow the GITHUB_TOKEN to push to the same repository
     permissions:
       contents: write
 
@@ -24,18 +23,45 @@ jobs:
           echo "Downloaded resume.pdf to static/resume.pdf"
           ls -la static/resume.pdf # Optional: lists the file to verify
 
-      - name: Commit and Push Updated PDF
+      - name: Commit and Push Updated PDF to Hugo Source
         run: |
-          git config --global user.name "${{ secrets.GH_USERNAME || 'github-actions[bot]' }}"
-          git config --global user.email "${{ secrets.GH_EMAIL || 'github-actions[bot]@users.noreply.github.com' }}"
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
           
           # Check if resume.pdf is modified or staged
           if git status --porcelain | grep -q 'static/resume.pdf'; then
             git add static/resume.pdf
             git commit -m "Update resume.pdf from gavins-resume repository"
-            # The GITHUB_TOKEN (via permissions) should allow push to the checked-out branch
             git push 
             echo "Committed and pushed updated resume.pdf"
           else
             echo "No changes to resume.pdf. Skipping commit."
+          fi
+
+      - name: Checkout GitHub Pages Repository
+        uses: actions/checkout@v4
+        with:
+          repository: gavintranquilino/gavintranquilino.github.io
+          token: ${{ secrets.GH_PAT_FOR_DEPLOY }}
+          ref: master
+          path: gh-pages-repo
+
+      - name: Copy Resume PDF into GitHub Pages Repository
+        run: |
+          cp static/resume.pdf gh-pages-repo/resume.pdf
+          ls -la gh-pages-repo/resume.pdf
+
+      - name: Commit and Push Updated PDF to GitHub Pages Repository
+        working-directory: gh-pages-repo
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+
+          if git status --porcelain | grep -q 'resume.pdf'; then
+            git add resume.pdf
+            git commit -m "Update resume.pdf from gavins-resume repository"
+            git push origin master
+            echo "Committed and pushed updated resume.pdf to GitHub Pages repo"
+          else
+            echo "No changes to resume.pdf in GitHub Pages repo. Skipping commit."
           fi
