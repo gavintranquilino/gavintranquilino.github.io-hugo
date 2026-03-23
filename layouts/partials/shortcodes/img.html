@@ -1,7 +1,6 @@
-{{/* 
-Hugo Image Processing Shortcode/Partial
-Usage as shortcode: {{ < img src="project-name/image.jpg" size="200x" quality="q75" alt="Alt text" class="custom-class" > }}
-Usage as partial: {{ partial "shortcodes/img.html" (dict "src" "image.jpg" "size" "200x" "quality" "q75" "alt" "Alt text" "class" "custom-class") }}
+{{/*
+Hugo Image Processing Partial
+Usage: {{ partial "shortcodes/img.html" (dict "src" "image.jpg" "size" "200x" "quality" "q75" "alt" "Alt text" "class" "custom-class") }}
 
 Parameters:
 - src (required): Path to image within assets/img/ (without /img/ prefix)
@@ -12,49 +11,22 @@ Parameters:
 - loading (optional): Loading attribute - defaults to "lazy"
 */}}
 
-{{/* Handle both shortcode (.Get) and partial (direct access) parameter access */}}
-{{- $src := "" -}}
-{{- $size := "" -}}
-{{- $quality := "" -}}
-{{- $alt := "" -}}
-{{- $class := "" -}}
-{{- $loading := "" -}}
-
-{{/* Check if this is called from shortcode context */}}
-{{- $isShortcode := false -}}
-{{- with .Get -}}
-    {{- $isShortcode = true -}}
-{{- end -}}
-
-{{- if $isShortcode -}}
-    {{/* Called as shortcode */}}
-    {{- $src = .Get "src" -}}
-    {{- $size = .Get "size" | default "400x" -}}
-    {{- $quality = .Get "quality" | default "q75" -}}
-    {{- $alt = .Get "alt" | default (path.Base $src) -}}
-    {{- $class = .Get "class" -}}
-    {{- $loading = .Get "loading" | default "lazy" -}}
-{{- else -}}
-    {{/* Called as partial */}}
-    {{- $src = .src -}}
-    {{- $size = .size | default "400x" -}}
-    {{- $quality = .quality | default "q75" -}}
-    {{- $alt = .alt | default (path.Base $src) -}}
-    {{- $class = .class -}}
-    {{- $loading = .loading | default "lazy" -}}
-{{- end -}}
+{{- $src := .src -}}
+{{- $size := .size | default "400x" -}}
+{{- $quality := .quality | default "q75" -}}
+{{- $alt := .alt | default (path.Base $src) -}}
+{{- $class := .class -}}
+{{- $loading := .loading | default "lazy" -}}
 
 {{- if not $src -}}
     {{- errorf "img shortcode/partial requires 'src' parameter" -}}
 {{- end -}}
 
-{{- $imageResource := false -}}
-{{- $imageUrl := printf "/img/%s" $src -}}
+{{- $src = strings.TrimPrefix "/" $src -}}
+{{- $src = strings.TrimPrefix "img/" $src -}}
 
-{{/* Try to get the image from assets first */}}
-{{- with resources.Get (printf "img/%s" $src) -}}
-    {{- $imageResource = . -}}
-{{- end -}}
+{{- $resourcePath := printf "img/%s" $src -}}
+{{- $imageResource := resources.Get $resourcePath -}}
 
 {{- if $imageResource -}}
     {{- if eq $imageResource.ResourceType "image" -}}
@@ -62,10 +34,8 @@ Parameters:
         {{- $image := $imageResource.Resize $resizeParams -}}
         <img src="{{ $image.RelPermalink }}" alt="{{ $alt }}"{{ with $class }} class="{{ . }}"{{ end }} loading="{{ $loading }}">
     {{- else -}}
-        {{/* Non-image resource (like SVG), use fallback */}}
-        <img src="{{ $imageUrl | relURL }}" alt="{{ $alt }}"{{ with $class }} class="{{ . }}"{{ end }} loading="{{ $loading }}">
+        <img src="{{ $imageResource.RelPermalink }}" alt="{{ $alt }}"{{ with $class }} class="{{ . }}"{{ end }} loading="{{ $loading }}">
     {{- end -}}
 {{- else -}}
-    {{/* Fallback to static folder */}}
-    <img src="{{ $imageUrl | relURL }}" alt="{{ $alt }}"{{ with $class }} class="{{ . }}"{{ end }} loading="{{ $loading }}">
+    {{- errorf "img shortcode/partial: could not resolve asset '%s' at '%s'" $src $resourcePath -}}
 {{- end -}}

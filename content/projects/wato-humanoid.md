@@ -229,7 +229,7 @@ Run a bash script to call the `slcand` tool from `can-utils` to setup the bus sp
 
 ##### Preview
 
-{{< local_video src="/img/wato-humanoid/screencast1.webm" >}}
+{{< local_video src="wato-humanoid/screencast1.webm" >}}
 
 #### ROS2 Package Structure (Sending Messages)
 

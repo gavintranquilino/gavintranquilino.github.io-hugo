@@ -16,7 +16,7 @@ bulletPoints:
 
 This project is displayed in a Google Photos album. Below you can browse through the photo gallery of the instrumented knee crutch project developed at the University of Waterloo IDEAS Clinic.
 
-{{< google_photos_album album_url="https://photos.app.goo.gl/yTU2MnsRi3ZAoTqz7" image_path="/img/ideas-clinic/crutch.jpg" >}}
+{{< google_photos_album album_url="https://photos.app.goo.gl/yTU2MnsRi3ZAoTqz7" image_path="ideas-clinic/crutch.jpg" >}}
 
 ## About the Project
 

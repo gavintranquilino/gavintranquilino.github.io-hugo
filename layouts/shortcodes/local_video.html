@@ -1,4 +1,18 @@
+{{- $src := .Get "src" -}}
+{{- $videoType := .Get "type" | default "video/webm" -}}
+{{- if not $src -}}
+  {{- errorf "local_video shortcode requires 'src' parameter" -}}
+{{- end -}}
+
+{{- $src = strings.TrimPrefix "/" $src -}}
+{{- $src = strings.TrimPrefix "img/" $src -}}
+{{- $resourcePath := printf "img/%s" $src -}}
+{{- $resource := resources.Get $resourcePath -}}
+{{- if not $resource -}}
+  {{- errorf "local_video shortcode: could not resolve asset '%s' at '%s'" $src $resourcePath -}}
+{{- end -}}
+
 <video controls style="width: 100%;">
-  <source src="{{ .Get "src" }}" type="{{ .Get "type" | default "video/webm" }}">
+  <source src="{{ $resource.RelPermalink }}" type="{{ $videoType }}">
   Your browser does not support the video tag.
 </video>

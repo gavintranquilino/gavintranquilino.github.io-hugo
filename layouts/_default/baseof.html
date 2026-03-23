@@ -4,7 +4,8 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>{{ if .IsHome }}{{ .Site.Title }}{{ else }}{{ with .Params.tabTitle }}{{ . }} | {{ $.Site.Title }}{{ else }}{{ .Title | plainify }} | {{ $.Site.Title }}{{ end }}{{ end }}</title>
-    <link rel="icon" href="{{ "/img/smile-round.svg" | relURL }}" /> {{/* Assuming smile-round.svg is in static/img */}}
+    {{- $favicon := resources.Get "img/smile-round.svg" -}}
+    <link rel="icon" href="{{ if $favicon }}{{ $favicon.RelPermalink }}{{ else }}{{ "/img/smile-round.svg" | relURL }}{{ end }}" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css" integrity="sha512-HK5fgLBL+xu6dm/Ii3z4xhlSUyZgTT9tuc/hSrtw6uzJOvgRr2a9jyxxT1ely+B+xFAmJKVSTbpM/CuL7qxO8w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.15.1/devicon.min.css">
@@ -14,7 +15,22 @@
     <meta property="og:type" content="{{ if .IsPage }}article{{ else }}website{{ end }}" />
     <meta property="og:title" content="{{ .Title }}" />
     <meta property="og:description" content="{{ if .IsPage }}{{ .Summary }}{{ else }}{{ .Site.Params.description | default "Portfolio of my work." }}{{ end }}" />
-    <meta property="og:image" content="{{ with .Params.imageUrl }}{{ printf "/img/%s" . | absURL }}{{ else }}{{ "/img/smile.jpg" | absURL }}{{ end }}" />
+    {{- $defaultOg := resources.Get "img/smile.jpg" -}}
+    {{- $ogImage := "" -}}
+    {{- with .Params.imageUrl -}}
+        {{- $ogSrc := strings.TrimPrefix "/" . | strings.TrimPrefix "img/" -}}
+        {{- with resources.Get (printf "img/%s" $ogSrc) -}}
+            {{- $ogImage = .Permalink -}}
+        {{- end -}}
+    {{- end -}}
+    {{- if eq $ogImage "" -}}
+        {{- if $defaultOg -}}
+            {{- $ogImage = $defaultOg.Permalink -}}
+        {{- else -}}
+            {{- $ogImage = "/img/smile.jpg" | absURL -}}
+        {{- end -}}
+    {{- end -}}
+    <meta property="og:image" content="{{ $ogImage }}" />
 
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Code+Pro:400,900|Source+Sans+Pro:300,900&display=swap">
     <link rel="stylesheet" href="{{ "/css/style.css" | relURL }}">

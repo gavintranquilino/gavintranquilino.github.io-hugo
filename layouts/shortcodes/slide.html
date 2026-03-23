@@ -10,13 +10,10 @@
     {{- errorf "slide shortcode requires 'src' parameter" -}}
 {{- end -}}
 
-{{- $imageResource := false -}}
-{{- $imageUrl := printf "/img/%s" $src -}}
-
-{{/* Try to get the image from assets first */}}
-{{- with resources.Get (printf "img/%s" $src) -}}
-    {{- $imageResource = . -}}
-{{- end -}}
+{{- $src = strings.TrimPrefix "/" $src -}}
+{{- $src = strings.TrimPrefix "img/" $src -}}
+{{- $resourcePath := printf "img/%s" $src -}}
+{{- $imageResource := resources.Get $resourcePath -}}
 
 <div class="slide-item fade">
     {{- if $imageResource -}}
@@ -25,12 +22,10 @@
             {{- $image := $imageResource.Resize $resizeParams -}}
             <img src="{{ $image.RelPermalink }}" alt="{{ $alt }}"{{ with $class }} class="{{ . }}"{{ end }} loading="{{ $loading }}">
         {{- else -}}
-            {{/* Non-image resource (like SVG), use fallback */}}
-            <img src="{{ $imageUrl | relURL }}" alt="{{ $alt }}"{{ with $class }} class="{{ . }}"{{ end }} loading="{{ $loading }}">
+            <img src="{{ $imageResource.RelPermalink }}" alt="{{ $alt }}"{{ with $class }} class="{{ . }}"{{ end }} loading="{{ $loading }}">
         {{- end -}}
     {{- else -}}
-        {{/* Fallback to static folder */}}
-        <img src="{{ $imageUrl | relURL }}" alt="{{ $alt }}"{{ with $class }} class="{{ . }}"{{ end }} loading="{{ $loading }}">
+        {{- errorf "slide shortcode: could not resolve asset '%s' at '%s'" $src $resourcePath -}}
     {{- end -}}
     {{ if $caption }}
     <div class="text">{{ $caption }}</div>

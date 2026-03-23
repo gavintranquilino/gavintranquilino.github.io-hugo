@@ -34,8 +34,8 @@ I would measure or use existing measurements of clients' machines and model the 
 I worked to provide accurate models for the manufacturing team to follow and to prototype.
 
 {{< slideshow >}}
-  {{< slide src="/sheartak/enhanced-cutter.png" caption="Enhanced Cutter" >}}
-  {{< slide src="/sheartak/cutter-in-box.jpg" caption="Cutter in Box" >}}
+  {{< slide src="sheartak/enhanced-cutter.png" caption="Enhanced Cutter" >}}
+  {{< slide src="sheartak/cutter-in-box.jpg" caption="Cutter in Box" >}}
 {{< /slideshow >}}
 
 ## YouTube Videos

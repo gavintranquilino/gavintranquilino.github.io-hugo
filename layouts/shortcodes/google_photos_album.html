@@ -9,8 +9,13 @@
 {{ $buttonText := .Get "button_text" | default "View Full Album" }}
 
 {{ if and $albumURL $imagePath }}
+{{ $normalizedPath := strings.TrimPrefix "/" $imagePath | strings.TrimPrefix "img/" }}
+{{ $resource := resources.Get (printf "img/%s" $normalizedPath) }}
+{{ if not $resource }}
+  {{ errorf "google_photos_album shortcode: could not resolve image '%s'" $imagePath }}
+{{ end }}
 <div class="google-photos-album-custom">
-  <img src="{{ $imagePath | absURL }}" alt="{{ $altText }}" style="max-width: 100%; height: auto; margin-bottom: 15px;">
+  <img src="{{ $resource.RelPermalink }}" alt="{{ $altText }}" style="max-width: 100%; height: auto; margin-bottom: 15px;">
   <div style="text-align: center; margin-top: 15px;">
     <a href="{{ $albumURL }}" target="_blank" rel="noopener noreferrer" class="about-me--btn google-album-button">
       {{ $buttonText }}

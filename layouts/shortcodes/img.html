@@ -1,16 +1,3 @@
-{{/* 
-Hugo Image Processing Shortcode
-Usage: {{< img src="project-name/image.jpg" size="200x" quality="q75" alt="Alt text" class="custom-class" >}}
-
-Parameters:
-- src (required): Path to image within assets/img/ (without /img/ prefix)
-- size (optional): Resize dimensions like "200x", "800x", "400x600" - defaults to "400x"
-- quality (optional): Quality setting like "q75", "q85", "q100" - defaults to "q75"
-- alt (optional): Alt text for accessibility - defaults to filename
-- class (optional): CSS class for the img tag - defaults to empty
-- loading (optional): Loading attribute - defaults to "lazy"
-*/}}
-
 {{- $src := .Get "src" -}}
 {{- $size := .Get "size" | default "400x" -}}
 {{- $quality := .Get "quality" | default "q75" -}}
@@ -18,28 +5,13 @@ Parameters:
 {{- $class := .Get "class" -}}
 {{- $loading := .Get "loading" | default "lazy" -}}
 
-{{- if not $src -}}
-    {{- errorf "img shortcode requires 'src' parameter" -}}
-{{- end -}}
+{{- $imgParams := dict
+	"src" $src
+	"size" $size
+	"quality" $quality
+	"alt" $alt
+	"class" $class
+	"loading" $loading
+-}}
 
-{{- $imageResource := false -}}
-{{- $imageUrl := printf "/img/%s" $src -}}
-
-{{/* Try to get the image from assets first */}}
-{{- with resources.Get (printf "img/%s" $src) -}}
-    {{- $imageResource = . -}}
-{{- end -}}
-
-{{- if $imageResource -}}
-    {{- if eq $imageResource.ResourceType "image" -}}
-        {{- $resizeParams := printf "%s %s" $size $quality -}}
-        {{- $image := $imageResource.Resize $resizeParams -}}
-        <img src="{{ $image.RelPermalink }}" alt="{{ $alt }}"{{ with $class }} class="{{ . }}"{{ end }} loading="{{ $loading }}">
-    {{- else -}}
-        {{/* Non-image resource (like SVG), use fallback */}}
-        <img src="{{ $imageUrl | relURL }}" alt="{{ $alt }}"{{ with $class }} class="{{ . }}"{{ end }} loading="{{ $loading }}">
-    {{- end -}}
-{{- else -}}
-    {{/* Fallback to static folder */}}
-    <img src="{{ $imageUrl | relURL }}" alt="{{ $alt }}"{{ with $class }} class="{{ . }}"{{ end }} loading="{{ $loading }}">
-{{- end -}}
+{{ partial "shortcodes/img.html" $imgParams }}
