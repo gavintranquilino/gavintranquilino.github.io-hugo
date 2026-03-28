@@ -3,7 +3,7 @@ title: "Home"
 date: "2026-03-17"
 introSection:
   title: "Hey, I'm <strong>Gavin</strong>"
-  subtitle: "tinkerer / dev"
+  subtitle: "silly ideas irl"
   imageUrl: "smile-jester.jpg"
 aboutSection:
   title: "About me"
@@ -24,13 +24,13 @@ aboutSection:
       isExternal: true
 workSection:
   title: "My Work"
-  subtitle: "My projects and contributions"
+  subtitle: "A collection of my projects and contributions"
 ---
 
-As a mechatronics engineering student from the University of Waterloo, I work on 3D mechanical design, embedded programs, IoT, robots, and all things nerd. I like to keep this portfolio updated with various projects I work on.
+_Mechatronics Engineering_ (Class of 2028) at the [University of Waterloo](https://i.kym-cdn.com/photos/images/newsfeed/003/025/355/a8d.png).
 
-Honestly, I'm just a guy who likes to tinker with things and see how they work. These skills and experiences are just a side effect of my curiosity. When someone asks for my hobbies, I usually say that I like to build things.
+I work with: _IoT, 3D mechanical design, robotics, and all things hardware._
 
-Also, I have a YouTube channel where I post videos about projects and things I have tinkered with that are not on this site. It contains snippets of small projects that just aren't worth making dedicated pages for. Go check it out below!
+I like tinkering to understand how things work; a side effect of curiosity. Everything I do is a learning experience, and I want to share that with the world. Whether it's for fun, for school, or for work, I want to share my process with the world. 
 
-<em>Quick Note:</em> My YouTube channel and Resumé are honestly probably more up to date than this site depending on when you're viewing this. 
+"i could lowk make that" 🔥🔥🔥
