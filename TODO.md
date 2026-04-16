@@ -1,5 +1,4 @@
 # Projects
-- Lowlight WIP
 - Acceleration Consortium OTFlex
 - Acceleration Consortium OT2
 - stream snipper
@@ -27,6 +26,7 @@
 - Happy birthday nano 7seg display
 - wiimote control dolphin
 - Sheet metal 2 rose
+- ~~Lowlight WIP~~
 - ~~Ideas clinic adaptive cruise control~~
 - ~~Unicycle~~
 - ~~bAIRiatric Supports~~
