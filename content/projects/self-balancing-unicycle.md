@@ -5,9 +5,9 @@ imageUrl: "self-balancing-unicycle/fast-square.gif"
 thumbnailUrl: "self-balancing-unicycle/logo.jpg"
 subtitle: "physics simulation and control system"
 bulletPoints:
-  - "Built a simulator from scratch using <strong>C++</strong> and <strong>CMake</strong>, integrating <strong>OpenGL</strong> to create a custom physics environment"
-  - "Developed a <strong>CartPole</strong>-inspired control system focused on wheel torque control"
-  - "Implemented cascading strong>PID</strong> to control: balancing and achieving precise position tracking"
+  - "Built a custom simulation stack in <strong>C++</strong> with <strong>CMake</strong> and <strong>OpenGL</strong> for dynamics visualization"
+  - "Developed a <strong>CartPole</strong>-inspired control architecture centered on wheel torque and body stabilization"
+  - "Implemented cascading <strong>PID</strong> loops for balance control and precise position tracking"
 ---
 
 # Video Demonstration

@@ -4,9 +4,9 @@ date: "2021-03-01"
 imageUrl: "covid-19-bypass/covid-19.png"
 subtitle: "Not Intended for Malicious Intent"
 bulletPoints:
-  - "Developed <strong>Python</strong> automation tool using <strong>Selenium WebDriver</strong> to streamline daily COVID-19 screening form completion for educational institutions"
-  - "Implemented email automation system with <strong>SMTP</strong> integration to distribute screening confirmations to contact lists automatically"
-  - "Utilized <strong>web scraping</strong> techniques with <strong>XPath</strong> element identification for reliable form interaction and screenshot documentation"
+  - "Built a <strong>Python</strong> automation workflow with <strong>Selenium WebDriver</strong> for repeatable daily COVID screening form submission"
+  - "Integrated <strong>SMTP</strong> notifications to distribute confirmation emails automatically after successful runs"
+  - "Used <strong>XPath</strong>-based page targeting and screenshot capture for reliable interaction and recordkeeping"
 ---
 
 ## What does it do?

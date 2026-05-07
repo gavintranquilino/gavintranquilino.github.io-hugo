@@ -4,9 +4,9 @@ date: "2021-02-05"
 imageUrl: "motion-sensor/arduino-motion-sensor.png"
 subtitle: "It Can See You Move!"
 bulletPoints:
-  - "Built <strong>Arduino</strong>-based motion detection system using <strong>PIR sensors</strong> for automated lighting control"
-  - "Programmed embedded <strong>C++</strong> code to process sensor signals and trigger <strong>LED</strong> responses"
-  - "First hands-on introduction to <strong>Arduino</strong> programming and <strong>hardware interfacing</strong>"
+  - "Built an <strong>Arduino</strong> motion-triggered lighting prototype using a <strong>PIR sensor</strong> and LED output"
+  - "Wrote embedded <strong>C++</strong> logic to process sensor transitions and drive reliable trigger behavior"
+  - "Established foundational skills in microcontroller programming and hardware interfacing"
 ---
 
 ## Project Demonstration

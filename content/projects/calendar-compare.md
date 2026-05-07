@@ -5,9 +5,9 @@ imageUrl: "calendar-compare/logo.jpg"
 thumbnailUrl: "calendar-compare/stage_square.jpg"
 subtitle: "HawkHacks 2024 Winner"
 bulletPoints:
-  - "Won 'Best Adobe Express Hack' at HawkHacks 2024 with <strong>Google Calendar API</strong> integration web application for group scheduling optimization"
-  - "Implemented <strong>OAuth</strong> authentication and Google Calendar API integration using <strong>Python Flask</strong> framework for real-time calendar comparison"
-  - "Developed algorithm to analyze multiple users' calendars simultaneously and identify optimal meeting times for group coordination"
+  - "Built a group scheduling web app with <strong>Google Calendar API</strong> integration and won Best Adobe Express Hack at HawkHacks 2024"
+  - "Implemented secure <strong>OAuth</strong> sign-in and backend services in <strong>Python Flask</strong> for live calendar aggregation"
+  - "Developed availability analysis logic to surface high-overlap meeting windows across multiple users"
 ---
 
 # Calendar Compare 📅

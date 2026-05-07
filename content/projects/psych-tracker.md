@@ -4,9 +4,9 @@ date: "2023-09-17"
 imageUrl: "psych-tracker/psych-tracker.png"
 subtitle: "a project over a single weekend?"
 bulletPoints:
-  - "<strong>Mental health tracking app</strong> built at Canada's largest hackathon"
-  - "Simple <strong>metric system</strong> to log and analyze daily well-being patterns"
-  - "36-hour weekend development sprint with <strong>team collaboration</strong>"
+  - "Built a <strong>mental health tracking</strong> app during a 36-hour hackathon sprint with a collaborative team"
+  - "Designed a simple <strong>metrics framework</strong> for logging and reviewing daily well-being trends"
+  - "Prioritized rapid prototyping, clear UX, and practical data entry for everyday use"
 ---
 
 ## HackTheNorth 2023

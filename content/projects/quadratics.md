@@ -4,9 +4,9 @@ date: "2021-07-01"
 imageUrl: "quadratics/quadratic.png"
 subtitle: "I May Have Used This For My Homework :)"
 bulletPoints:
-  - "Developed comprehensive quadratic equation solver using <strong>Python</strong> with <strong>matplotlib</strong> visualization for standard and vertex form conversions"
-  - "Implemented mathematical algorithms for calculating roots, vertex coordinates, and axis of symmetry using <strong>quadratic formula</strong> principles"
-  - "Created interactive graphing tool with <strong>object-oriented programming</strong> design for educational mathematics problem-solving applications"
+    - "Built a quadratic-equation toolkit in <strong>Python</strong> with support for standard and vertex-form workflows"
+    - "Implemented core math routines for roots, vertex coordinates, and axis of symmetry computation"
+    - "Added <strong>matplotlib</strong> graphing and object-oriented structure for clear educational visualization"
 ---
 
 ## What does it do?

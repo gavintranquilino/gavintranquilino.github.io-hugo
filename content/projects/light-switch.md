@@ -4,9 +4,9 @@ date: "2023-03-15"
 imageUrl: "light-switch/light-switch.png"
 subtitle: "remotely controllable via web interface"
 bulletPoints:
-  - "Designed a <strong>3D-printed mount</strong> with an integrated <strong>web app</strong> for remote light switch control"
-  - "Implemented an <strong>Ubuntu Linux</strong> web server, enabling remote <strong>HTTP</strong> access to room lights globally"
-  - "Innovatively enhanced safety by designing a physical light switch mount, eliminating <strong>high-voltage</strong> work"
+  - "Designed a <strong>3D-printed</strong> servo mount that physically actuates a rocker switch without rewiring mains voltage"
+  - "Built a remote control interface backed by an <strong>Ubuntu</strong>-hosted <strong>HTTP</strong> service"
+  - "Combined mechanical design and web control to deliver safer, globally accessible room-light automation"
 ---
 
 ## Overview

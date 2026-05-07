@@ -4,9 +4,9 @@ date: "2025-02-05"
 imageUrl: "flexitrack/square.jpg"
 subtitle: "get your patients moving"
 bulletPoints:
-  - "Awarded 'Grand River Hospital's Most Innovative Project' for <strong>AI</strong>-powered patient mobility system using <strong>computer vision</strong> and gamification"
-  - "Developed cross-platform healthcare application with <strong>SwiftUI</strong> frontend, <strong>Flask</strong> backend, and <strong>MediaPipe</strong> pose detection for real-time movement tracking"
-  - "Designed adjustable <strong>3D-printed</strong> camera mount system in <strong>SolidWorks</strong> to accommodate diverse patient mobility levels and prevent hospital delirium"
+  - "Built an <strong>AI</strong>-assisted mobility platform using <strong>computer vision</strong> and gamified therapy workflows for patient engagement"
+  - "Implemented a cross-platform stack with <strong>SwiftUI</strong>, <strong>Flask</strong>, and <strong>MediaPipe</strong> for real-time movement tracking"
+  - "Designed adjustable <strong>3D-printed</strong> camera mounts in <strong>SolidWorks</strong> and won Grand River Hospital's Most Innovative Project award"
 ---
 
 # FlexiTrack: Combating Hospital Delirium

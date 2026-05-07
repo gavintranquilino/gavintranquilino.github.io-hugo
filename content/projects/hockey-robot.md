@@ -4,9 +4,9 @@ date: "2023-07-22"
 imageUrl: "hockey-robot/hockey-robot.png"
 subtitle: "we didn't use a robot kit"
 bulletPoints:
-  - "Developed embedded <strong>C/C++</strong> <strong>Arduino</strong> program to drive <strong>3-phase motors</strong> and <strong>bluetooth</strong> controls"
-  - "Designed custom <strong>protoboard assembly</strong> using <strong>TH soldering</strong>, saving 30% chassis space"
-  - "Directed efficient recovery efforts as a collaborative leader, swiftly restoring the robot's functionality post failure, meeting strict deadlines"
+  - "Developed embedded <strong>C/C++</strong> firmware on <strong>Arduino</strong> for motor drive and <strong>Bluetooth</strong> control"
+  - "Designed compact <strong>protoboard</strong> electronics with through-hole soldering, reducing chassis space usage by about 30%"
+  - "Led rapid troubleshooting and recovery after failures to restore competition readiness under deadline"
 ---
 
 ## Skills Ontario Robotics Competition 2023

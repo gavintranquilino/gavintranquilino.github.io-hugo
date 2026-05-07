@@ -5,9 +5,9 @@ imageUrl: "lamplet/lamplet-concept.gif"
 thumbnailUrl: "lamplet/logo.png"
 subtitle: "a pet lamp for the desk"
 bulletPoints:
-  - "Designed and built a <strong>4-DOF robotic lamp</strong> end-to-end in <strong>48 hours</strong> with integrated <strong>mechanical, actuation, and control</strong> systems"
-  - "Validated <strong>physical assembly</strong> through real <strong>wiring, joints, and component layout</strong> verification"
-  - "Produced full build documentation (BOM, wiring, instructions) for reproducibility"
+  - "Designed and built a <strong>4-DOF robotic lamp</strong> in <strong>48 hours</strong> with integrated <strong>mechanical, actuation, and control</strong> systems"
+  - "Validated <strong>physical assembly</strong> through complete <strong>wiring, joint motion, and component-layout</strong> checks"
+  - "Produced full build documentation (BOM, wiring, and assembly instructions) for reproducibility"
 ---
 
 ## Overview

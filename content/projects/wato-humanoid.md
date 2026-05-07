@@ -5,12 +5,9 @@ imageUrl: "wato-humanoid/thumbs-up.gif"
 thumbnailUrl: "wato-humanoid/thumbs-up.jpg"
 subtitle: "6DoF robot arms with 20DoF dexterous hands"
 bulletPoints:
-  - "Building <strong>robotic arms</strong> (6DoF) with tendon driven anthropomorphic hands (20DoF each), aiming for <strong>VR teleoperation</strong>"
-  - "Developed software interface to bridge high-level <strong>ROS2</strong> commands to low-level <strong>embedded systems</strong> over a <strong>CAN bus</strong>"
-  - "Containerized <strong>ROS2</strong> system in <strong>Docker</strong>, mounting <strong>CAN transceivers</strong> to enable communication between subsystems"
-  - "Designed <strong>URDF</strong> models to define the transform <strong>TF tree</strong> for <strong>RL</strong> simulation and training in NVIDIA <strong>Isaac Sim</strong>."
-  - "Built visualization infrastructure connecting <strong>Gazebo</strong> simulations to <strong>Foxglove</strong> for real-time debugging and data analysis."
-  - "<strong>Assembled PCBs</strong> with 0.5mm pitch <strong>SMD</strong> components, soldered by hand, reducing assembly costs by 30%"
+    - "Building a humanoid platform with <strong>6DoF robotic arms</strong> and tendon-driven <strong>20DoF hands</strong> for <strong>VR teleoperation</strong>"
+    - "Developed a <strong>ROS2</strong>-to-embedded interface over <strong>CAN</strong>, with containerized deployment in <strong>Docker</strong>"
+    - "Created simulation and hardware infrastructure using <strong>URDF</strong>, <strong>Isaac Sim</strong>, <strong>Gazebo</strong>, <strong>Foxglove</strong>, and hand-assembled fine-pitch PCBs"
 ---
 
 {{< img src="wato-humanoid/cover.png" alt="cover image" >}}

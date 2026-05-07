@@ -4,9 +4,9 @@ date: "2024-07-22"
 imageUrl: "dishwasher-magnets/magnets7.jpg"
 subtitle: "are the dishes clean or dirty?"
 bulletPoints:
-  - "Designed magnetic status indicator system using <strong>SolidWorks CAD</strong> software with embedded neodymium magnets for dishwasher organization"
-  - "Implemented advanced <strong>3D printing</strong> techniques including pause-and-insert for embedded magnets and strategic layer orientation for durability"
-  - "Solved household communication problem through user-centered design approach, replacing temporary solutions with permanent magnetic mount system"
+  - "Designed a magnetic dishwasher status system in <strong>SolidWorks</strong> with embedded neodymium magnet features"
+  - "Used <strong>3D printing</strong> pause-and-insert techniques and print-orientation tuning for durable magnet retention"
+  - "Turned a recurring household coordination issue into a permanent, user-friendly physical interface"
 ---
 
 ## Preview

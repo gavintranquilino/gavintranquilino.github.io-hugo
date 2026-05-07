@@ -4,9 +4,9 @@ date: "2023-09-01"
 imageUrl: "benevolens/benevolens.png"
 subtitle: "Secret Codes and Image Manipulation Tool"
 bulletPoints:
-  - "Automatic secret code translation tool using <strong>OCR</strong> and <strong>steganography</strong>"
-  - "Implements text ciphers and <strong>XOR</strong> image manipulation techniques"
-  - "<strong>CLI</strong> interface for quick encoding/decoding of handwritten messages"
+  - "Built a secret-message toolkit that combines <strong>OCR</strong> with <strong>steganography</strong> for encoded note workflows"
+  - "Implemented cipher utilities and <strong>XOR</strong>-based image transforms for reversible text and image hiding"
+  - "Delivered a lightweight <strong>CLI</strong> for fast encoding and decoding of handwritten-message artifacts"
 ---
 
 ## Python Discord Code Jam 2023

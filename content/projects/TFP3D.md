@@ -4,8 +4,9 @@ date: "2023-07-05"
 imageUrl: "TFP3D/first-coat.jpg"
 subtitle: "lil tecca made a song about him"
 bulletPoints:
-  - "Designed and <strong>3D printed</strong> custom VTuber figurine using <strong>CAD software</strong>"
-  - "Applied multi-stage painting and finishing techniques to achieve professional-quality collectible appearance"
+  - "Designed a custom VTuber figurine in <strong>CAD</strong> and fabricated final parts with <strong>3D printing</strong> workflows"
+  - "Applied surface prep, priming, and layered paint finishing to achieve clean presentation quality"
+  - "Combined digital modeling and physical post-processing into a repeatable end-to-end maker pipeline"
 ---
 
 ## Tactical Fortnight Pyramid

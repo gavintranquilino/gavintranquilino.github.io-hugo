@@ -4,8 +4,9 @@ date: "2020-01-22"
 imageUrl: "co2-car/square.jpg"
 subtitle: "Mr. Renda didn't fw me"
 bulletPoints:
-  - "Designed and fabricated wooden CO2-powered race car using traditional woodworking tools including <strong>drill press</strong>, <strong>band saw</strong>, and manual sanding techniques"
-  - "Developed technical drafting and measurement skills through precise cartridge slot machining and complex curved profile cutting"
+  - "Designed and fabricated a wooden CO2 race car using <strong>drill press</strong>, <strong>band saw</strong>, and precision hand-finishing"
+  - "Applied technical drafting and dimensional measurement for accurate cartridge slot placement and profile shaping"
+  - "Balanced aerodynamics, manufacturability, and fit to produce a competition-ready build"
 ---
 
 ## Mr. Renda's CO2 Car

@@ -5,9 +5,9 @@ imageUrl: "bAIRiatric-Supports/team-photo.jpg"
 thumbnailUrl: "bAIRiatric-Supports/deflated-inflated.jpg"
 subtitle: "Inflatable positioning aids for patients"
 bulletPoints:
-  - "Developed <strong>IoT</strong>-enabled inflatable positioning aids to reduce pressure injuries for bariatric patients, using <strong>Arduino</strong> and <strong>WiFi</strong> connectivity"
-  - "Created comprehensive healthcare solution including mobile web app with <strong>Flask</strong> backend and <strong>SQLite</strong> database for nurse-controlled patient management"
-  - "Advanced to top 8 finalists among 50+ teams in healthcare innovation challenge through clinical interviews and prototype validation"
+  - "Developed <strong>IoT</strong>-enabled inflatable support aids using <strong>Arduino</strong> and <strong>WiFi</strong> to reduce bariatric pressure injury risk"
+  - "Built nurse-facing patient tooling with <strong>Flask</strong> and <strong>SQLite</strong> for monitoring and intervention workflows"
+  - "Validated the concept through clinical interviews and prototype testing, finishing as a top-8 healthcare innovation finalist"
 ---
 
 ## Current Prototype

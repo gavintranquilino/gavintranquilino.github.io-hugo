@@ -4,9 +4,9 @@ date: "2024-01-11"
 imageUrl: "sheartak/enhanced-cutter.png"
 subtitle: "i created woodworking machine upgrades"
 bulletPoints:
-  - "Designed custom spiral cutterhead upgrades for client planers and jointers using <strong>SolidWorks CAD</strong> software and mechanical engineering principles"
-  - "Developed automated product visualization workflow using <strong>Photoshop</strong> actions and created comprehensive user manuals for woodworking machinery"
-  - "Built internal <strong>Python</strong> inventory management tool and produced instructional <strong>YouTube</strong> content for machine troubleshooting and maintenance"
+  - "Designed custom spiral cutterhead upgrades for planers and jointers using <strong>SolidWorks</strong> and production-ready mechanical design practices"
+  - "Automated product-image generation with <strong>Photoshop</strong> actions and authored customer-facing machine manuals"
+  - "Built internal <strong>Python</strong> inventory tooling and produced technical <strong>YouTube</strong> troubleshooting content"
 ---
 
 ## Overview

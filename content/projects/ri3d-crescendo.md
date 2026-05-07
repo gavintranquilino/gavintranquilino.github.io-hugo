@@ -4,9 +4,9 @@ date: "2024-01-01"
 imageUrl: "ri3d-crescendo/ri3d-crescendo.jpg"
 subtitle: "Robot in 3 Days; Speedrunning a robot"
 bulletPoints:
-  - "Completed intensive 'Robot in 3 Days' challenge at University of Waterloo, designing and building functional <strong>FRC</strong>-style robot under extreme time constraints"
-  - "Engineered <strong>drivetrain</strong> and <strong>gearbox assembly</strong> while managing electronics integration and <strong>firmware</strong> flashing for autonomous robot operation"
-  - "Fabricated custom components using <strong>3D printing</strong> and rapid prototyping techniques to meet specific mechanical design requirements within 72-hour deadline"
+  - "Completed the University of Waterloo <strong>Robot in 3 Days</strong> build sprint for a functional FRC-style robot"
+  - "Engineered <strong>drivetrain</strong> and <strong>gearbox</strong> assemblies while integrating electronics and firmware"
+  - "Used rapid <strong>3D printing</strong> and prototyping to deliver custom mechanical parts within a 72-hour timeline"
 ---
 
 ## The Final Build!

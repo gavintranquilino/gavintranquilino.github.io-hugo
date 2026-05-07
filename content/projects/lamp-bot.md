@@ -4,9 +4,9 @@ date: "2021-11-15"
 imageUrl: "lamp-bot/lamp-bot.png"
 subtitle: "laziness 100"
 bulletPoints:
-  - "Simple <strong>LED lamp</strong> with automation capabilities"
-  - "<strong>Breadboard</strong> prototype transitioned to <strong>perfboard</strong> design"
-  - "<strong>Arduino</strong>-based control system for smart lighting"
+  - "Built an automated desk <strong>LED lamp</strong> with remote control logic for everyday use"
+  - "Progressed hardware from <strong>breadboard</strong> prototype to more durable <strong>perfboard</strong> implementation"
+  - "Integrated microcontroller-based switching and control for reliable smart-light behavior"
 ---
 
 ## Overview

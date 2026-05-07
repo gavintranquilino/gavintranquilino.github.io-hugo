@@ -5,9 +5,9 @@ imageUrl: "other-hand/logo.jpg"
 thumbnailUrl: "other-hand/logo.jpg"
 subtitle: "Modular Programmable Smartwatch"
 bulletPoints:
-  - "Developed <strong>embedded C++</strong> firmware for wearable <strong>BLE</strong> device with dial and keyswitch inputs during <strong>HackTheNorth 2025</strong>, implementing <strong>state machine</strong> architecture for reliable user interaction"
-  - "Built full-stack web application using <strong>Python Flask</strong>, <strong>JavaScript</strong>, and <strong>Bootstrap</strong> with drag-and-drop module system for customizable hardware input mapping"
-  - "Designed and <strong>3D-printed</strong> custom enclosure with integrated circuit design, including <strong>LiPo</strong> battery and charging support for <strong>hackathon</strong> competition"
+  - "Developed <strong>embedded C++</strong> firmware for a modular <strong>BLE</strong> wearable at <strong>HackTheNorth 2025</strong> using a robust state-machine architecture"
+  - "Built a full-stack configurator with <strong>Flask</strong>, <strong>JavaScript</strong>, and <strong>Bootstrap</strong> for drag-and-drop input mapping"
+  - "Designed and <strong>3D-printed</strong> the enclosure, integrating controls, <strong>LiPo</strong> power, and charging-ready electronics"
 ---
 
 > Your current smart watch is good at showing things, <u>but on the <strong>other hand</strong></u>... this is good at <u>doing</u> things.

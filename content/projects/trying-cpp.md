@@ -4,9 +4,9 @@ date: "2024-04-01"
 imageUrl: "trying-cpp/double-bicep-based.png"
 subtitle: "i actually tried editing for once"
 bulletPoints:
-  - "Explored <strong>C++</strong> programming concepts through creative video storytelling, combining technical education with entertainment for broader audience engagement"
-  - "Produced educational programming content using <strong>Adobe Premiere Pro</strong> with advanced editing techniques and motion graphics for <strong>YouTube</strong> platform"
-  - "Analyzed content creation workflows and digital media production processes"
+  - "Explored core <strong>C++</strong> concepts through creator-style technical storytelling and tutorial content"
+  - "Produced educational videos in <strong>Adobe Premiere Pro</strong> with motion graphics for <strong>YouTube</strong> delivery"
+  - "Refined repeatable scripting, editing, and publishing workflows for technical media production"
 ---
 
 # C++ shitpost vid

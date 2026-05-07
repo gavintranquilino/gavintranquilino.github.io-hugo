@@ -4,9 +4,9 @@ date: "2022-10-14"
 imageUrl: "gutter/CAD.jpg"
 subtitle: "it saves our lawn from flooding"
 bulletPoints:
-  - "Designed custom <strong>3D-printed</strong> gutter adaptor using <strong>Fusion360 CAD</strong> software to connect dual parallel downspouts to drainage tubing"
-  - "Executed precision measurement and modeling techniques using <strong>calipers</strong> for accurate fitting of complex water management geometry"
-  - "Successfully solved residential drainage problem through cost-effective additive manufacturing, preventing lawn damage from concentrated runoff"
+  - "Designed a custom <strong>Fusion360</strong> gutter adapter to merge dual downspouts into a single drainage path"
+  - "Used precise <strong>caliper</strong>-driven measurement and tolerance-aware modeling for accurate real-world fitment"
+  - "Resolved concentrated runoff damage using rapid, low-cost <strong>3D-printed</strong> hardware"
 ---
 
 ## What's this for?

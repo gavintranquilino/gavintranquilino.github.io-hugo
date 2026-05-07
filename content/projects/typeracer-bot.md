@@ -4,9 +4,9 @@ date: "2020-09-28"
 imageUrl: "typeracer-bot/logo.jpg"
 subtitle: "170+ WPM on TypeRacer"
 bulletPoints:
-  - "Developed automated typing bot using <strong>Python Selenium</strong> and <strong>PyAutoGUI</strong> libraries to achieve 170+ WPM performance on TypeRacer platform"
-  - "Implemented <strong>web scraping</strong> techniques to extract plaintext from <strong>HTML DOM</strong> and convert into automated keyboard input sequences"
-  - "Discovered <strong>rate limiting mechanisms</strong> in web automated interactions"
+  - "Built a browser-automation typing bot with <strong>Python Selenium</strong> and <strong>PyAutoGUI</strong>, reaching 170+ WPM"
+  - "Parsed plaintext from the <strong>HTML DOM</strong> and converted it into timed keyboard input sequences"
+  - "Evaluated platform anti-automation behavior, including practical <strong>rate-limiting</strong> constraints"
 ---
 
 # Typeracer Bot

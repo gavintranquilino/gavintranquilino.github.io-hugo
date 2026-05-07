@@ -4,9 +4,9 @@ date: "2021-01-09"
 imageUrl: "youtube-viewbot/youtube-py.png"
 subtitle: "Free Views?"
 bulletPoints:
-  - "Developed automated YouTube view generation system using <strong>Python Selenium</strong> for <strong>web browser automation</strong>"
-  - "Implemented multi-tab cycling algorithm to simulate organic viewing patterns and avoid detection systems"
-  - "Researched YouTube's anti-bot detection mechanisms and experimented with <strong>proxy</strong> integration for IP masking"
+  - "Developed a browser automation prototype in <strong>Python Selenium</strong> to study repeatable video-play interaction flows"
+  - "Implemented multi-tab session cycling logic to model different watch-pattern behaviors"
+  - "Tested anti-automation constraints, including detection heuristics and <strong>proxy</strong>-based routing experiments"
 ---
 
 This YouTube Viewbot uses Selenium for Python to view a Youtube video multiple times. This bot is not inteded to be used to gain thousands of views, but instead will aid in getting your first 100 views on a YouTube video.

@@ -4,9 +4,9 @@ date: "2024-02-20"
 imageUrl: "wato-asd-training/logo.jpg"
 subtitle: "WATonomous ASD Admission Assignment"
 bulletPoints:
-  - "Developed <strong>C++</strong> <strong>ROS2</strong> nodes to convert <strong>LiDAR data</strong> into a <strong>2D costmap</strong> for obstacle detection and perception"
-  - "Generated a <strong>world model</strong> from costmap and <strong>odometry data</strong> to represent the current environment"
-  - "Implemented <strong>A* algorithm</strong> to compute obstacle-aware paths through the mapped environment"
+  - "Developed <strong>C++ ROS2</strong> nodes to convert <strong>LiDAR</strong> streams into a <strong>2D costmap</strong> for obstacle perception"
+  - "Fused costmap and <strong>odometry</strong> data into a dynamic world model for local navigation context"
+  - "Implemented <strong>A*</strong> path planning to generate obstacle-aware routes through mapped environments"
 ---
 
 # Video Demonstration

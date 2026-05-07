@@ -4,9 +4,9 @@ date: "2024-01-15"
 imageUrl: "blink-twice-if-you-need-help/overview.png"
 subtitle: "computer vision emergency response system"
 bulletPoints:
-  - "Designed a computer vision <strong>IoT</strong> wearable using <strong>OpenCV</strong> for real time eye tracking, triggering immediate emergency calls"
-  - "Leveraged <strong>VoIP</strong> with <strong>Python</strong> for automated emergency calls, reducing response time"
-  - "Built real-time eye blink detection system for hands-free emergency communication"
+  - "Designed a computer-vision wearable using <strong>OpenCV</strong> for real-time blink and eye-state tracking"
+  - "Integrated <strong>Python</strong>-based <strong>VoIP</strong> automation to trigger emergency calls from detected distress signals"
+  - "Delivered a hands-free emergency communication flow focused on accessibility and rapid response"
 ---
 
 # Blink Twice 👀 If You Need Help

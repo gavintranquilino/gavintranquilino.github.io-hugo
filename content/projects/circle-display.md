@@ -5,9 +5,9 @@ imageUrl: "circle-display/kumi.gif"
 thumbnailUrl: "circle-display/panda_square.png"
 subtitle: "work in progress"
 bulletPoints:
-  - "Developing portable <strong>IoT</strong> virtual pet device with round <strong>GC9A01 TFT display</strong> (240x240px) and <strong>ESP32</strong> microcontroller for interactive gaming"
-  - "Integrated <strong>photogrammetry</strong> 3D scanning using Polycam mobile app to create custom virtual pet models from physical stuffed animals"
-  - "Implemented embedded GIF animation playback with <strong>IMU sensor</strong> integration for motion-responsive pet interactions and <strong>rotary encoder</strong> controls"
+  - "Developing a portable <strong>ESP32</strong>-based virtual pet around a round <strong>GC9A01 TFT</strong> display for embedded interaction"
+  - "Integrated <strong>photogrammetry</strong> workflows to convert real plush models into custom in-device pet assets"
+  - "Implemented GIF playback, <strong>IMU</strong>-driven motion behaviors, and <strong>rotary encoder</strong> input for responsive gameplay"
 ---
 
 ## The Goal
