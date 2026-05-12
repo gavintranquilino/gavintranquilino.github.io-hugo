@@ -1,8 +1,8 @@
 ---
 title: "Acceleration Consortium"
 date: "2026-04-22"
-imageUrl: "acceleration-consortium/ot-flex-render.png"
-thumbnailUrl: "acceleration-consortium/ot-flex-render.png"
+imageUrl: "acceleration-consortium/front.jpg"
+thumbnailUrl: "acceleration-consortium/front.jpg"
 subtitle: "Self-Driving Lab"
 bulletPoints:
   - "Integrated a self-driving lab automating a 2D gantry and <strong>6DoF robot arm</strong> for autonomous material discovery experiments"
@@ -15,7 +15,9 @@ bulletPoints:
 {{< my_video_embed src="https://www.youtube.com/embed/BVLOpPXhVL8" title="YouTube video player" >}}
 
 
-> BELOW IS WORK IN PROGRESS FOR ASSETS
+> BELOW IS WORK IN PROGRESS FOR ASSETS. USE FOLLOWING LINK FOR MOST UP TO DATE:
+{{< custom_link href="https://photos.google.com/share/AF1QipMVsP1-sRvI2Y2L0TvISyt8Fjb_xRdMfDKG11h21iWOcUDbtfK5Fo-6Axcv7D6D8g?key=Z1VHaGo0RnNVR2c2cEVVSGdQejFUY2M4aVdNeUx3" text="Google Photos Library" >}}
+
 ## Overview
 OTFlex is the main self-driving lab workflow and the system I owned most directly from the start. It combines robot-arm motion, automated reactor handling, furnace transfer, MQTT-controlled hardware, electrochemistry, liquid handling, and camera monitoring.
 
