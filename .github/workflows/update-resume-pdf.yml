@@ -47,7 +47,6 @@ jobs:
         uses: actions/checkout@v4
         with:
           repository: gavintranquilino/gavintranquilino.github.io
-          token: ${{ secrets.GH_PAT_FOR_DEPLOY }}
           ref: master
           path: gh-pages-repo
 
@@ -57,7 +56,10 @@ jobs:
           ls -la gh-pages-repo/resume.pdf
 
       - name: Commit and Push Updated PDF to GitHub Pages Repository
+        continue-on-error: true
         working-directory: gh-pages-repo
+        env:
+          GH_PAT_FOR_DEPLOY: ${{ secrets.GH_PAT_FOR_DEPLOY }}
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
@@ -65,8 +67,12 @@ jobs:
           if git status --porcelain | grep -q 'resume.pdf'; then
             git add resume.pdf
             git commit -m "Update resume.pdf from gavins-resume repository"
-            git push origin master
-            echo "Committed and pushed updated resume.pdf to GitHub Pages repo"
+            if [ -n "$GH_PAT_FOR_DEPLOY" ]; then
+              git push https://x-access-token:${GH_PAT_FOR_DEPLOY}@github.com/gavintranquilino/gavintranquilino.github.io.git HEAD:master
+              echo "Committed and pushed updated resume.pdf to GitHub Pages repo"
+            else
+              echo "GH_PAT_FOR_DEPLOY is not configured. Skipping push to GitHub Pages repo."
+            fi
           else
             echo "No changes to resume.pdf in GitHub Pages repo. Skipping commit."
           fi
