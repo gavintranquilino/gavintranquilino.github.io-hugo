@@ -1,6 +1,15 @@
-# Hugo generated artifacts (source-only repo)
+# Machine-local configuration and secrets
+.env
+.env.*
+!.env.example
+!.env.*.example
+
+# Operating-system metadata
+.DS_Store
+Thumbs.db
+
+# Hugo build output and cache. The deploy workflow builds the site from
+# source, so these are never committed.
 public/
 resources/
-
-# Local Hugo lock
 .hugo_build.lock
