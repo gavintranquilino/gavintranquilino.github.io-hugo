@@ -16,6 +16,7 @@ import sys
 from pathlib import Path
 
 REQUIRED_FIELDS = ("title", "date", "imageUrl", "subtitle", "bulletPoints")
+ROOT = Path(__file__).resolve().parents[2]
 HTML_TAG_RE = re.compile(r"<[^>]+>")
 ISO_DATE_RE = re.compile(r'^"\d{4}-\d{2}-\d{2}"$')
 FIELD_KEY_RE = re.compile(r"^([A-Za-z_][A-Za-z0-9_-]*):")
@@ -88,7 +89,7 @@ def main() -> int:
     parser = argparse.ArgumentParser(description="Validate Hugo project front matter.")
     parser.add_argument(
         "--projects-dir",
-        default="content/projects",
+        default=str(ROOT / "content" / "projects"),
         help="Directory containing project markdown files (default: content/projects)",
     )
     parser.add_argument(
@@ -99,11 +100,14 @@ def main() -> int:
     args = parser.parse_args()
 
     projects_dir = Path(args.projects_dir).resolve()
-    if not projects_dir.exists():
+    if not projects_dir.is_dir():
         print(f"error: projects directory does not exist: {projects_dir}", file=sys.stderr)
         return 2
 
     files = collect_markdown_files(projects_dir)
+    if not files:
+        print(f"error: no project markdown files found in: {projects_dir}", file=sys.stderr)
+        return 2
     all_errors: list[str] = []
     for md_file in files:
         all_errors.extend(validate_file(md_file))

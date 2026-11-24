@@ -1,0 +1,4 @@
+# Uppercase words that the acronym check should not require in docs/glossary.md.
+# List one word per line. Lines starting with # are comments.
+# Prefer defining real acronyms in the glossary. Add a word here only when it is
+# not an acronym, such as an all-caps label, and note why in a comment above it.

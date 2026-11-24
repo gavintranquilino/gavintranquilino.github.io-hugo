@@ -43,7 +43,7 @@ def process_markdown_file(file_path):
     return False
 
 def main():
-    default_projects_dir = Path(__file__).resolve().parent / 'content' / 'projects'
+    default_projects_dir = Path(__file__).resolve().parents[2] / 'content' / 'projects'
     projects_dir = Path(sys.argv[1]).resolve() if len(sys.argv) > 1 else default_projects_dir
 
     if not projects_dir.exists():

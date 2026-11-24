@@ -27,8 +27,8 @@ RUN apt-get update \
         xz-utils \
     && rm -rf /var/lib/apt/lists/*
 
-# Hugo builds and previews the site. The deploy workflow reads this version
-# from this line, so change it only here. The standard edition is enough,
+# Hugo builds and previews the site. CI and deployment build this same image,
+# so change its version only here. The standard edition is enough,
 # because the site uses no Sass and no WebP encoding. The release checksum is
 # verified before Hugo is installed.
 ARG HUGO_VERSION=0.127.0

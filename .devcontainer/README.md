@@ -89,7 +89,7 @@ Previewing and building the site need Hugo. Use the container for those, so that
 
 Change the shared dev container files in a pull request, so that every contributor and CI get the same environment.
 
-* **Hugo version:** Change `HUGO_VERSION` in the Dockerfile and rebuild the container. The [deploy workflow](../.github/workflows/deploy-hugo.yml) reads the version from that line, so CI follows the change. Build and preview the site before opening the pull request, since Hugo releases can change template behavior.
+* **Hugo version:** Change `HUGO_VERSION` in the Dockerfile and rebuild the container. The [checks workflow](../.github/workflows/checks.yml) and [deploy workflow](../.github/workflows/deploy-hugo.yml) build this image, so CI follows the change. Build and preview the site before opening the pull request, since Hugo releases can change template behavior.
 * **Toolchains and system packages:** Add them to the Dockerfile in their own `RUN` instruction, and pin their versions. For example, install a compiler with `apt-get`, or copy a language's version manager or package manager from its official image.
 * **Project setup:** Add steps to `post-create.sh` that need the mounted workspace, such as installing dependencies. Keep each step safe to run again.
 * **Environment variables:** Add them to `containerEnv` in `devcontainer.json`. Keep secrets out of the repository and out of the image.
