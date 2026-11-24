@@ -163,12 +163,12 @@
     .view-toggle-buttons {
         display: none !important;
     }
-    
+
     .portfolio.technical-view .portfolio__item {
         break-inside: avoid;
         margin: 10px 0;
     }
-    
+
     .technical-view-content {
         page-break-inside: avoid;
     }

@@ -22,4 +22,4 @@ This project is displayed in a Google Photos album. Below you can browse through
 
 The Instrumented Knee Crutch was developed as part of the IDEAS Clinic at the University of Waterloo. This project involved designing and building an instrumented crutch that could measure and provide feedback on weight bearing during rehabilitation.
 
-Click on the image above to see the complete photo gallery of the instrumented knee crutch project, including detailed photos of the development process, testing phases, and final implementation. 
+Click on the image above to see the complete photo gallery of the instrumented knee crutch project, including detailed photos of the development process, testing phases, and final implementation.

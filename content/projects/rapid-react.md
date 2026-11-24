@@ -43,4 +43,4 @@ We were lucky enough to play some exhibition matches to display our robot to the
 
 This was probably the best looking robot we have created so far. I am very proud of its design and its functionality.
 
-Design principles and hard skills aside, the friends I have made along the way has solidified my love and passion for engineering as a whole. This community that has been curated over the years has led me to believe that I am and will be an engineer in the future. 
+Design principles and hard skills aside, the friends I have made along the way has solidified my love and passion for engineering as a whole. This community that has been curated over the years has led me to believe that I am and will be an engineer in the future.

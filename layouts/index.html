@@ -18,7 +18,7 @@
     <section class="about-me" id="about">
         <h2 class="section__title section__title--about">{{ .title }}</h2>
         {{ with .subtitle }}<p class="section__subtitle section__subtitle--about">{{ . }}</p>{{ end }}
-        
+
         <div class="about-me__body">
             {{ $.Content | safeHTML }} {{/* Page content from _index.md */}}
         </div>
@@ -49,7 +49,7 @@
         <div class="work-header">
             <h2 class="section__title section__title--work">{{ .title }}</h2>
             {{ with .subtitle }}<p class="section__subtitle section__subtitle--work">{{ . }}</p>{{ end }}
-            
+
             {{/* Toggle buttons for switching between three views */}}
             <div class="view-toggle-buttons">
                 <button id="defaultViewBtn" class="toggle-btn active">Default View</button>
@@ -57,12 +57,12 @@
                 <button id="technicalViewBtn" class="toggle-btn">Technical View</button>
             </div>
         </div>
-        
+
         {{/* Technical view header message - hidden by default */}}
         <div class="technical-view-header is-hidden">
             <h1 class="technical-header-message">PLEASE CLICK ON THE IMAGES TO LEARN MORE</h1>
         </div>
-        
+
         <div class="portfolio" id="portfolioContainer">
             {{/* Technical view header - hidden by default */}}
             <div class="technical-view-header is-hidden">
@@ -80,7 +80,7 @@
                         {{ else if $project.Params.imageUrl }}
                             {{ $thumbnailSrc = $project.Params.imageUrl }}
                         {{ end }}
-                        
+
                         {{ if $thumbnailSrc }}
                             {{ $imgParams := dict "src" $thumbnailSrc "size" "200x" "quality" "q100" "alt" (printf "%s project preview" $project.Title) "class" "portfolio__img" }}
                             {{ partial "shortcodes/img.html" $imgParams }}
@@ -88,12 +88,12 @@
                             <p>No preview available for {{ $project.Title }}</p>
                         {{ end }}
                     </a>
-                    
+
                     {{/* Default view content - title only */}}
                     <div class="default-view-content">
                         <h3 class="project-title">{{ $project.Title | safeHTML }}</h3>
                     </div>
-                    
+
                     {{/* Technical view content - title + bullet points */}}
                     <div class="technical-view-content is-hidden">
                         <h3 class="project-title">{{ $project.Title | safeHTML }}</h3>

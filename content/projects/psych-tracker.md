@@ -69,4 +69,4 @@ We plan further design iterations, additional sensors, and deeper data analysis 
 
 {{< custom_link href="https://github.com/and-hans/PsychTracker" text="GitHub Repo" >}}
 
-{{< custom_link href="https://devpost.com/software/psyche-tracker" text="Devpost Submission" >}} 
+{{< custom_link href="https://devpost.com/software/psyche-tracker" text="Devpost Submission" >}}

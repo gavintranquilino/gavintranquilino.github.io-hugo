@@ -11,7 +11,7 @@ bulletPoints:
 
 ## What does it do?
 
-This quadratics solver app uses matplotlib to graph a quadratic equation. This application also solves the equation in vertex form, solves for the roots, and solves for the vertex. 
+This quadratics solver app uses matplotlib to graph a quadratic equation. This application also solves the equation in vertex form, solves for the roots, and solves for the vertex.
 
 ## Source Code
 

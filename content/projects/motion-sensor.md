@@ -15,4 +15,4 @@ This project was directly inspired by [Paul McWhorter](https://youtu.be/95w4sx_z
 
 {{< custom_link href="https://youtu.be/95w4sx_zoB8" text="Paul McWhorter's Video \"with icon\"" >}}
 
-{{< my_video_embed src="https://www.youtube.com/embed/IygKNhDsyPI" title="YouTube video player" >}} 
+{{< my_video_embed src="https://www.youtube.com/embed/IygKNhDsyPI" title="YouTube video player" >}}

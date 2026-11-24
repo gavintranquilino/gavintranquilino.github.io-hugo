@@ -17,4 +17,4 @@ Once you run the program, the application will need user input to run. It asks f
 
 After many attempts, I learned that the maximum amount of views that it does reach in one sitting is around 100. I assume that YouTube has a system which tracks suspicious view counts that come from the same IP Address, or a system that flags a video if it gets too much traffic from one source. I will experiment with using a proxy in order to bypass their system.
 
-[GitHub Repository](https://github.com/gavintranquilino/YouTube-view-bot) 
+[GitHub Repository](https://github.com/gavintranquilino/YouTube-view-bot)

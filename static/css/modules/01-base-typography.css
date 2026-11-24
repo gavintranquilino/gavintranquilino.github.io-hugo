@@ -24,7 +24,7 @@ img {
 
 strong { font-weight: var(--fw-bold);}
 
-:focus { 
+:focus {
     outline: 3px solid var(--clr-accent);
     outline-offset: 3px;
 }
@@ -67,7 +67,7 @@ h1 { font-size: var(--fs-h1); }
 h2 { font-size: var(--fs-h2); }
 h3 { font-size: var(--fs-h3); }
 
-.section__title { /* [.] = class, [#] = id */ 
+.section__title { /* [.] = class, [#] = id */
     margin-bottom: 0.25em; /* em for text, relative to font size */
 }
 
@@ -80,7 +80,7 @@ h3 { font-size: var(--fs-h3); }
     display: block; /* Keep name on separate line */
 }
 
-.section__subtitle { /* [.] = class, [#] = id */ 
+.section__subtitle { /* [.] = class, [#] = id */
     margin: 0;
     font-size: var(--fs-h3);
 }

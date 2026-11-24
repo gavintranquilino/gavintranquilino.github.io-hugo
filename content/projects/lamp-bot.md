@@ -32,4 +32,4 @@ This was done on purpose in order to not have to port forward, and also so that 
 
 ## Conclusion
 
-The lamp bot was initially assembled on a small breadboard, then upgraded to its own perfboard. It may be further improved in the future. Curious to see where this goes next! 
+The lamp bot was initially assembled on a small breadboard, then upgraded to its own perfboard. It may be further improved in the future. Curious to see where this goes next!

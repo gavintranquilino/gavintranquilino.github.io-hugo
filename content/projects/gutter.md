@@ -68,4 +68,4 @@ For a couple cents and multiple hours, I brought my idea to life.
   {{< slide src="gutter/final3.jpg" caption="Final Overview" >}}
   {{< slide src="gutter/final5.jpg" caption="Alternate Angle" >}}
   {{< slide src="gutter/final6.jpg" caption="Alternate Angle" >}}
-{{< /slideshow >}} 
+{{< /slideshow >}}

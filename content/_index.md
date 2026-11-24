@@ -31,6 +31,6 @@ _Mechatronics Engineering_ (Class of 2028) at the [University of Waterloo](https
 
 I work with: _IoT, 3D mechanical design, robotics, and all things hardware._
 
-I like tinkering to understand how things work; a side effect of curiosity. Everything I do is a learning experience, and I want to share that with the world. Whether it's for fun, for school, or for work, I want to share my process with the world. 
+I like tinkering to understand how things work; a side effect of curiosity. Everything I do is a learning experience, and I want to share that with the world. Whether it's for fun, for school, or for work, I want to share my process with the world.
 
 "i could lowk make that" 🔥🔥🔥

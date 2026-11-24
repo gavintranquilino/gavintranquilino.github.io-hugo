@@ -56,4 +56,4 @@ I really liked the Photoshop actions feature that allows set actions to be recor
 
 So, I created a set of actions to remove the background from any image while maintaining a drop shadow on the object.
 
-This saved hours of time editing images, and hopefully enough of a start to automate further with Python. 
+This saved hours of time editing images, and hopefully enough of a start to automate further with Python.
