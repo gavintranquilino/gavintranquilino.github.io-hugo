@@ -66,4 +66,4 @@ Another plan is using a rotary encoder around the display to interact with the c
 
 Battery management is also a concern: I have various LiPo cells to tinker with, and I'm researching BMS usage on ESP32-based handheld devices.
 
-Stay tuned for future updates to this project! 
+Stay tuned for future updates to this project!

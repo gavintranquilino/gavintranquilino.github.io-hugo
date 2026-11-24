@@ -3,12 +3,12 @@
 .footer {
     background: #111;
     color: var(--clr-accent);
-    font-size: var(--fs-h3);    
+    font-size: var(--fs-h3);
     text-align: center;
     padding: 2.5em 0;
 }
 
-.footer a { 
+.footer a {
     color: inherit;
     text-decoration: none;
 }
@@ -61,7 +61,7 @@
 
 .slideshow-container .slide-item img:hover {
     transform: none; /* Override any general hover scale effect */
-    cursor: default; 
+    cursor: default;
 }
 
 .individual-item p {
@@ -98,7 +98,7 @@
     /* text-decoration: underline; Removed */
 }
 
-.custom-link:hover span { 
+.custom-link:hover span {
     text-decoration: underline;
 }
 

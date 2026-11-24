@@ -1,0 +1,37 @@
+name: checks
+
+on:
+  pull_request:
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  check:
+    name: check/${{ matrix.check }}
+    runs-on: ubuntu-latest
+    strategy:
+      fail-fast: false
+      matrix:
+        # Keep this list in sync with CHECKS in tools/scripts/run_checks.py.
+        check: [acronyms, links, whitespace, frontmatter, tooling]
+    steps:
+      - uses: actions/checkout@v4
+      - name: Run ${{ matrix.check }} check
+        run: python3 tools/scripts/run_checks.py ${{ matrix.check }}
+
+  hugo:
+    name: build/hugo
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Build development image
+        run: docker build --target dev --tag hugo-dev .devcontainer
+      - name: Build Hugo site in the development image
+        run: >-
+          docker run --rm --user "$(id -u):$(id -g)" --env HOME=/tmp
+          --volume "$PWD:/workspace" --workdir /workspace
+          hugo-dev hugo --gc --minify

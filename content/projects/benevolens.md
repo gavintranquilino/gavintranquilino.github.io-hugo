@@ -62,4 +62,4 @@ Using XOR images for steganography involves taking two original images, performi
 
 *Information and getting started information already included in the README.md file*
 
-{{< custom_link href="https://github.com/ransomw/the-benevolent-dictators" text="GitHub Repo" >}} 
+{{< custom_link href="https://github.com/ransomw/the-benevolent-dictators" text="GitHub Repo" >}}

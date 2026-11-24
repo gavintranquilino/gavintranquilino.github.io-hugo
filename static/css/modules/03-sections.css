@@ -29,7 +29,7 @@
     }
 
     .section__subtitle--intro {
-        align-self: start; /* Stop intro box from stretching vertically */ 
+        align-self: start; /* Stop intro box from stretching vertically */
         grid-column: -1 / 1;
         grid-row: 2;
         text-align: right;
@@ -63,12 +63,12 @@
     display: block;
     width: 25%;
     height: 1px;
-    margin: 0.5em auto 1em; 
+    margin: 0.5em auto 1em;
     background: currentColor; /* Match title clr */
     opacity: 0.25;
 }
 
-.services { 
+.services {
     margin-bottom: 4em;
 }
 
@@ -87,13 +87,13 @@
 
     /* Syle next service tag after the first service tag */
     .service + .service {
-        margin-left: 2em; 
+        margin-left: 2em;
     }
 }
 
 .about-me {
     max-width: 1000px;
-    margin: 0 auto; 
+    margin: 0 auto;
 }
 
 .about-me__img-swap {
@@ -191,7 +191,7 @@ body.dark-theme .about-me--btn.google-album-button:hover {
     }
 
     /* Grid Area assigns value to layout */
-    .section__title--about{ 
+    .section__title--about{
         grid-area: title;
     }
 

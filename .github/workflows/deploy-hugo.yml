@@ -18,8 +18,6 @@ permissions:
 jobs:
   build-and-deploy:
     runs-on: ubuntu-latest
-    env:
-      HUGO_VERSION: 0.127.0 # Specify your desired Hugo version, or use 'latest'
     steps:
       - name: Checkout Hugo source
         uses: actions/checkout@v4
@@ -27,14 +25,14 @@ jobs:
           submodules: recursive # Fetch Hugo themes (true OR recursive)
           fetch-depth: 0       # Fetch all history for .GitInfo and .Lastmod
 
-      - name: Setup Hugo
-        uses: peaceiris/actions-hugo@v3
-        with:
-          hugo-version: '${{ env.HUGO_VERSION }}'
-          # extended: true # Uncomment if your Hugo theme requires the extended version
+      - name: Build development image
+        run: docker build --target dev --tag hugo-dev .devcontainer
 
       - name: Build Hugo site
-        run: hugo --gc --minify # Builds the site into the './public' directory
+        run: >-
+          docker run --rm --user "$(id -u):$(id -g)" --env HOME=/tmp
+          --volume "$PWD:/workspace" --workdir /workspace
+          hugo-dev hugo --gc --minify
 
       - name: Ensure CNAME file exists with gavintranquilino.com
         run: echo 'gavintranquilino.com' > public/CNAME

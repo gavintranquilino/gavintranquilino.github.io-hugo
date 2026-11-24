@@ -36,4 +36,4 @@ After the webdriver has been closed, the program then connects to an email addre
 [GitHub Repository](https://github.com/gavintranquilino/ontario-covid19-screening-bypass)
 
 ## TAS WORLD RECORD??
-{{< my_video_embed src="https://www.youtube.com/embed/ZsbxI7mqVh0" title="YouTube video player" >}} 
+{{< my_video_embed src="https://www.youtube.com/embed/ZsbxI7mqVh0" title="YouTube video player" >}}

@@ -14,4 +14,4 @@ bulletPoints:
 
 {{< custom_link href="https://lowlight.app" text="Visit lowlight.app!" >}}
 
-# THIS PAGE IS A WORK IN PROGRESS 
+# THIS PAGE IS A WORK IN PROGRESS

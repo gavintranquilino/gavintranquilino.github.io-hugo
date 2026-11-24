@@ -30,7 +30,7 @@ Hitomezashi stitching is a form of Japanese embroidery characterized by its simp
 The first step in my process was to choose a programming language. I opted for Python due to its simplicity and my fluency at the time.
 
 ### Generating Random Patterns
-To create the random patterns, I wrote a function that generates random values of 1s and 0s. Each value 
+To create the random patterns, I wrote a function that generates random values of 1s and 0s. Each value
 represents the presence or absence of a stitch in the Hitomezashi pattern.
 
 ```python
@@ -53,4 +53,4 @@ print()
 ```
 
 ### Visualizing the Pattern
-To visualize the generated pattern, I colored every cell on some paper. 
+To visualize the generated pattern, I colored every cell on some paper.

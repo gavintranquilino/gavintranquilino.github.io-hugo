@@ -92,4 +92,4 @@ I can proudly say that I solved the problem.
   {{< slide src="dishwasher-magnets/magnets5.jpg" caption="Final Product 5" >}}
   {{< slide src="dishwasher-magnets/magnets6.jpg" caption="Final Product 6" >}}
   {{< slide src="dishwasher-magnets/magnets7.jpg" caption="Final Product 7" >}}
-{{< /slideshow >}} 
+{{< /slideshow >}}

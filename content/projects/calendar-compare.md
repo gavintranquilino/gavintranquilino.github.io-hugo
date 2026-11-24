@@ -73,4 +73,4 @@ We learned that the idea is what carries the demo. The execution is maybe around
 
 {{< custom_link href="https://devpost.com/gavintranquilino" text="Gavin's Devpost" icon="fas fa-external-link-alt" >}}
 
-{{< custom_link href="https://devpost.com/patrickayman1" text="Patrick's Devpost" icon="fas fa-external-link-alt" >}} 
+{{< custom_link href="https://devpost.com/patrickayman1" text="Patrick's Devpost" icon="fas fa-external-link-alt" >}}

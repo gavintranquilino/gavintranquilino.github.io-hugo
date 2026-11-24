@@ -17,7 +17,7 @@ We were awarded the <strong>Grand River Hospital's Most Innovative Project</stro
 
 {{< custom_link href="https://youtu.be/2dW5qCMDXIY" text="Shorter demo video to save you on time :)" >}}
 
-So here's the deal - Grand River Hospital had this massive problem with their long-term senior patients. These folks were stuck in bed dealing with inactivity and boredom because of physical constraints and limited tech familiarity. 
+So here's the deal - Grand River Hospital had this massive problem with their long-term senior patients. These folks were stuck in bed dealing with inactivity and boredom because of physical constraints and limited tech familiarity.
 
 The worst part? Many of them stay bedridden which cranks up the risk of hospital-induced delirium - basically when your mental state gets all confused and disoriented. Not fun.
 
@@ -25,7 +25,7 @@ We asked ourselves: how do we get these patients moving?
 
 ## Our Solution
 
-Enter FlexiTrack - a mobile app that lets hospital volunteers and nurses host exercise sessions right in the ward. 
+Enter FlexiTrack - a mobile app that lets hospital volunteers and nurses host exercise sessions right in the ward.
 
 Here's the cool part: we built a computer vision system that tracks patient movement during sessions and awards them points based on their physical activity. Those points? They can redeem them for games and recreational activities to keep them motivated.
 

@@ -32,7 +32,7 @@ jobs:
           # Sync with remote to avoid non-fast-forward push failures.
           # --autostash handles the downloaded local PDF change during rebase.
           git pull --rebase --autostash origin main
-          
+
           # Check if resume.pdf is modified or staged
           if git status --porcelain | grep -q 'static/resume.pdf'; then
             git add static/resume.pdf

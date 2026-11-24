@@ -1,5 +1,5 @@
 ---
-title: "4DoF Robot <br> Lamp "
+title: "4DoF Robot Lamp"
 date: "2026-04-30"
 imageUrl: "lamplet/lamplet-concept.gif"
 thumbnailUrl: "lamplet/logo.png"
@@ -14,7 +14,7 @@ bulletPoints:
 
 {{< custom_link href="https://devpost.com/software/other-handhttps://drive.google.com/drive/folders/1EtLfewJRqqHDpUmPZ3ipvWLY57L6Xh9u?" text="Full Project Page (Models)" >}}
 
-### Concept Video - Movement 
+### Concept Video - Movement
 {{< my_video_embed src="https://www.youtube.com/embed/bx00OwmyYRo" title="YouTube video player" >}}
 
 ### Swinging Legs and Kicking Feet

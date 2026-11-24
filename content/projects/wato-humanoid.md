@@ -42,7 +42,7 @@ I am mounting the CANable 2.0 device in a Docker container to allow communicatio
 
 Read further below for more details on the [interfacing system documentation](#interfacing-system-documentation).
 
-### Simulation and Data Visualization 
+### Simulation and Data Visualization
 
 I am also working on the simulation URDF (Unified Robot Description Format) for the humanoid arm in NVIDIA's Isaac Sim. This will allow us to test and refine the control algorithms in a virtual environment before deploying them on the physical robot. Within the URDF, I am also implementing the hardware IDs of all the motors and sensors, which is crucial for the CAN bus communication.
 
@@ -84,8 +84,8 @@ Each traincar PCB is responsible for controlling 4 motors in the hand, and there
 It contains an ESP32 based microcontroller, CAN transceiver, motor drivers, and power regulation circuitry. The PCB was designed to be compact and lightweight, while still providing all the necessary functionality for controlling the motors in the hand.
 
 Some problems that were encountered during the assembly process included:
-- Solder bridges between the fine pitch pins of the motor drivers  
-- Unprotected VIAs 
+- Solder bridges between the fine pitch pins of the motor drivers
+- Unprotected VIAs
 
 ### Interfacing System Documentation
 

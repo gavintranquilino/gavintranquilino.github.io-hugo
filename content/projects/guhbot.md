@@ -29,4 +29,4 @@ If you\'re interested in giving GuhBot a try, below are links where you can get 
 
 {{< custom_link href="https://discord.gg/PBmfvpU" text="Support Server" >}}
 
-{{< custom_link href="https://top.gg/bot/624754986248831017" text="GuhBot on top.gg" >}} 
+{{< custom_link href="https://top.gg/bot/624754986248831017" text="GuhBot on top.gg" >}}

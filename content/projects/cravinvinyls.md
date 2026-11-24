@@ -73,4 +73,4 @@ My journey has been quite an adventure. I've successfully managed a diverse busi
 
 ## Buy Now!
 
-{{< custom_link href="https://cravinvinyls.etsy.com/" text="Cravin' Vinyls Etsy Shop" >}} 
+{{< custom_link href="https://cravinvinyls.etsy.com/" text="Cravin' Vinyls Etsy Shop" >}}

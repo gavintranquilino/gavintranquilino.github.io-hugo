@@ -1,97 +1,56 @@
-# Hugo site: clean source workflow
+# Gavin Tranquilino's Website
 
-This repository stores Hugo source files only. Generated output is built in CI and deployed automatically.
+Source for [gavintranquilino.com](https://gavintranquilino.com), a personal portfolio built with Hugo. Project pages, images, templates, and styles live here. GitHub Actions builds the source and publishes the generated site to a separate repository.
 
-## Local workflow
+The repository adopts the conventions and development environment from [template-devcontainer](https://github.com/gavintranquilino/template-devcontainer). See [Template Adoption](docs/guides/template-adoption.md) for project adaptations and maintenance.
 
-1. Edit content, templates, or static files.
-2. Preview locally.
-3. Run a production build check.
+## Start Here
 
-```bash
-# Local preview (drafts included)
-hugo server -D
+* **Set up development:** Follow [Dev Container](.devcontainer/README.md). It includes the pinned Hugo version, Python 3, and Git.
+* **Add a project:** Follow [Authoring](docs/guides/authoring.md).
+* **Contribute:** Read [Contributing](CONTRIBUTING.md), [Coding Style](docs/coding-style.md), and [Documentation](docs/documentation.md).
+* **Find documentation:** Open the [Documentation Map](docs/README.md).
+* **AI assistants:** Read [Repository Instructions](AGENTS.md).
 
-# Production build validation
-hugo --gc --minify
+## Preview, Build, and Check
+
+Run these commands from the repository root on your machine. A container engine and the dev container CLI are required. See [Dev Container](.devcontainer/README.md) for installation and Podman instructions.
+
+```sh
+devcontainer up --workspace-folder .
+devcontainer exec --workspace-folder . hugo server --bind 0.0.0.0 --buildDrafts
 ```
 
-## Git workflow
+Open <http://localhost:1313/>. Stop the preview with Ctrl+C. Before requesting review, run the repository checks and a production build.
 
-```bash
-git status
-git add .
-git commit -m "Describe change"
-git push
+```sh
+devcontainer exec --workspace-folder . python3 tools/scripts/run_checks.py
+devcontainer exec --workspace-folder . hugo --gc --minify
 ```
 
-Do not commit generated directories such as `public/` or `resources/`.
+[Tools](tools/README.md) describes each check and how to run the Python checks without a container. Build output in `public/` and the generated cache in `resources/` are ignored by Git.
 
-## Deployment workflow
+## Repository Layout
 
-- `deploy-hugo.yml` builds and deploys to `gavintranquilino.github.io`.
-- `update-resume-pdf.yml` syncs resume PDF into `static/resume.pdf`.
+| Path | Contents |
+| --- | --- |
+| `hugo.toml` | Site settings and project permalinks |
+| `content/_index.md` | Home page metadata and biography |
+| `content/projects/` | Project pages with YAML front matter |
+| `archetypes/` | Templates for new pages, including the project metadata schema |
+| `layouts/` | Hugo page templates, shared partials, image render hook, and shortcodes |
+| `assets/img/` | Source images processed and resized by Hugo |
+| `static/` | Files copied as supplied, including CSS, JavaScript, and the resume |
+| [`.devcontainer/`](.devcontainer/README.md) | Shared development image and setup |
+| `.github/` | Pull request template, checks, deployment, and resume workflows |
+| [`tools/`](tools/README.md) | Repository checks and content maintenance scripts |
+| [`docs/`](docs/README.md) | Conventions and development guides |
+| [TODO.md](TODO.md) | Personal project and site feature backlog |
 
-## Authoring conventions
+## Deployment
 
-### New project content
+[Deployment](docs/guides/deployment.md) explains the existing GitHub Pages publishing and resume workflows, including required secrets. Pull requests run repository checks and a Hugo build without publishing. Merging to `main` triggers deployment.
 
-1. Create one markdown file in `content/projects/`.
-2. Add project images to `assets/img/<project-slug>/`.
-3. Use the `img` shortcode for in-content images.
+## Styling
 
-Example:
-
-```markdown
-{{< img src="project-slug/cover.jpg" alt="Project cover" >}}
-```
-
-### Front matter guidelines
-
-- Keep metadata plain text (no HTML in `title` or `subtitle`).
-- Quote dates in ISO format (`"YYYY-MM-DD"`).
-- Keep `imageUrl` and `thumbnailUrl` relative to `img/`.
-
-## Utility scripts
-
-- `data_processor.py`: converts markdown image links like `/img/...` to `img` shortcodes.
-
-```bash
-# default: content/projects under this repo
-python3 data_processor.py
-
-# optional custom directory
-python3 data_processor.py /path/to/projects
-```
-
-## Styling architecture
-
-- Entry point: `static/css/style.css`
-- Module directory: `static/css/modules/`
-- Template load point: `layouts/_default/baseof.html`
-
-Styles are now split by function and imported in cascade-safe order:
-
-- `00-tokens-theme.css`
-- `01-base-typography.css`
-- `02-header-nav.css`
-- `03-sections.css`
-- `04-portfolio.css`
-- `05-footer-links.css`
-- `06-slideshow.css`
-- `07-project-content.css`
-- `08-embeds-icons.css`
-
-When adding new styles, prefer updating an existing module first. If a new file is needed, keep the naming and import order explicit in `style.css`.
-
-## Structure summary
-
-```text
-content/      Markdown pages and project entries
-layouts/      Hugo templates, partials, shortcodes
-assets/       Hugo-processed source assets
-static/       Static files copied as-is
-public/       Generated output (ignored)
-resources/    Hugo generated cache (ignored)
-```
-
+[Styling](docs/guides/styling.md) explains the CSS module order and template entry points. Keep visual changes separate from tooling changes so their effect is easy to review.

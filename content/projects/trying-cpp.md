@@ -31,4 +31,4 @@ I learned editing sucks, takes too much time, and I'd rather keep a blog updated
 
 Heavily edited "Mr. Beast style" videos are too much for me ngl.
 
-But in all honesty, it's pretty funny and people actually seemed to like it. 
+But in all honesty, it's pretty funny and people actually seemed to like it.

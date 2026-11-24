@@ -77,7 +77,7 @@ def normalize_file(path: Path) -> bool:
 
 
 def main() -> int:
-    root = Path(__file__).resolve().parent.parent
+    root = Path(__file__).resolve().parents[2]
     projects = root / "content" / "projects"
 
     changed_count = 0

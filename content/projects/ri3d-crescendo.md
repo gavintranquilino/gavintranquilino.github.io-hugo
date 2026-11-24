@@ -30,4 +30,4 @@ I worked on the drivetrain and gearbox assembly, setting up and flashing the ele
 
 Overall, I had a lot of fun over these 3 days and honestly learned a lot along the way.
 
-It was very hackathon-ish, so I found lots of joy in that. 
+It was very hackathon-ish, so I found lots of joy in that.

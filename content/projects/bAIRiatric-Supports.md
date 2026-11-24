@@ -124,7 +124,7 @@ Staff at Grand River Hospital face multiple challenges with bariatric and fragil
 The following sections provide an overview of the process of building the bAIRiatric Supports prototype, including the initial design, final design, materials used, and the development of both physical and digital prototypes.
 
 ### What is the hospital looking for?
-The Grand River Hospital is looking for innovative solutions to improve mobility aids for bariatric patients and those 
+The Grand River Hospital is looking for innovative solutions to improve mobility aids for bariatric patients and those
 with or at risk for skin injury.
 
 They seek solutions that:
@@ -177,7 +177,7 @@ The tech stack for the digital prototype includes:
 
 ## Final Pitch
 
-> Scroll back to the top of this page to watch the final pitch presentation! 
+> Scroll back to the top of this page to watch the final pitch presentation!
 
 We had so much fun presenting our project, staying up at E7 until 3 AM, and even going to Walmart and the Dollar Store to try to find materials foor our project. Overall such a fun experience.
 
@@ -185,7 +185,7 @@ We had so much fun presenting our project, staying up at E7 until 3 AM, and even
 {{< slideshow >}}
   {{< slide src="bAIRiatric-Supports/final-pitch1.jpg" >}}
   {{< slide src="bAIRiatric-Supports/final-pitch2.jpg" >}}
-  {{< slide src="bAIRiatric-Supports/final-pitch3.jpg" >}} 
+  {{< slide src="bAIRiatric-Supports/final-pitch3.jpg" >}}
   {{< slide src="bAIRiatric-Supports/final-pitch4.jpg" >}}
   {{< slide src="bAIRiatric-Supports/final-pitch5.jpg" >}}
   {{< slide src="bAIRiatric-Supports/final-pitch6.jpg" >}}

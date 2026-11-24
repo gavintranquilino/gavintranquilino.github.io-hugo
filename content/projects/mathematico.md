@@ -27,4 +27,4 @@ I am getting too tired... we already covered what it's supposed to do. Just chec
 
 {{< custom_link href="https://devpost.com/software/mathematic-co" text="DevPost" >}}
 
-{{< custom_link href="https://github.com/gavintranquilino/mathemati.co" text="GitHub" >}} 
+{{< custom_link href="https://github.com/gavintranquilino/mathemati.co" text="GitHub" >}}

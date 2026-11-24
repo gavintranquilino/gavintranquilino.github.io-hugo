@@ -1,0 +1,20 @@
+# Editor settings shared by all files. See https://editorconfig.org.
+# Add indentation settings for each language as it is introduced.
+root = true
+
+[*]
+charset = utf-8
+end_of_line = lf
+insert_final_newline = true
+trim_trailing_whitespace = true
+
+[*.md]
+indent_style = space
+
+[{*.css,*.html,*.js,*.json,*.py,*.sh,Dockerfile}]
+indent_style = space
+indent_size = 4
+
+[*.{toml,yaml,yml}]
+indent_style = space
+indent_size = 2

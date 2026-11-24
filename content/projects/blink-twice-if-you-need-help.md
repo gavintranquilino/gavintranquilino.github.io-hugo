@@ -118,4 +118,4 @@ They gave us previous year's swag and also $15 on Amazon lol.
 
 {{< custom_link href="https://devpost.com/sullynumber9" text="Adam's Devpost" icon="fas fa-external-link-alt" >}}
 
-{{< custom_link href="https://devpost.com/gavintranquilino" text="Gavin's Devpost" icon="fas fa-external-link-alt" >}} 
+{{< custom_link href="https://devpost.com/gavintranquilino" text="Gavin's Devpost" icon="fas fa-external-link-alt" >}}

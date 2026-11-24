@@ -12,7 +12,7 @@ bulletPoints:
 
 > Your current smart watch is good at showing things, <u>but on the <strong>other hand</strong></u>... this is good at <u>doing</u> things.
 
-# Demo Video 
+# Demo Video
 
 {{< my_video_embed src="https://www.youtube.com/embed/Gb-Lc73qD2A" title="YouTube video player" >}}
 
@@ -24,7 +24,7 @@ bulletPoints:
 
 {{< custom_link href="https://github.com/gavintranquilino/other-hand" text="Source Code" >}}
 
-> HACKTHENORTH 2025 
+> HACKTHENORTH 2025
 
 # My contribution
 IDEA + HARDWARE + WEB-APP

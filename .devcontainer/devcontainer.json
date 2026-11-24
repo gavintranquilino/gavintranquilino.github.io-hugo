@@ -1,0 +1,21 @@
+// Shared development environment. See README.md in this directory.
+{
+    "name": "gavintranquilino.com",
+    "build": {
+        "dockerfile": "Dockerfile",
+        "context": ".",
+        "target": "dev"
+    },
+    "remoteUser": "dev",
+    "postCreateCommand": "sh .devcontainer/post-create.sh",
+    // Publishes the Hugo preview server on the host. The dev container CLI
+    // ignores forwardPorts, so appPort is used to make the port reachable from
+    // a shell as well as from an editor.
+    "appPort": [1313],
+    // Editor settings are optional. The container works the same from a shell.
+    "customizations": {
+        "vscode": {
+            "extensions": ["editorconfig.editorconfig"]
+        }
+    }
+}

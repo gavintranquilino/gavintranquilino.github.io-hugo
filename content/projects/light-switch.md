@@ -32,4 +32,4 @@ Below is the finished bracket mount. I contemplated white vs. black filament, se
   {{< slide src="light-switch/light-switch5.png" caption="3D printed bracket with servo" >}}
 {{< /slideshow >}}
 
-Messing with 3D printer settings, I plan to enable ironing for smoother prints. I also intend to add modular connectors so sensors and mounts can be swapped like Legos. 
+Messing with 3D printer settings, I plan to enable ironing for smoother prints. I also intend to add modular connectors so sensors and mounts can be swapped like Legos.

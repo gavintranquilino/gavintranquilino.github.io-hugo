@@ -27,7 +27,7 @@
 .iframe-container {
     position: relative;
     max-height: 80vh;
-    max-width: 100%;  
+    max-width: 100%;
     height: 0;
     margin-top: 1em;
     overflow: hidden;
@@ -39,7 +39,7 @@
 }
 
 .iframe-container.portrait {
-    padding-top: 100%; 
+    padding-top: 100%;
 }
 
 .iframe-container iframe {
@@ -107,7 +107,7 @@
   padding: 0.8em 1em; /* Increased padding for better spacing */
   background-color: var(--clr-primary-static); /* Default: white background */
   color: var(--clr-secondary-static);       /* Default: dark text */
-  font-size: var(--fs-h3); 
+  font-size: var(--fs-h3);
   font-weight: var(--fw-bold); /* Bolded text */
   border-radius: var(--border-rad); /* Rounded corners */
   text-align: center;
@@ -187,6 +187,6 @@ body.dark-theme .slideshow-container .text {
     }
 
 .icon-link i {
-    margin-right: 0.4em; 
+    margin-right: 0.4em;
 }
 

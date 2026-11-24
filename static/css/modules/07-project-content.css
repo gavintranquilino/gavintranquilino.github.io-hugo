@@ -36,7 +36,7 @@
 
 /* Original .project-content a rules */
 .project-content a:not(.prev):not(.next):not(.google-album-button) {
-    color: var(--clr-accent); 
+    color: var(--clr-accent);
     text-decoration: underline;
     text-decoration-color: var(--clr-accent);
     text-decoration-thickness: 1px;
@@ -46,7 +46,7 @@
 
 .project-content a:not(.prev):not(.next):not(.google-album-button):hover {
     color: var(--clr-accent);
-    text-decoration-color: var(--clr-secondary); 
+    text-decoration-color: var(--clr-secondary);
     opacity: 0.8;
 }
 
@@ -64,7 +64,7 @@
 
 /* Hide the <i> tag icon INSIDE an INLINE link that has .custom-link and .icon-link classes */
 .project-content p a.custom-link.icon-link:not(:only-child) i,
-.about-me__body p a.custom-link.icon-link:not(:only-child) i { 
+.about-me__body p a.custom-link.icon-link:not(:only-child) i {
     display: none !important;
     margin-right: 0 !important; /* Remove any margin the icon might have */
 }
