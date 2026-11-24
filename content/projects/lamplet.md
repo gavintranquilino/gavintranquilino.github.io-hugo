@@ -1,5 +1,5 @@
 ---
-title: "4DoF Robot <br> Lamp "
+title: "4DoF Robot Lamp"
 date: "2026-04-30"
 imageUrl: "lamplet/lamplet-concept.gif"
 thumbnailUrl: "lamplet/logo.png"
